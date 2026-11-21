@@ -1,0 +1,204 @@
+{
+  "graphView": {
+    "title": "Graph",
+    "description": "Fixes, products and hosts as relationships",
+    "lensLabel": "Graph view",
+    "lens": {
+      "fix": "What to fix first",
+      "fixHint": "fix → hosts",
+      "matrix": "Product × host group",
+      "matrixHint": "where it spreads",
+      "focus": "Blast radius",
+      "focusHint": "CVE · fix · host"
+    },
+    "search": {
+      "placeholder": "Search CVE, fix, product, host",
+      "none": "No match",
+      "label": "Search the graph"
+    },
+    "kind": {
+      "cve": "CVE",
+      "fix": "Fix",
+      "product": "Product",
+      "host": "Host"
+    },
+    "filters": {
+      "label": "Filters",
+      "tier": "Tier",
+      "p1": "P1 Fix now",
+      "p2": "P2 Fix in cycle",
+      "p3": "P3",
+      "p3None": "not held in detail",
+      "only": "Only",
+      "kev": "CISA KEV",
+      "internet": "Internet-facing",
+      "by": "Group by",
+      "value": "Show",
+      "all": "All",
+      "top": "Show",
+      "topN": "Top {count}",
+      "dim": {
+        "group": "Host group",
+        "os": "Operating system",
+        "site": "Site"
+      }
+    },
+    "crumb": {
+      "label": "Path",
+      "back": "Back",
+      "root": "Whole organization",
+      "fix": "Fix: {name}",
+      "product": "Product: {name}",
+      "cve": "CVE: {name}",
+      "host": "Host: {name}",
+      "group": "Group: {name}",
+      "os": "OS: {name}",
+      "site": "Site: {name}"
+    },
+    "sub": {
+      "fix": "{fixes} fixes · {hosts} hosts · {findings} {unit}",
+      "matrix": "{hosts} hosts · {products} products",
+      "focus": "{hosts} hosts · {findings} {unit} involved"
+    },
+    "unit": {
+      "p1": "P1 findings",
+      "all": "findings"
+    },
+    "stamp": {
+      "old": "Old data",
+      "partial": "Incomplete {percent}%",
+      "partialNoPct": "Incomplete"
+    },
+    "view": {
+      "label": "Display",
+      "graph": "Graph",
+      "table": "Table"
+    },
+    "col": {
+      "fix": "Fixes (ranked by findings closed)",
+      "hostsMax": "Hosts (top 12)",
+      "partsCve": "Related CVEs",
+      "partsCveOf": "Product / fix",
+      "partsHost": "Fixes needed on this host"
+    },
+    "node": {
+      "findings": "{count} findings",
+      "hosts": "{count} hosts",
+      "share": "{percent}% of {total}",
+      "otherFixes": "Other ({count} fixes)",
+      "otherDim": "Other ({count})",
+      "otherHosts": "Other ({count} hosts)",
+      "otherCves": "Other ({count} CVEs)",
+      "otherFixesHost": "Other ({count} fixes)",
+      "kev": "KEV",
+      "internet": "internet-facing",
+      "noFix": "No fix named by Falcon",
+      "noFixToast": "Falcon names no fix for this item, so there is no fix page. Use the product filter instead.",
+      "otherToast": "The rest is in the list beside the graph.",
+      "drill": "Click to drill in",
+      "drillHosts": "Click to break down into hosts",
+      "aria": "{name}: {hosts} hosts, {findings} findings",
+      "ariaFindings": "{name}: {findings} findings",
+      "ariaHosts": "{name}: {hosts} of {total} hosts",
+      "ariaHostsOnly": "{name}: {hosts} hosts",
+      "tipLine": "{hosts} hosts · {findings} findings (P1 {p1})",
+      "tipKev": "KEV {kev} · on {inet} internet-facing hosts",
+      "openCenter": "Open details of {name}",
+      "centerAria": "{name}"
+    },
+    "hostsHint": "Links between fixes and hosts show on hover or focus (too many to draw at once).",
+    "svgAria": {
+      "fix": "Fixes linked to {dim}",
+      "fixHost": "Fixes linked to hosts",
+      "focus": "Blast radius of {name}"
+    },
+    "legend": {
+      "p1": "P1 findings",
+      "p2": "P2 findings",
+      "hosts": "Hosts",
+      "width": "Line width = hosts joined",
+      "dots": "Dot (CVE only)",
+      "shade": "Darker = larger share of the group's hosts",
+      "cell": "Number = hosts",
+      "rows": "Rows ranked by hosts affected"
+    },
+    "focus": {
+      "open": "Open details",
+      "kev": "KEV",
+      "kevN": "KEV {count}",
+      "internet": "Internet-facing",
+      "internetN": "Internet-facing {count}",
+      "hostsLine": "{count} hosts",
+      "unknown": "Not found in the current filters",
+      "pickTitle": "Blast radius: what one CVE, fix, product or host touches",
+      "pickHint": "Type in the search box, or pick one of your watched hosts.",
+      "pickWatched": "Watched hosts"
+    },
+    "panel": {
+      "pick": "Choose what to look at",
+      "pickMeta": "Search a CVE, fix, product or host",
+      "fixes": "All fixes",
+      "fixesMeta": "Ranked by findings closed · the graph shows the top ones only",
+      "products": "All products",
+      "productsMeta": "Ranked by hosts · click for the blast radius",
+      "hosts": "Hosts",
+      "hostsMeta": "Ranked by P1, KEV, findings",
+      "hostsIn": "Hosts in the chosen {dim}",
+      "total": {
+        "fix": "{count} fixes",
+        "product": "{count} products",
+        "host": "{count} hosts",
+        "hostCves": "{count} vulnerabilities on this host"
+      },
+      "showing": "Showing {count}",
+      "more": "Load {count} more of {rest}",
+      "open": "Open details",
+      "openAria": "Open details of {name}",
+      "findings": "{count} findings",
+      "hostsN": "{count} hosts",
+      "p1": "P1 {count}",
+      "kev": "KEV {count}",
+      "inet": "internet",
+      "metaFocus": "{sub} · {hosts} hosts · {findings} {unit}",
+      "empty": "Nothing to list for these filters.",
+      "label": "List"
+    },
+    "table": {
+      "caption": "Fixes that close the most risk",
+      "rank": "#",
+      "fix": "Fix",
+      "findings": "Findings",
+      "hosts": "Hosts",
+      "p1": "P1",
+      "kev": "KEV"
+    },
+    "matrix": {
+      "caption": "Top {count} products by hosts affected, split by {dim}",
+      "product": "Products ({count} at risk)",
+      "other": "Other ({count})",
+      "hasFix": "has a fix",
+      "shown": "Showing {shown} of {total} products · the rest is in the list beside the table, or search a product name",
+      "cell": "{product} in {group}: {hosts} hosts",
+      "cellOther": "{product} in other groups: {hosts} hosts",
+      "cellPct": "{hosts} hosts ({percent}% of {total})"
+    },
+    "cards": {
+      "more": "And {count} more, see the list below"
+    },
+    "state": {
+      "emptyTitle": "Nothing matches the filters",
+      "emptyBody": "The chosen filters match no host or vulnerability held in detail.",
+      "clear": "Clear filters",
+      "noneTitle": "Data appears after the first read from Falcon",
+      "noneBody": "When the read finishes, this page shows the fixes that close the most risk.",
+      "orgTitle": "Choose an organization first",
+      "orgBody": "Fixes and host groups belong to one organization. Pick one in the header.",
+      "loading": "Loading the graph"
+    },
+    "canvas": {
+      "fix": "Fixes that close the most risk",
+      "matrix": "Products × {dim}",
+      "focus": "Blast radius"
+    }
+  }
+}

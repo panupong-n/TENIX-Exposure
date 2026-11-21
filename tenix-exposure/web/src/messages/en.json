@@ -1,0 +1,3936 @@
+{
+  "common": {
+    "home": "Home",
+    "edit": "Edit",
+    "close": "Close",
+    "saveChanges": "Save Changes",
+    "viewMore": "View More",
+    "delete": "Delete",
+    "filter": "Filter",
+    "seeAll": "See all",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "loading": "Loading…",
+    "retry": "Try again",
+    "save": "Save",
+    "back": "Back",
+    "search": "Search",
+    "all": "All",
+    "copy": "Copy",
+    "copied": "Copied",
+    "done": "Done",
+    "none": "None",
+    "unnamedDevice": "Unnamed device",
+    "showing": "{from}–{to} of {total}",
+    "previous": "Previous",
+    "next": "Next",
+    "notAvailable": "Not available",
+    "never": "Never",
+    "organization": "Organization",
+    "viewAll": "View all",
+    "yes": "Yes",
+    "no": "No",
+    "error": "Something went wrong. Please try again.",
+    "confirmDelete": "Click to confirm",
+    "skipToContent": "Skip to content"
+  },
+  "sidebar": {
+    "groups": {
+      "menu": "Menu",
+      "support": "Support",
+      "others": "Others",
+      "manage": "Manage"
+    },
+    "badges": {
+      "new": "new",
+      "pro": "pro"
+    },
+    "items": {
+      "dashboard": "Dashboard",
+      "ecommerceHome": "Ecommerce",
+      "analytics": "Analytics",
+      "marketing": "Marketing",
+      "crm": "CRM",
+      "stocks": "Stocks",
+      "saas": "SaaS",
+      "logistics": "Logistics",
+      "ai": "AI",
+      "sales": "Sales",
+      "finance": "Finance",
+      "aiAssistant": "AI Assistant",
+      "textGenerator": "Text Generator",
+      "imageGenerator": "Image Generator",
+      "codeGenerator": "Code Generator",
+      "videoGenerator": "Video Generator",
+      "aiSettings": "AI Settings",
+      "ecommerce": "E-commerce",
+      "products": "Products",
+      "addProduct": "Add Product",
+      "billing": "Billing",
+      "invoices": "Invoices",
+      "singleInvoice": "Single Invoice",
+      "createInvoice": "Create Invoice",
+      "transactions": "Transactions",
+      "singleTransaction": "Single Transaction",
+      "calendar": "Calendar",
+      "userProfile": "User Profile",
+      "task": "Task",
+      "taskList": "List",
+      "kanban": "Kanban",
+      "forms": "Forms",
+      "formElements": "Form Elements",
+      "formLayout": "Form Layout",
+      "tables": "Tables",
+      "basicTables": "Basic Tables",
+      "dataTables": "Data Tables",
+      "pages": "Pages",
+      "fileManager": "File Manager",
+      "pricingTables": "Pricing Tables",
+      "faq": "FAQ",
+      "apiKeys": "API Keys",
+      "integrations": "Integrations",
+      "blankPage": "Blank Page",
+      "error404": "404 Error",
+      "error500": "500 Error",
+      "error503": "503 Error",
+      "comingSoon": "Coming Soon",
+      "maintenance": "Maintenance",
+      "successPage": "Success",
+      "layouts": "Layouts",
+      "layoutOne": "Layout One",
+      "layoutTwo": "Layout Two",
+      "layoutThree": "Layout Three",
+      "layoutFour": "Layout Four",
+      "layoutFive": "Layout Five",
+      "layoutSix": "Layout Six",
+      "charts": "Charts",
+      "lineChart": "Line Chart",
+      "barChart": "Bar Chart",
+      "pieChart": "Pie Chart",
+      "radarChart": "Radar Chart",
+      "radialChart": "Radial Chart",
+      "maps": "Maps",
+      "mapsGoogle": "Maps",
+      "vectorMap": "Vector Map",
+      "uiElements": "UI Elements",
+      "alerts": "Alerts",
+      "avatar": "Avatar",
+      "badge": "Badge",
+      "breadcrumb": "Breadcrumb",
+      "buttons": "Buttons",
+      "buttonsGroup": "Buttons Group",
+      "cards": "Cards",
+      "carousel": "Carousel",
+      "dropdowns": "Dropdowns",
+      "images": "Images",
+      "links": "Links",
+      "listView": "List",
+      "dialogs": "Dialogs",
+      "notificationUi": "Notification",
+      "pagination": "Pagination",
+      "popovers": "Popovers",
+      "progressbar": "Progressbar",
+      "ribbons": "Ribbons",
+      "spinners": "Spinners",
+      "tabs": "Tabs",
+      "tooltips": "Tooltips",
+      "videos": "Videos",
+      "authentication": "Authentication",
+      "signIn": "Sign In",
+      "signUp": "Sign Up",
+      "resetPassword": "Reset Password",
+      "twoStepVerification": "Two Step Verification",
+      "chat": "Chat",
+      "supportMenu": "Support",
+      "supportList": "Support List",
+      "supportReply": "Support Reply",
+      "email": "Email",
+      "inbox": "Inbox",
+      "inboxDetails": "Details",
+      "hr": "HR",
+      "emptyState": "Empty State",
+      "variants01": "Variants 01",
+      "variants02": "Variants 02",
+      "variants03": "Variants 03",
+      "variants04": "Variants 04",
+      "variants05": "Variants 05",
+      "overview": "Overview",
+      "vulnerabilities": "Vulnerabilities",
+      "devices": "Devices",
+      "team": "Team",
+      "auditLog": "Audit Log",
+      "account": "Account",
+      "graph": "Graph Tree",
+      "tenants": "Tenants",
+      "software": "Software",
+      "exposure": "Vulnerabilities & assets",
+      "settings": "Settings",
+      "external": "External surface",
+      "news": "CVE news"
+    },
+    "widget": {
+      "title": "#1 Tailwind CSS Dashboard",
+      "description": "Leading Tailwind CSS Admin Template with 500+ UI Component and Pages.",
+      "purchaseNow": "Purchase Now"
+    }
+  },
+  "header": {
+    "searchPlaceholder": "Search CVE or device…",
+    "toggleSidebar": "Toggle Sidebar",
+    "notifications": {
+      "title": "Notification",
+      "requestsPermission": "requests permission to change",
+      "project": "Project",
+      "minAgo": "{count} min ago",
+      "hrAgo": "{count} hr ago",
+      "viewAll": "View All Notifications"
+    },
+    "organization": "Organization",
+    "selectOrganization": "Choose an organization",
+    "noOrganizations": "No organizations yet",
+    "toggleTheme": "Toggle theme",
+    "toggleMenu": "Toggle application menu",
+    "menu": "Main menu",
+    "exposureViews": "Vulnerability and asset views",
+    "searchOrganization": "Search organizations",
+    "noOrganizationMatch": "No organization matches your search.",
+    "allOrganizations": "All organizations"
+  },
+  "userDropdown": {
+    "editProfile": "Edit profile",
+    "accountSettings": "Account settings",
+    "support": "Support",
+    "language": "Language",
+    "signOut": "Sign out",
+    "account": "My account",
+    "security": "Security and MFA"
+  },
+  "ecommerce": {
+    "title": "E-commerce Dashboard",
+    "metrics": {
+      "customers": "Customers",
+      "orders": "Orders"
+    },
+    "months": {
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mar",
+      "apr": "Apr",
+      "may": "May",
+      "jun": "Jun",
+      "jul": "Jul",
+      "aug": "Aug",
+      "sep": "Sep",
+      "oct": "Oct",
+      "nov": "Nov",
+      "dec": "Dec"
+    },
+    "monthlySales": {
+      "title": "Monthly Sales",
+      "series": "Sales"
+    },
+    "monthlyTarget": {
+      "title": "Monthly Target",
+      "subtitle": "Target you’ve set for each month",
+      "earned": "You earn {amount} today, it's higher than last month. Keep up your good work!",
+      "target": "Target",
+      "revenue": "Revenue",
+      "today": "Today"
+    },
+    "statistics": {
+      "title": "Statistics",
+      "subtitle": "Target you've set for each month",
+      "overview": "Overview",
+      "sales": "Sales",
+      "revenue": "Revenue",
+      "monthly": "Monthly",
+      "quarterly": "Quarterly",
+      "annually": "Annually",
+      "selectDateRange": "Select date range"
+    },
+    "recentOrders": {
+      "title": "Recent Orders",
+      "products": "Products",
+      "category": "Category",
+      "price": "Price",
+      "status": "Status",
+      "variants": "{count, plural, one {# Variant} other {# Variants}}",
+      "categories": {
+        "laptop": "Laptop",
+        "watch": "Watch",
+        "smartphone": "SmartPhone",
+        "electronics": "Electronics",
+        "accessories": "Accessories"
+      },
+      "statuses": {
+        "delivered": "Delivered",
+        "pending": "Pending",
+        "canceled": "Canceled"
+      }
+    },
+    "demographic": {
+      "title": "Customers Demographic",
+      "subtitle": "Number of customer based on country",
+      "customers": "{count} Customers",
+      "usa": "USA",
+      "france": "France",
+      "yemen": "Yemen",
+      "uk": "United Kingdom"
+    }
+  },
+  "analytics": {
+    "metrics": {
+      "uniqueVisitors": "Unique Visitors",
+      "totalPageviews": "Total Pageviews",
+      "bounceRate": "Bounce Rate",
+      "visitDuration": "Visit Duration",
+      "vsLastMonth": "Vs last month"
+    },
+    "barChart": {
+      "title": "Analytics",
+      "subtitle": "Visitor analytics of last 30 days",
+      "twelveMonths": "12 months",
+      "thirtyDays": "30 days",
+      "sevenDays": "7 days",
+      "twentyFourHours": "24 hours",
+      "visitors": "Visitors"
+    },
+    "topChannels": {
+      "title": "Top Channels",
+      "source": "Source",
+      "visitors": "Visitors",
+      "channelsReport": "Channels Report"
+    },
+    "topPages": {
+      "title": "Top Pages",
+      "source": "Source",
+      "pageview": "Pageview",
+      "channelsReport": "Channels Report"
+    },
+    "activeUsers": {
+      "title": "Active Users",
+      "liveVisitors": "Live visitors",
+      "avgDaily": "Avg, Daily",
+      "avgWeekly": "Avg, Weekly",
+      "avgMonthly": "Avg, Monthly"
+    },
+    "acquisitionChannels": {
+      "title": "Acquisition Channels",
+      "direct": "Direct",
+      "organic": "Organic",
+      "referral": "Referral",
+      "total": "Total: 120k"
+    },
+    "session": {
+      "title": "Sessions By Device",
+      "total": "Total"
+    },
+    "recentOrders": {
+      "title": "Recent Orders",
+      "products": "Products",
+      "category": "Category",
+      "country": "Country",
+      "cr": "CR",
+      "value": "Value",
+      "categories": {
+        "uiKits": "UI Kits",
+        "templates": "Templates",
+        "saas": "SaaS"
+      },
+      "crDashboard": "Dashboard"
+    }
+  },
+  "notFound": {
+    "error": "ERROR",
+    "message": "We can’t seem to find the page you are looking for!",
+    "backHome": "Back to Home Page"
+  },
+  "marketing": {
+    "metrics": {
+      "avgClientRating": "Avg. Client Rating",
+      "instagramFollowers": "Instagram Followers",
+      "totalRevenue": "Total Revenue",
+      "vsLastMonth": "Vs last month"
+    },
+    "impressionChart": {
+      "title": "Impression & Data Traffic",
+      "totalRevenue": "Total Revenue",
+      "sales": "Sales",
+      "revenue": "Revenue",
+      "selectDateRange": "Select date range"
+    },
+    "featuredCampaign": {
+      "title": "Featured Campaigns",
+      "viewMore": "View More",
+      "delete": "Delete",
+      "products": "Products",
+      "campaign": "Campaign",
+      "status": "Status",
+      "adsCampaign": "Ads campaign",
+      "campaigns": {
+        "growBrand": "Grow your brand by...",
+        "betterIdeas": "Make Better Ideas...",
+        "increaseTraffic": "Increase your website tra..."
+      },
+      "statuses": {
+        "success": "Success",
+        "pending": "Pending",
+        "failed": "Failed"
+      }
+    },
+    "trafficStats": {
+      "title": "Traffic Stats",
+      "today": "Today",
+      "week": "Week",
+      "month": "Month",
+      "viewMore": "View More",
+      "delete": "Delete",
+      "newSubscribers": "New Subscribers",
+      "conversionRate": "Conversion Rate",
+      "pageBounceRate": "Page Bounce Rate",
+      "thenLastWeek": "then last Week",
+      "thanYesterday": "than yesterday",
+      "thanLastMonth": "than last Month",
+      "newSales": "New Sales"
+    },
+    "trafficSource": {
+      "title": "Top Traffic Source",
+      "viewMore": "View More",
+      "delete": "Delete",
+      "viewAll": "View All"
+    }
+  },
+  "crm": {
+    "metrics": {
+      "activeDeal": "Active Deal",
+      "revenueTotal": "Revenue Total",
+      "closedDeals": "Closed Deals",
+      "lastMonth": "last month"
+    },
+    "statistics": {
+      "title": "Statistics",
+      "subtitle": "Target you’ve set for each month",
+      "avgYearlyProfit": "Avg. Yearly Profit",
+      "sales": "Sales",
+      "revenue": "Revenue",
+      "monthly": "Monthly",
+      "quarterly": "Quarterly",
+      "annually": "Annually"
+    },
+    "estimatedRevenue": {
+      "title": "Estimated Revenue",
+      "subtitle": "Target you’ve set for each month",
+      "goals": "June Goals",
+      "marketing": "Marketing",
+      "sales": "Sales"
+    },
+    "salesCategory": {
+      "title": "Sales Category",
+      "affiliate": "Affiliate",
+      "direct": "Direct",
+      "adsense": "Adsense",
+      "affiliateProgram": "Affiliate Program",
+      "directBuy": "Direct Buy",
+      "products": "Products",
+      "total": "Total",
+      "usedOf": "Used of"
+    },
+    "upcomingSchedule": {
+      "title": "Upcoming Schedule",
+      "schedules": {
+        "item1": {
+          "title": "Business Analytics Press",
+          "description": "Exploring the Future of Data-Driven +6 more"
+        },
+        "item2": {
+          "title": "Business Sprint",
+          "description": "Techniques from Business Sprint +2 more"
+        },
+        "item3": {
+          "title": "Customer Review Meeting",
+          "description": "Insights from the Customer Review Meeting +8 more"
+        }
+      }
+    },
+    "recentOrders": {
+      "title": "Recent Orders",
+      "searchPlaceholder": "Search...",
+      "dealId": "Deal ID",
+      "customer": "Customer",
+      "productService": "Product/Service",
+      "dealValue": "Deal Value",
+      "closeDate": "Close Date",
+      "status": "Status",
+      "action": "Action",
+      "products": {
+        "softwareLicense": "Software License",
+        "cloudHosting": "Cloud Hosting",
+        "webDomain": "Web Domain",
+        "sslCertificate": "SSL Certificate",
+        "premiumSupport": "Premium Support"
+      },
+      "statuses": {
+        "complete": "Complete",
+        "pending": "Pending",
+        "cancel": "Cancel"
+      },
+      "noOrders": "No orders found",
+      "noOrdersDescription": "Try adjusting your search or filter to find what you're looking for."
+    }
+  },
+  "stocks": {
+    "title": "Stocks",
+    "dividend": {
+      "title": "Dividend",
+      "series": "Dividend",
+      "viewMore": "View More",
+      "delete": "Delete"
+    },
+    "portfolioPerformance": {
+      "title": "Portfolio Performance",
+      "subtitle": "Here is your performance stats of each month",
+      "series": "Portfolio Performance",
+      "monthly": "Monthly",
+      "quarterly": "Quarterly",
+      "annually": "Annually"
+    },
+    "trendingStocks": {
+      "title": "Trending Stocks",
+      "shortStock": "Short Stock",
+      "buyStock": "Buy Stock"
+    },
+    "watchlist": {
+      "title": "My Watchlist",
+      "viewMore": "View More",
+      "delete": "Delete"
+    },
+    "latestTransactions": {
+      "title": "Latest Transactions",
+      "searchPlaceholder": "Search...",
+      "table": {
+        "name": "Name",
+        "date": "Date",
+        "price": "Price",
+        "category": "Category",
+        "status": "Status"
+      },
+      "actions": {
+        "bought": "Bought {symbol}",
+        "sell": "Sell {symbol}"
+      },
+      "categories": {
+        "finance": "Finance",
+        "technology": "Technology",
+        "ecommerce": "E-commerce",
+        "media": "Social Media"
+      },
+      "statuses": {
+        "success": "Success",
+        "pending": "Pending",
+        "failed": "Failed"
+      }
+    }
+  },
+  "saas": {
+    "title": "SaaS",
+    "metrics": {
+      "overview": "Overview",
+      "totalRevenue": "Total Revenue",
+      "activeUsers": "Active Users",
+      "clv": "Customer Lifetime Value",
+      "cac": "Customer Acquisition Cost",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "filter": "Filter"
+    },
+    "churnRate": {
+      "title": "Churn Rate",
+      "subtitle": "Downgrade to Free plan",
+      "thanLastWeek": "than last Week",
+      "series": "Churn Rate",
+      "viewMore": "View More",
+      "delete": "Delete"
+    },
+    "userGrowth": {
+      "title": "User Growth",
+      "subtitle": "New signups website + mobile",
+      "thanLastWeek": "than last Week",
+      "series": "Revenue",
+      "viewMore": "View More",
+      "delete": "Delete"
+    },
+    "conversionFunnel": {
+      "title": "Conversion Funnel",
+      "total": "Total: 120k",
+      "viewMore": "View More",
+      "delete": "Delete",
+      "series": {
+        "adImpression": "Ad Impression",
+        "adImpressions": "Ad Impressions",
+        "websiteSession": "Website Session",
+        "appDownload": "App Download",
+        "newUsers": "New Users"
+      }
+    },
+    "recentInvoices": {
+      "title": "Recent Invoices",
+      "table": {
+        "serialNo": "Serial No:",
+        "closeDate": "Close Date",
+        "user": "User",
+        "amount": "Amount",
+        "status": "Status"
+      },
+      "statuses": {
+        "complete": "Complete",
+        "pending": "Pending",
+        "cancelled": "Cancelled"
+      }
+    },
+    "productPerformance": {
+      "title": "Product Performance",
+      "viewMore": "View More",
+      "delete": "Delete",
+      "tabs": {
+        "dailySales": "Daily Sales",
+        "onlineSales": "Online Sales",
+        "newUsers": "New Users"
+      },
+      "digitalProduct": "Digital Product",
+      "physicalProduct": "Physical Product",
+      "avgDailySales": "Average Daily Sales",
+      "totalOnlineSales": "Total Online Sales",
+      "addedLastMonth": "Added last month",
+      "totalNewUsers": "Total New Users",
+      "series": {
+        "sales": "Sales",
+        "revenue": "Revenue"
+      }
+    },
+    "activities": {
+      "title": "Activities",
+      "viewMore": "View More",
+      "delete": "Delete",
+      "newInvoice": "New invoice",
+      "createdInvoice": "created invoice"
+    }
+  },
+  "logistics": {
+    "title": "Logistics",
+    "metrics": {
+      "totalOrders": "Total Orders",
+      "ordersInTransit": "Orders in Transit"
+    },
+    "deliveryStatistics": {
+      "title": "Delivery Statistics",
+      "subtitle": "Total number of deliveries 70.5K",
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "shipment": "Shipment",
+      "inTransit": "In Transit",
+      "delivery": "Delivery"
+    },
+    "revenueEarned": {
+      "totalRevenue": "Total revenue earned",
+      "shippedQuantities": "Shipped quantities",
+      "newSales": "New Sales"
+    },
+    "deliveryVehicle": {
+      "title": "Delivery Vehicles",
+      "subtitle": "Vehicles operating on the road",
+      "thanLastWeek": "than last Week",
+      "onRoute": "On-route"
+    },
+    "trackingDelivery": {
+      "title": "Tracking Delivery",
+      "subtitle": "Last viewed delivery history"
+    },
+    "trackingProgress": {
+      "trackingId": "Tracking ID",
+      "inTransit": "In Transit",
+      "pickedUp": "Picked up",
+      "delivered": "Delivered"
+    },
+    "deliveryMan": {
+      "courier": "Courier"
+    },
+    "deliveriesActivity": {
+      "title": "Delivery Activities",
+      "subtitle": "Track your recent shipping activities",
+      "tabs": {
+        "all": "All Shipments",
+        "delivered": "Delivered",
+        "inTransit": "In-Transit",
+        "pending": "Pending",
+        "processing": "Processing"
+      },
+      "filter": {
+        "button": "Filter",
+        "category": "Category",
+        "searchCategory": "Search category...",
+        "company": "Company",
+        "searchCompany": "Search company...",
+        "apply": "Apply"
+      },
+      "table": {
+        "orderId": "Order ID",
+        "category": "Category",
+        "company": "Company",
+        "arrivalTime": "Arrival Time",
+        "route": "Route",
+        "price": "Price",
+        "status": "Status"
+      },
+      "categories": {
+        "furniture": "Furniture",
+        "clothing": "Clothing",
+        "books": "Books",
+        "automotive": "Automotive",
+        "electronics": "Electronics",
+        "health": "Health",
+        "toys": "Toys",
+        "kitchen": "Kitchen",
+        "beauty": "Beauty",
+        "sports": "Sports"
+      },
+      "statuses": {
+        "delivered": "Delivered",
+        "inTransit": "In Transit",
+        "pending": "Pending",
+        "processing": "Processing",
+        "canceled": "Canceled"
+      },
+      "pagination": {
+        "showing": "Showing",
+        "to": "to",
+        "of": "of",
+        "page": "Page"
+      }
+    }
+  },
+  "aiDashboard": {
+    "stats": {
+      "users": "Users",
+      "projects": "Projects",
+      "revenue": "Revenue",
+      "paidUsers": "Paid Users",
+      "last30Days": "Last 30 Days"
+    },
+    "userRevenue": {
+      "title": "Users & Revenue Statistics",
+      "subtitle": "Visualize month-to-month progress and engagement.",
+      "users": "Users",
+      "revenue": "Revenue",
+      "monthly": "Monthly",
+      "quarterly": "Quarterly",
+      "annually": "Annually"
+    },
+    "apiToken": {
+      "title": "API Token Usages",
+      "totalApiTokenUsed": "Total API Token used",
+      "tokenUsed": "Token used",
+      "configuredKey": "{count, plural, one {# API key configured} other {# API keys configured}}",
+      "viewAllUsageDetails": "View All Usage Details"
+    },
+    "userAnalytics": {
+      "title": "User Analytics",
+      "subtitle": "Platform user insights",
+      "totalUsers": "Total Users",
+      "freeUsers": "Free Users",
+      "paidUsers": "Paid Users",
+      "ofTotalUser": "of total user",
+      "thisMonth": "This Month",
+      "fromLastMonth": "from last month",
+      "thisYear": "This Year",
+      "fromLastYear": "from last year"
+    },
+    "projectAnalytics": {
+      "title": "Projects Analytics",
+      "subtitle": "View detailed project insights",
+      "totalProjects": "Total Projects",
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "projectCreated": "Project created",
+      "thisMonth": "This Month",
+      "fromLastMonth": "from last month",
+      "thisYear": "This Year",
+      "fromLastYear": "from last year"
+    },
+    "recentTransactions": {
+      "title": "Recent Transactions",
+      "searchPlaceholder": "Search...",
+      "filter": "Filter",
+      "noTransactions": "No transactions found",
+      "noTransactionsDescription": "Try adjusting your search or filter to find what you're looking for.",
+      "table": {
+        "paidBy": "Paid By",
+        "packageName": "Package Name",
+        "price": "Price",
+        "paidDate": "Paid Date",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "packages": {
+        "starterMonthly": "Starter - Monthly",
+        "growthYearly": "Growth - Yearly",
+        "premiumMonthly": "Premium - Monthly"
+      },
+      "statuses": {
+        "active": "Active",
+        "expired": "Expired"
+      },
+      "pagination": {
+        "previous": "Previous",
+        "next": "Next",
+        "pageOf": "Page {current} of {total}"
+      }
+    }
+  },
+  "sales": {
+    "salesStats": {
+      "title": "Sales Dashboard",
+      "subtitle": "Track revenue, performance, and sales growth in real-time",
+      "selectDateRange": "Select date range",
+      "export": "Export",
+      "totalRevenue": "Total Revenue",
+      "totalSales": "Total Sales",
+      "conversionRate": "Conversion Rate",
+      "refundRate": "Refund Rate",
+      "vsLastMonth": "vs last month",
+      "newSales": "New Sales"
+    },
+    "userRevenueStats": {
+      "title": "Users & Revenue Statistics",
+      "subtitle": "Visualize month-to-month progress and engagement.",
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "onlineSales": "Online Sales",
+      "offlineSales": "Offline Sales"
+    },
+    "revenueChart": {
+      "title": "Revenue Breakdown",
+      "subtitle": "Revenue insights & performance overview",
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "online": "Online",
+      "offline": "Offline"
+    },
+    "userRetention": {
+      "title": "User Retention",
+      "subtitle": "User engagement over time",
+      "increasedVsLastWeek": "Increased vs last week"
+    },
+    "salesByChannel": {
+      "title": "Sales by Channel",
+      "subtitle": "Channel performance overview",
+      "increasedVsLastWeek": "Increased vs last week",
+      "channels": {
+        "website": "Website",
+        "email": "Email",
+        "socialMedia": "Social Media"
+      },
+      "table": {
+        "channels": "Channels",
+        "metric": "Metric",
+        "total": "Total"
+      }
+    },
+    "salesByCountry": {
+      "title": "Sales by Country",
+      "subtitle": "Country-wise sales overview",
+      "countries": {
+        "usa": "USA",
+        "france": "France",
+        "japan": "Japan",
+        "egypt": "Egypt",
+        "germany": "Germany"
+      }
+    },
+    "topProducts": {
+      "title": "Top Products",
+      "searchPlaceholder": "Search...",
+      "noProducts": "No products found",
+      "noProductsDescription": "Try changing your search query.",
+      "table": {
+        "productName": "Product Name",
+        "productId": "Product ID",
+        "category": "Category",
+        "sales": "Sales",
+        "earnings": "Earnings",
+        "stocks": "Stocks",
+        "status": "Status"
+      },
+      "products": {
+        "classicDenimJacket": "Classic Denim Jacket",
+        "slimFitChinos": "Slim Fit Chinos",
+        "organicCottonTShirt": "Organic Cotton T-Shirt",
+        "leatherAnkleBoots": "Leather Ankle Boots",
+        "woolBlendScarf": "Wool Blend Scarf"
+      },
+      "variants": {
+        "threeSizes": "3 Sizes",
+        "fourColors": "4 Colors",
+        "fiveColors": "5 Colors",
+        "sixSizes": "6 Sizes",
+        "twoColors": "2 Colors"
+      },
+      "categories": {
+        "jacket": "Jacket",
+        "pants": "Pants",
+        "tShirt": "T-Shirt",
+        "footwear": "Footwear",
+        "accessory": "Accessory"
+      },
+      "statuses": {
+        "inStock": "In Stock",
+        "lowStock": "Low Stock",
+        "outOfStock": "Out of Stock"
+      }
+    }
+  },
+  "finance": {
+    "totalBalanceOverview": {
+      "title": "Total Balance",
+      "overview": "Overview of your current funds",
+      "thanLastMonth": "than last month",
+      "primaryAccount": "Primary Account:",
+      "seeDetails": "See Details",
+      "transfer": "Transfer",
+      "received": "Received",
+      "balance": "Balance"
+    },
+    "stats": {
+      "totalBalance": "Total Balance",
+      "monthlyIncome": "Monthly Income",
+      "totalSpent": "Total Spent",
+      "savingRate": "Saving Rate",
+      "thanLastMonth": "than last month",
+      "goalProgress": "Goal: 30% - 3.9% to go"
+    },
+    "cashflow": {
+      "title": "Cashflow Overview",
+      "totalRevenue": "Total Revenue",
+      "income": "Income",
+      "expense": "Expense"
+    },
+    "spending": {
+      "title": "Spending",
+      "yearly": "Yearly",
+      "monthly": "Monthly",
+      "total": "Total",
+      "categories": {
+        "activity": "Activity",
+        "onlinePurchases": "Online Purchases",
+        "groceries": "Groceries",
+        "digitalGoods": "Digital Goods",
+        "stationery": "Stationery",
+        "others": "Others"
+      }
+    },
+    "quickSend": {
+      "title": "Quick send",
+      "sendFrom": "Send From",
+      "currency": "Currency",
+      "amount": "Amount",
+      "sendMoney": "Send Money"
+    },
+    "myCards": {
+      "title": "My Cards",
+      "addCard": "Add Card",
+      "virtualCard": "Virtual Card",
+      "recentTransactions": "Recent Transactions",
+      "seeAllTransactions": "See All Transactions",
+      "transactions": {
+        "paymentReceived": "Payment Received",
+        "cashbackDesc": "Cashback from Stellar Rewards",
+        "netflixSubscription": "Netflix Subscription",
+        "netflixDesc": "September subscription charge",
+        "moneyReceived": "Money received",
+        "paypalDesc": "Payment received via PayPal",
+        "googleAds": "Google Ads",
+        "googleAdsDesc": "Payment received form google ads"
+      }
+    },
+    "transactionsTable": {
+      "title": "Recent Transactions",
+      "searchPlaceholder": "Search...",
+      "filter": "Filter",
+      "table": {
+        "orderId": "Order ID",
+        "activity": "Activity",
+        "price": "Price",
+        "date": "Date",
+        "status": "Status"
+      },
+      "activities": {
+        "hotelBooking": "Hotel Booking",
+        "onlineShopping": "Online Shopping",
+        "gamePurchase": "Game Purchase",
+        "utilityBillPayment": "Utility Bill Payment",
+        "onlineCourseEnrollment": "Online Course Enrollment"
+      },
+      "statuses": {
+        "completed": "Completed",
+        "inProgress": "In Progress"
+      }
+    }
+  },
+  "hr": {
+    "header": {
+      "title": "HR Dashboard",
+      "subtitle": "Here's what's happening across your team.",
+      "dateRange": "Aug 16, 2028 - Sep 16, 2028",
+      "addMember": "Add Member"
+    },
+    "quickStats": {
+      "title": "Quick stats",
+      "monthly": "Monthly",
+      "weekly": "Weekly",
+      "yearly": "Yearly",
+      "thanLastMonth": "than last month",
+      "thanLastWeek": "than last week",
+      "thanLastYear": "than last year",
+      "totalEmployee": "Total Employee",
+      "activeEmployee": "Active Employee",
+      "onLeave": "On Leave",
+      "totalPayroll": "Total Payroll"
+    },
+    "attendanceOverview": {
+      "title": "Attendance overview",
+      "monthly": "Monthly",
+      "weekly": "Weekly",
+      "yearly": "Yearly",
+      "days": {
+        "mon": "Mon",
+        "tue": "Tue",
+        "wed": "Wed",
+        "thu": "Thu",
+        "fri": "Fri",
+        "sat": "Sat",
+        "sun": "Sun"
+      }
+    },
+    "employeeByDepartment": {
+      "title": "Employee by Department",
+      "thanLastMonth": "than last month",
+      "viewDetails": "View Details",
+      "exportData": "Export Data",
+      "departments": {
+        "engineering": "Engineering",
+        "marketing": "Marketing",
+        "sales": "Sales",
+        "hr": "Human Resources",
+        "finance": "Finance",
+        "others": "Others"
+      }
+    },
+    "interviewAndMeetings": {
+      "title": "Interview and Meetings",
+      "monthYear": "January 2027",
+      "joinNow": "Join Now",
+      "days": {
+        "mon": "Mon",
+        "tue": "Tue",
+        "wed": "Wed",
+        "thu": "Thu",
+        "fri": "Fri",
+        "sat": "Sat",
+        "sun": "Sun"
+      },
+      "meetings": {
+        "productSync": "Product Team Sync",
+        "frontendInterview": "Interview Candidates - Frontend Developer"
+      }
+    },
+    "jobStatistics": {
+      "title": "Job Statistics",
+      "monthly": "Monthly",
+      "weekly": "Weekly",
+      "yearly": "Yearly",
+      "totalJob": "Total Job",
+      "activeJob": "Active Job",
+      "interview": "Interview",
+      "hired": "Hired"
+    },
+    "employeeGrowth": {
+      "title": "Employee Growth",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "series": "Employees",
+      "days": {
+        "sat": "Sat",
+        "sun": "Sun",
+        "mon": "Mon",
+        "tue": "Tue",
+        "wed": "Wed",
+        "thu": "Thu",
+        "fri": "Fri"
+      }
+    },
+    "employeeDirectory": {
+      "title": "Employee Directory",
+      "searchPlaceholder": "Search...",
+      "filter": "Filter",
+      "noEmployeesTitle": "No employees found",
+      "allDepartment": "All Department",
+      "allStatus": "All Status",
+      "table": {
+        "users": "Users",
+        "department": "Department",
+        "role": "Role",
+        "status": "Status",
+        "joined": "Joined",
+        "action": "Action"
+      },
+      "departments": {
+        "all": "All Department",
+        "engineering": "Engineering",
+        "hr": "HR",
+        "sales": "Sales",
+        "marketing": "Marketing",
+        "finance": "Finance"
+      },
+      "statuses": {
+        "all": "All Status",
+        "active": "Active",
+        "onboarding": "Onboarding",
+        "onLeave": "On Leave"
+      },
+      "roles": {
+        "seniorDeveloper": "Senior Developer",
+        "juniorDeveloper": "Junior Developer",
+        "hrSpecialist": "HR Specialist",
+        "accountExecutive": "Account Executive"
+      },
+      "noEmployees": "No employees found matching the selected criteria."
+    }
+  },
+  "app": {
+    "name": "10CYBER Exposure",
+    "tagline": "See which devices are exposed to each vulnerability, and fix the riskiest first."
+  },
+  "severity": {
+    "CRITICAL": "Critical",
+    "HIGH": "High",
+    "MEDIUM": "Medium",
+    "LOW": "Low",
+    "NONE": "Informational"
+  },
+  "exploit": {
+    "0": "Unproven",
+    "30": "Medium",
+    "60": "High",
+    "90": "Critical",
+    "unknown": "Unknown"
+  },
+  "roles": {
+    "soc_admin": "SOC admin",
+    "soc_analyst": "SOC analyst",
+    "customer_admin": "Organization admin",
+    "customer_user": "Organization member",
+    "super_admin": "Super admin",
+    "member": "Member",
+    "admin": "Admin",
+    "operator": "Operator"
+  },
+  "states": {
+    "complete": {
+      "title": "Data is complete",
+      "body": "Every finding was read from CrowdStrike Falcon. Last complete update: {time}."
+    },
+    "partial": {
+      "title": "Data is incomplete",
+      "body": "Only part of the findings were read, so the numbers may be lower than the real figures. Last complete update: {time}."
+    },
+    "failed": {
+      "title": "Could not read data from Falcon",
+      "body": "The last read failed. Ask your TENIX SOC to check the Falcon connection.",
+      "bodyOld": "The last read from Falcon failed. The numbers shown are OLD data from the last complete update: {time}. Ask your TENIX SOC to check the Falcon connection.",
+      "bodyNone": "The last read from Falcon failed and no complete data was ever stored, so there are no numbers to show. Ask your TENIX SOC to check the Falcon connection."
+    },
+    "not_synced": {
+      "title": "No data yet",
+      "body": "Data has not been read from Falcon yet. It appears after the first read.",
+      "bodySoc": "Data has not been read from Falcon yet. It appears after the first read."
+    },
+    "no_cids": {
+      "title": "No Falcon account is linked",
+      "body": "This organization has no Falcon connection yet, so no data is loaded. Ask your TENIX SOC administrator.",
+      "bodySoc": "No CrowdStrike connection yet, no data loaded. Add the organization's own API client, CID and cloud in its CrowdStrike section."
+    },
+    "noCompleteUpdate": "no complete update yet",
+    "openIntegrations": "Open Integrations",
+    "no_connection": {
+      "title": "No Falcon connection",
+      "body": "This organization has no working Falcon connection yet, so no data is read. Ask your TENIX SOC.",
+      "bodySoc": "This organization has no CrowdStrike login of its own, so the system does not read its data. Any numbers shown are old data."
+    },
+    "coverage": "Detail kept for {held} of {total} findings in Falcon.",
+    "priorityPending": "The fix-first findings are not all read yet ({held} of {total}).",
+    "exactCounts": "The overview totals come from Falcon's exact counts, not from the rows held here.",
+    "openTenant": "Open this organization's CrowdStrike settings",
+    "reason": {
+      "invalid_credentials": "Reason: wrong Client ID or Client Secret.",
+      "cid_not_authorized": "Reason: this API client cannot read this CID (it belongs to another CrowdStrike tenant).",
+      "missing_scope": "Reason: the API client lacks a Spotlight, Discover or Exposure Management read scope.",
+      "unreachable": "Reason: Falcon could not be reached.",
+      "error": "Reason: Falcon returned an unexpected error."
+    },
+    "priority": {
+      "line": "Detail kept for {held} of {total} findings ({percent}) · fix-first items (P1) {priorityPercent} complete",
+      "why": "Why"
+    },
+    "lastRun": "last run {time}"
+  },
+  "overview": {
+    "title": "Overview",
+    "description": "Open vulnerabilities and affected devices from CrowdStrike Falcon.",
+    "metrics": {
+      "findings": "Open findings",
+      "critical": "Critical findings",
+      "devices": "Affected devices",
+      "exploited": "CVEs with known exploits",
+      "findingsNote": "{count} unique CVEs",
+      "criticalNote": "Needs attention",
+      "criticalNone": "None found",
+      "devicesNote": "With open findings",
+      "exploitedNote": "Known to be used in attacks",
+      "exploitedNone": "None known",
+      "delta": "{change} in {count} days",
+      "closedNote": "Findings no longer open"
+    },
+    "severity": {
+      "title": "Findings by severity",
+      "description": "Open findings at each severity level.",
+      "total": "Findings",
+      "share": "{percent}%",
+      "filter": "Show {severity} vulnerabilities"
+    },
+    "trend": {
+      "title": "Open findings over time",
+      "description": "Last {count} days, one point per day.",
+      "empty": "No history yet. It appears after the first complete update.",
+      "range": "Last {count} days",
+      "rangeLabel": "Time range",
+      "oneDay": "Only one day of history so far. The chart fills in with each daily update.",
+      "latest": "Latest counts",
+      "titleRange": "Vulnerability trend (last {count} days)",
+      "pill": "{count} vulnerabilities",
+      "series": "Open findings"
+    },
+    "topCves": {
+      "title": "Most widespread CVEs",
+      "description": "Devices affected by each CVE.",
+      "series": "Devices"
+    },
+    "topDevices": {
+      "title": "Devices with the most risk",
+      "device": "Device",
+      "platform": "Platform",
+      "cves": "CVEs",
+      "critical": "Critical",
+      "high": "High",
+      "medium": "Medium"
+    },
+    "noData": "No open findings to show.",
+    "empty": "No open findings for this organization.",
+    "urgent": {
+      "title": "Urgent items",
+      "note": "CVEs still open on at least one device that just appeared in this organization or just entered CISA KEV. Near real time.",
+      "empty": "No urgent items",
+      "kev": "KEV",
+      "devices": "{count, plural, one {# device} other {# devices}}",
+      "reasons": {
+        "first_impact": "First found in this organization",
+        "kev_added": "Just added to CISA KEV"
+      }
+    },
+    "recent": {
+      "title": "Newly announced CVEs",
+      "note": "Public information from the CVE Program, near real time. It does not change this organization's numbers.",
+      "search": "Search CVE id or title",
+      "empty": "No CVE found",
+      "rejected": "Rejected",
+      "cvss": "CVSS {score}"
+    },
+    "feeds": {
+      "cve": "CVE List last synced {time}",
+      "kev": "CISA KEV last synced {time}",
+      "never": "never",
+      "error": "The latest sync had a problem. The last good data is still shown.",
+      "disabled": "Feed sync is off."
+    },
+    "public": "Public data",
+    "hero": {
+      "title": "Impact on my organization",
+      "closed": "Closed in the last 7 days",
+      "closed30": "Last 30 days: {count}",
+      "closed30Title": "Closed in the last 30 days"
+    },
+    "band": {
+      "title": "Vulnerability overview",
+      "subtitle": "10CYBER Exposure: vulnerability risk dashboard for your organization",
+      "open": "Open vulnerabilities",
+      "openNote": "{count} unique CVEs",
+      "devices": "Affected devices",
+      "devicesNote": "With open findings",
+      "waiting": "Waiting for complete data",
+      "waitingNote": "CIDs not fully synced yet",
+      "waitingNone": "All CIDs are complete",
+      "empty": "This organization has no open findings.",
+      "emptyUnknown": "No data to show yet. The data is not complete, so this does not mean there is nothing."
+    },
+    "watch": {
+      "title": "Vulnerabilities to follow",
+      "search": "Search CVE or product…",
+      "filter": "Open the full list with filters",
+      "product": "Product",
+      "level": "Level",
+      "devices": "Devices",
+      "viewAll": "View all {count} vulnerabilities"
+    },
+    "urgentCard": {
+      "atLeast": "Found on at least {count} devices",
+      "view": "View affected devices"
+    },
+    "footer": {
+      "source": "Data from CrowdStrike Falcon, the CVE Program and CISA KEV. Counts are open findings only.",
+      "checked": "Last complete update: {time}"
+    }
+  },
+  "vulns": {
+    "title": "Vulnerabilities",
+    "description": "CVEs with open findings in your organization.",
+    "searchPlaceholder": "Search CVE or product…",
+    "severity": "Severity",
+    "allSeverities": "All severities",
+    "sort": "Sort by",
+    "sortOptions": {
+      "severity": "Highest severity",
+      "hosts": "Most devices",
+      "cvss": "Highest CVSS"
+    },
+    "columns": {
+      "cve": "CVE",
+      "severity": "Severity",
+      "cvss": "CVSS",
+      "exprt": "ExPRT rating",
+      "exploit": "Exploit status",
+      "devices": "Devices",
+      "findings": "Findings",
+      "product": "Software",
+      "published": "Published"
+    },
+    "empty": {
+      "filtered": "No vulnerabilities match your filters. Clear the search or choose another severity.",
+      "none": "No open vulnerabilities were found as of the last complete update.",
+      "unknown": "No vulnerabilities to show. The data is not complete, so this does not mean there are none."
+    },
+    "detail": {
+      "back": "All vulnerabilities",
+      "summary": "Summary",
+      "cvss": "CVSS score",
+      "exprt": "ExPRT rating",
+      "exprtHelp": "ExPRT is CrowdStrike's exploit prediction rating.",
+      "exploit": "Exploit status",
+      "remediation": "Recommended actions",
+      "noRemediation": "Falcon returned no recommended action for this CVE.",
+      "devices": "Affected devices",
+      "notFoundTitle": "No open findings for {cve}",
+      "notFoundComplete": "No device in this organization has an open finding for this CVE as of {time}.",
+      "notFoundPartial": "No finding for this CVE is in the data we have, but the data is incomplete. It may still affect some devices.",
+      "columns": {
+        "device": "Device",
+        "platform": "Platform",
+        "ip": "Local IP",
+        "product": "Product",
+        "status": "Status",
+        "severity": "Severity"
+      }
+    },
+    "kev": "KEV",
+    "kevTitle": "Listed by CISA as actively exploited",
+    "rowSummary": "{devices, plural, one {# device} other {# devices}} · {findings, plural, one {# finding} other {# findings}} · CVSS {score}"
+  },
+  "devices": {
+    "title": "Devices",
+    "description": "Devices with open findings. A device is identified by its CID and device ID, not by its name.",
+    "searchPlaceholder": "Search name, IP or device ID…",
+    "columns": {
+      "device": "Device",
+      "platform": "Platform",
+      "ip": "Local IP",
+      "cves": "CVEs",
+      "critical": "Critical",
+      "high": "High",
+      "medium": "Medium",
+      "exploited": "Exploited",
+      "externalIp": "External IP",
+      "split": "Severity split"
+    },
+    "empty": {
+      "filtered": "No devices match your search.",
+      "none": "No devices with open findings as of the last complete update.",
+      "unknown": "No devices to show. The data is not complete, so this does not mean there are none."
+    },
+    "unnamedHint": "Falcon has no host name for this device.",
+    "sheet": {
+      "deviceId": "Device ID (AID)",
+      "cid": "CID",
+      "ip": "Local IP",
+      "externalIp": "External IP",
+      "findings": "Findings",
+      "product": "Product",
+      "status": "Status",
+      "platform": "Platform",
+      "total": "Open findings",
+      "graphTab": "Graph",
+      "findingsTab": "Findings ({count})",
+      "graphHelp": "Device → software → worst vulnerabilities. Click a CVE to open it.",
+      "cve": "CVE",
+      "severity": "Severity",
+      "cvss": "CVSS",
+      "fix": "How to fix",
+      "showing": "Showing the {shown} most severe of {total} findings.",
+      "title": "Device"
+    },
+    "loadFailed": "Could not load this device.",
+    "rowSummary": "{platform} · {ip}",
+    "counts": "{critical} critical · {high} high · {medium} medium",
+    "stats": {
+      "devices": "Affected devices",
+      "cves": "Unique CVEs",
+      "exploited": "Exploited in the wild",
+      "asOf": "Data as of"
+    },
+    "view": {
+      "label": "Device view",
+      "table": "Table",
+      "graph": "Graph"
+    }
+  },
+  "integrations": {
+    "title": "Integrations",
+    "description": "Connect CrowdStrike Falcon and sync its data. CIDs are linked to organizations under Organizations in Settings.",
+    "tabs": {
+      "falcon": "Falcon connection",
+      "organizations": "Organizations and CIDs",
+      "email": "Email alerts",
+      "line": "LINE bot",
+      "feeds": "CVE feeds"
+    },
+    "falcon": {
+      "title": "CrowdStrike Falcon",
+      "description": "10CYBER Exposure reads vulnerability data from Falcon with a read-only API client.",
+      "cloud": "Falcon cloud",
+      "baseUrl": "API base URL",
+      "clientId": "Client ID",
+      "clientSecret": "Client secret",
+      "secretSaved": "Saved. Leave empty to keep the current secret.",
+      "secretHelp": "Create the API client in Falcon with read-only access to Vulnerabilities (Spotlight) and Hosts. The secret is stored encrypted and is never shown again.",
+      "clouds": {
+        "us1": "US-1",
+        "us2": "US-2",
+        "eu1": "EU-1",
+        "gov": "US-GOV-1"
+      },
+      "save": "Save connection",
+      "saving": "Saving…",
+      "saved": "Connection saved.",
+      "test": "Test connection",
+      "testing": "Testing…",
+      "testOk": "Connected to Falcon.",
+      "testFail": {
+        "invalid_credentials": "Falcon rejected the client ID or secret. Check them and try again.",
+        "missing_scope": "The API client is missing a required read scope. Add it in Falcon and try again.",
+        "unreachable": "Could not reach Falcon. Check the cloud URL and the network.",
+        "error": "Falcon returned an unexpected error. Try again later."
+      },
+      "invalid_base_url": "Use an official CrowdStrike API URL, for example https://api.us-2.crowdstrike.com.",
+      "cloudCustom": "Custom URL",
+      "connectionTitle": "Connection",
+      "connectionDescription": "A read-only Falcon API client.",
+      "connected": "Configured",
+      "notConnected": "Not configured",
+      "customUrl": "Use a custom API URL",
+      "manageTenants": "Manage CIDs under Organizations in Settings",
+      "progress": {
+        "software": "Reading software inventory…"
+      },
+      "consoleUrl": "CrowdStrike button link",
+      "consoleUrlHelp": "Where the \"CrowdStrike\" button in LINE messages goes. Leave empty for the Falcon console home of the same cloud. Paste a console address and put {cve} where the CVE id belongs to open that CVE directly.",
+      "invalid_console_url": "Use an https address on crowdstrike.com."
+    },
+    "sync": {
+      "title": "Data sync",
+      "description": "Findings are read from Falcon every hour. Run a sync to refresh now.",
+      "syncAll": "Sync all",
+      "running": "Sync running…",
+      "started": "Sync started. This can take a few minutes.",
+      "notConfigured": "Save the Falcon connection first.",
+      "noCids": "Link at least one CID to an organization first.",
+      "columns": {
+        "organization": "Organization",
+        "cid": "CID",
+        "state": "State",
+        "dataAsOf": "Complete data as of",
+        "lastRun": "Last run",
+        "detail": "Detail"
+      },
+      "states": {
+        "complete": "Complete",
+        "partial": "Incomplete",
+        "failed": "Failed"
+      },
+      "empty": "No sync has run yet. Link CIDs to an organization under Organizations in Settings, then sync.",
+      "progress": {
+        "findings": "Reading findings: {read} of {total} · page {pages}",
+        "devices": "Looking up device names: {read} of {total}",
+        "remediations": "Looking up fixes: {read} of {total}",
+        "saving": "Saving {read} findings…"
+      }
+    },
+    "organizations": {
+      "title": "Organizations and CIDs",
+      "description": "Each organization sees only the Falcon CIDs linked to it. A CID belongs to one organization.",
+      "add": "Add organization",
+      "name": "Organization name",
+      "create": "Create organization",
+      "cids": "Falcon CIDs",
+      "cidsHelp": "One CID per line. A CID has 32 hexadecimal characters.",
+      "saveCids": "Save CIDs",
+      "cidsSaved": "CIDs saved.",
+      "count": "{count, plural, =0 {No CIDs} one {# CID} other {# CIDs}}",
+      "syncOne": "Sync now",
+      "empty": "No organizations yet. Add the first one.",
+      "errors": {
+        "cid_taken": "One of these CIDs is already linked to another organization.",
+        "invalid_cid": "Each CID must have 32 hexadecimal characters.",
+        "exists": "An organization with this name already exists."
+      }
+    },
+    "email": {
+      "actions": "Actions",
+      "senders": {
+        "title": "Senders",
+        "description": "The mailboxes 10CYBER Exposure sends alert emails from. The first one added is used.",
+        "add": "Add sender",
+        "empty": "No sender yet. Add one to send alert emails.",
+        "name": "Name",
+        "server": "Server",
+        "from": "From",
+        "default": "Default",
+        "test": "Send test",
+        "makeDefault": "Make default"
+      },
+      "sender": {
+        "addTitle": "Add sender",
+        "editTitle": "Edit sender",
+        "description": "SMTP settings of the mailbox that sends the alerts. The password is stored encrypted and never shown again.",
+        "name": "Name",
+        "host": "SMTP server",
+        "port": "Port",
+        "securityLabel": "Connection security",
+        "security": {
+          "starttls": "STARTTLS (port 587)",
+          "tls": "SSL/TLS (port 465)",
+          "none": "None (port 25)"
+        },
+        "username": "Username",
+        "password": "Password",
+        "keepPassword": "Leave empty to keep the current one",
+        "fromEmail": "From address",
+        "fromName": "From name",
+        "invalid": "Check the sender details: server, port and from address."
+      },
+      "test": {
+        "title": "Send a test email from {name}",
+        "description": "Sends one short message to check that these settings work.",
+        "to": "Send to",
+        "send": "Send test email",
+        "sent": "Test email sent. Check the inbox.",
+        "failed": "The email could not be sent."
+      },
+      "recipients": {
+        "title": "Recipients",
+        "description": "Choose who receives which alert. Tick a box to subscribe.",
+        "email": "Email",
+        "emailPlaceholder": "name@company.com",
+        "organization": "Organization",
+        "allOrgs": "All organizations",
+        "add": "Add recipient",
+        "empty": "No recipients yet.",
+        "active": "Active",
+        "exists": "This recipient already exists for that organization.",
+        "scopeHelp": "A recipient tied to an organization only receives alerts about that organization. \"All organizations\" is for SOC staff."
+      },
+      "events": {
+        "sync_failed": "Sync problems",
+        "critical_new": "New critical findings"
+      },
+      "log": {
+        "title": "Recent emails",
+        "sent": "Sent",
+        "failed": "Failed"
+      }
+    },
+    "grid": {
+      "findings": "Findings",
+      "duration": "Duration",
+      "seconds": "{n} s"
+    },
+    "line": {
+      "title": "LINE bot (system)",
+      "description": "People send a news link, text or a picture to the bot in LINE. The bot finds the CVEs in it and answers which devices of which organization are affected.",
+      "configured": "Configured",
+      "notConfigured": "Not configured",
+      "webhook": "Webhook URL",
+      "copy": "Copy",
+      "webhookHelp": "If LINE already sends this bot's events to another system, have that system forward each request unchanged (same body, same X-Line-Signature header) to this URL. Otherwise paste it into the LINE Developers console (Messaging API, Webhook URL) and turn on Use webhook. It must be reachable over HTTPS.",
+      "secret": "Channel secret",
+      "token": "Channel access token",
+      "keep": "Saved. Leave empty to keep it.",
+      "secretHelp": "From the LINE Developers console. Stored encrypted and never shown again.",
+      "chats": "Chats that may send news",
+      "chatsHelp": "One chat ID per line: the groups or one-to-one chats whose messages the bot reads. The bot stays silent in every other chat. In these chats it reacts only to links, CVE ids and pictures. To find a chat's ID, add the bot to it and type /chatid.",
+      "save": "Save",
+      "saved": "Saved.",
+      "test": "Test connection",
+      "testOk": "LINE accepted the access token.",
+      "testFail": {
+        "invalid_token": "LINE rejected the access token.",
+        "unreachable": "Could not reach LINE.",
+        "error": "LINE returned an unexpected error."
+      },
+      "errors": {
+        "missing_secret": "Enter both the channel secret and the channel access token.",
+        "invalid_chat": "A chat ID may only contain letters, digits, - and _.",
+        "unknown": "Something went wrong. Try again.",
+        "invalid_forward": "The address to pass messages on to must be a full https address without a user name or password, and not this portal's own address.",
+        "chat_taken": "This chat already belongs to an organization. Remove it there first or use another chat."
+      },
+      "recent": "Recent messages",
+      "recentNote": "The last 20 messages the bot analysed.",
+      "empty": "No message has reached the bot yet.",
+      "columns": {
+        "time": "Time",
+        "kind": "Type",
+        "cves": "CVEs found",
+        "result": "Result",
+        "reply": "Answer"
+      },
+      "kinds": {
+        "text": "Text or link",
+        "image": "Picture"
+      },
+      "results": {
+        "found": "CVE found",
+        "none_found": "No CVE",
+        "not_evaluated": "Could not check"
+      },
+      "replySent": "Sent",
+      "replyFailed": "Not delivered",
+      "replyPending": "Working",
+      "answerChat": "Chat that receives the answers",
+      "answerChatHelp": "The group the bot sends its answers to. The answers name organizations and devices, so use an internal SOC group, never a customer's, and not a group another system already uses. Leave empty to answer in the chat the news came from. The bot must be a member of this group.",
+      "forwardUrl": "Pass LINE messages on to another system",
+      "forwardUrlHelp": "Use this when the LINE webhook points at this portal but another system (for example the SOC dashboard) must still receive every message. Each request with a valid signature is sent on unchanged, so that system checks it as if LINE called it. Leave empty to switch off. Must be an https address.",
+      "forwardOk": "Last pass-on {time}: delivered",
+      "forwardNoConn": "Last pass-on {time}: could not connect to the other system",
+      "forwardFail": "Last pass-on {time}: the other system answered with code {status}",
+      "connection": "Connection",
+      "secretSaved": "Saved",
+      "secretMissing": "Not set",
+      "copied": "Copied",
+      "copyId": "Copy chat ID",
+      "sourceTitle": "SOC team chats that send news to the bot (checked against every organization)",
+      "sourceHelp": "The bot reads only these chats and the organizations' own news chats. It reacts to links, CVE ids and pictures. To find a chat's ID, add the bot to it and type /chatid.",
+      "sourceEmpty": "No SOC chat yet: the bot reads no SOC messages.",
+      "destTitle": "SOC team chats that receive the alert summaries",
+      "destHelp": "The bot sends every result, for all organizations, to each chat in this list. Use internal SOC groups, never a customer's group. The bot must be a member of each group.",
+      "destEmpty": "No destination set: the bot answers in the chat the news came from.",
+      "tenantTitle": "Each organization's customer group",
+      "tenantHelp": "Set on the Organizations page. These groups receive only the news that affects their own organization.",
+      "tenantEmpty": "No organization has a LINE group yet.",
+      "tenantChange": "Edit in Organizations",
+      "labelAll": "Every news item checked",
+      "labelTenant": "Only {tenant}",
+      "nameLabel": "Chat name",
+      "namePlaceholder": "Name this chat, e.g. SOC on duty",
+      "chatIdLabel": "Chat ID",
+      "add": "Add",
+      "remove": "Remove",
+      "removeNamed": "Remove {name}",
+      "unnamed": "No name yet",
+      "duplicate": "This chat ID is already in the list.",
+      "invalidId": "A chat ID is 5 to 64 characters: letters, digits, - and _ only.",
+      "count": "{count, plural, one {# chat} other {# chats}}",
+      "unsaved": "You have unsaved changes",
+      "reset": "Discard",
+      "advanced": "Advanced",
+      "forwardTitle": "Pass on to another system",
+      "socNote": "This is the system's LINE connection and the SOC team's own chats. Each organization's own groups are set in Organizations.",
+      "orgTitle": "Each organization's groups",
+      "orgHelp": "Read only. Each organization's news chats and destination groups are set in Organizations. A group receives only its own organization's results.",
+      "orgCount": "{count, plural, one {# organization} other {# organizations}}",
+      "orgSources": "News chats",
+      "orgDests": "Groups that receive alerts",
+      "orgNone": "None",
+      "orgEmpty": "No organization has its own LINE chat yet."
+    },
+    "feeds": {
+      "title": "CVE feeds",
+      "description": "Public CVE List and CISA KEV are fetched on their own schedule, separately from the Falcon sync. They hold public facts only and never change an organization's counts.",
+      "on": "On",
+      "off": "Off",
+      "cveList": "CVE List (CVE Program)",
+      "kev": "CISA KEV",
+      "lastOk": "Last success",
+      "lastTry": "Last attempt",
+      "never": "never",
+      "error": "Error",
+      "checkpoint": "Checkpoint",
+      "records": "Records",
+      "backlog": "Backlog",
+      "kevTotal": "KEV entries in the last read",
+      "gap": "The time since the last sync is longer than the log kept. Some CVEs may be missing.",
+      "settings": "Settings",
+      "enabled": "Fetch the feeds automatically",
+      "cveMinutes": "CVE List interval (minutes)",
+      "cveHelp": "5 to 1440. Default 10.",
+      "kevMinutes": "CISA KEV interval (minutes)",
+      "kevHelp": "15 to 1440. Default 60.",
+      "initialDays": "First sync reaches back (days)",
+      "initialHelp": "1 to 30. How far back the first sync reads.",
+      "falconNote": "The Falcon sync interval is separate and is not changed here.",
+      "save": "Save",
+      "saved": "Saved.",
+      "run": "Sync now",
+      "runCve": "CVE List: {ingested} received, {missing} missing, {remaining} remaining.",
+      "runKev": "CISA KEV: {total} in total, {added} added.",
+      "runError": "{feed} error: {error}",
+      "errors": {
+        "invalid_interval": "An interval or the number of days is outside the allowed range.",
+        "unknown": "Could not save. Try again."
+      }
+    }
+  },
+  "team": {
+    "title": "Team",
+    "description": "Invite people, choose which tenants they can see, and manage who can sign in.",
+    "tabs": {
+      "users": "Users",
+      "invites": "Pending invites"
+    },
+    "invite": {
+      "button": "Invite user",
+      "title": "Invite a user",
+      "description": "They get a link to set a password and join. The link is shown here to copy; tick the box below to email it too.",
+      "email": "Email",
+      "role": "Role",
+      "organization": "Organization",
+      "choose": "Choose an organization",
+      "create": "Create invite link",
+      "createdTitle": "Invite link created",
+      "createdBody": "Send this link to {email}. It works once and expires in 7 days. It cannot be shown again.",
+      "copy": "Copy link",
+      "mail": "Open in email app",
+      "mailSubject": "Your 10CYBER Exposure invitation",
+      "mailBody": "Open this link to create your account. It works once and expires in 7 days: {link}",
+      "userType": "User type",
+      "types": {
+        "member": "Member",
+        "super_admin": "Super admin"
+      },
+      "superAdminNote": "A super admin sees every tenant and its CIDs and manages everything. Use this for your own staff only.",
+      "tenants": "Tenants",
+      "tenantsHelp": "Tick the tenants this user can see and choose their role in each. Admins manage users; operators can only read.",
+      "noTenants": "There is no tenant you can add users to.",
+      "roleIn": "Role in {name}",
+      "atLeastOne": "Choose at least one tenant.",
+      "errors": {
+        "no_tenant": "Choose at least one tenant for a member."
+      }
+    },
+    "columns": {
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "organization": "Organization",
+      "mfa": "MFA",
+      "lastSignIn": "Last sign-in",
+      "status": "Status",
+      "expires": "Expires",
+      "actions": "Actions",
+      "user": "User",
+      "access": "Access"
+    },
+    "status": {
+      "active": "Active",
+      "disabled": "Disabled"
+    },
+    "mfa": {
+      "on": "On",
+      "off": "Off"
+    },
+    "actions": {
+      "disable": "Disable user",
+      "enable": "Enable user",
+      "resetMfa": "Reset MFA",
+      "resetPassword": "Create password reset link",
+      "newLink": "New link",
+      "revoke": "Revoke invite",
+      "menu": "Actions for {name}",
+      "editAccess": "Edit access",
+      "delete": "Delete user",
+      "cannotAdminister": "This user also belongs to another organization. Remove them from yours with Edit access instead.",
+      "isSelf": "You cannot do this to your own account."
+    },
+    "confirm": {
+      "disableTitle": "Disable {name}?",
+      "disableBody": "They are signed out now and cannot sign in until you enable them again.",
+      "disable": "Disable",
+      "resetMfaTitle": "Reset MFA for {name}?",
+      "resetMfaBody": "Their authenticator is removed and they are signed out. They can set up MFA again after signing in.",
+      "resetMfa": "Reset MFA",
+      "revokeTitle": "Revoke the invite for {email}?",
+      "revokeBody": "The link stops working right away.",
+      "revoke": "Revoke",
+      "deleteTitle": "Delete {name}?",
+      "deleteBody": "{email} is deleted for good and signed out. This cannot be undone. To keep the account, disable it instead.",
+      "delete": "Delete user"
+    },
+    "linkTitle": "Link created",
+    "linkBody": "Send this link to the user. It works once and expires in 7 days. It cannot be shown again.",
+    "emptyUsers": "No users yet.",
+    "emptyInvites": "No pending invites.",
+    "never": "Never",
+    "you": "You",
+    "errors": {
+      "exists": "A user with this email already exists.",
+      "forbidden": "You cannot do this with your role.",
+      "shared_user": "This user also belongs to another organization. Remove them from yours with Edit access instead.",
+      "last_super_admin": "There must be at least one super admin.",
+      "unknown": "Something went wrong. Try again."
+    },
+    "filter": {
+      "label": "Tenant",
+      "all": "All tenants"
+    },
+    "access": {
+      "superAdmin": "Super admin",
+      "chip": "{name} · {role}",
+      "hidden": "{count, plural, one {+# other organization} other {+# other organizations}}",
+      "none": "No tenant"
+    },
+    "edit": {
+      "title": "Edit access of {name}",
+      "description": "Choose which tenants this user can see and their role in each.",
+      "save": "Save access",
+      "saved": "Access saved.",
+      "typeWarning": "Changing the user type signs the user out.",
+      "ownTypeLocked": "You cannot change your own user type.",
+      "removeAll": "Saving with no tenant ticked removes this user from your tenants.",
+      "errors": {
+        "no_tenant": "A member needs at least one tenant.",
+        "last_super_admin": "There must be at least one super admin."
+      }
+    },
+    "invites": {
+      "title": "Pending invites",
+      "reset": "Password reset",
+      "superAdmin": "Super admin"
+    },
+    "summary": {
+      "label": "Team summary",
+      "users": "{count, plural, one {# user} other {# users}}",
+      "mfa": "{count, plural, one {# with MFA} other {# with MFA}}",
+      "disabled": "{count, plural, one {# disabled} other {# disabled}}",
+      "pending": "{count, plural, one {# pending invite} other {# pending invites}}"
+    },
+    "mail": {
+      "send": "Also send the link by email",
+      "noSender": "No email sender is set up yet",
+      "sent": "Email sent to {email}.",
+      "failed": "The email could not be sent. Send the link below yourself.",
+      "noSenderResult": "No email sender is set up. Send the link below yourself.",
+      "create": "Create link",
+      "resetTitle": "Create a password reset link",
+      "resetBody": "Creates a one-time link for {email} to set a new password.",
+      "regenerateTitle": "Create a new invite link",
+      "regenerateBody": "Creates a new link for {email}. The old link stops working."
+    }
+  },
+  "account": {
+    "title": "Account",
+    "description": "Your profile, password and sign-in security.",
+    "profile": {
+      "title": "Profile",
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "organization": "Organization"
+    },
+    "password": {
+      "title": "Change password",
+      "current": "Current password",
+      "new": "New password",
+      "confirm": "Confirm new password",
+      "help": "Use at least 12 characters.",
+      "submit": "Change password",
+      "saving": "Saving…",
+      "success": "Password changed. Your other sessions were signed out.",
+      "mismatch": "The two passwords do not match.",
+      "wrong": "The current password is incorrect."
+    },
+    "mfa": {
+      "title": "Two-step verification (MFA)",
+      "description": "Optional. Adds a 6-digit code from an authenticator app when you sign in.",
+      "on": "MFA is on",
+      "off": "MFA is off",
+      "setup": "Set up MFA",
+      "step1": "Scan this QR code with an authenticator app, such as Google Authenticator, Microsoft Authenticator or 1Password.",
+      "manual": "Or enter this key manually",
+      "step2": "Enter the 6-digit code from the app to finish.",
+      "code": "6-digit code",
+      "verify": "Turn on MFA",
+      "cancel": "Cancel setup",
+      "disable": "Turn off MFA",
+      "disableHint": "Enter your password and a current code. If you just signed in, wait for the next code.",
+      "confirmDisable": "Turn off MFA",
+      "enabled": "MFA is now on.",
+      "disabled": "MFA is now off.",
+      "invalid": "That code is not valid. Enter the newest code from your app.",
+      "disableFailed": "The password or code is incorrect. Wait for a new code and try again."
+    },
+    "security": "Sign-in and security"
+  },
+  "auth": {
+    "signIn": {
+      "title": "Sign In",
+      "subtitle": "Enter your email and password to continue.",
+      "email": "Email",
+      "password": "Password",
+      "keep": "Keep me signed in",
+      "forgot": "Forgot password?",
+      "submit": "Sign in",
+      "submitting": "Signing in…",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "errors": {
+        "invalid_credentials": "The email or password is incorrect.",
+        "rate_limited": "Too many attempts. Wait 15 minutes and try again.",
+        "generic": "Could not sign in. Try again.",
+        "email": "Enter a valid email address.",
+        "password": "Enter your password."
+      }
+    },
+    "mfa": {
+      "title": "Verification code",
+      "subtitle": "Enter the 6-digit code from your authenticator app.",
+      "verify": "Verify",
+      "verifying": "Verifying…",
+      "back": "Use a different account",
+      "invalid": "That code is not valid. Enter the newest code from your app.",
+      "expired": "This sign-in expired. Sign in again."
+    },
+    "forgot": {
+      "title": "Forgot password?",
+      "body": "Ask your TENIX administrator to create a password reset link for you. The link works once and expires in 7 days.",
+      "back": "Back to sign in"
+    },
+    "accept": {
+      "inviteTitle": "Create your account",
+      "resetTitle": "Set a new password",
+      "inviteSubtitleOrg": "You were invited to join {organization}.",
+      "inviteSubtitleSoc": "You were invited to 10CYBER Exposure as {role}.",
+      "resetSubtitle": "Choose a new password for {email}.",
+      "name": "Full name",
+      "password": "Password",
+      "confirm": "Confirm password",
+      "help": "Use at least 12 characters.",
+      "submit": "Create account",
+      "submitReset": "Save new password",
+      "saving": "Saving…",
+      "invalid": "This link is invalid or has expired. Ask your administrator for a new one.",
+      "mismatch": "The two passwords do not match.",
+      "weak": "Use at least 12 characters.",
+      "resetDone": "Password saved. Sign in with your new password.",
+      "toSignIn": "Go to sign in",
+      "errors": {
+        "name": "Enter your name."
+      },
+      "invalidTitle": "Link not valid"
+    },
+    "exists": "An account with this email already exists."
+  },
+  "errors": {
+    "network": "Could not reach the server. Check your connection and try again.",
+    "unknown": "Something went wrong. Try again.",
+    "forbidden": "You do not have access to this page.",
+    "loadFailed": "Could not load this data. Try again.",
+    "notFound": {
+      "metaTitle": "Page not found",
+      "title": "We could not find that page",
+      "body": "The address may be wrong, or the page may have moved. Check the address, or go back to the start.",
+      "home": "Back to the start",
+      "back": "Go back"
+    }
+  },
+  "audit": {
+    "title": "Audit Log",
+    "description": "Sign-ins, invites and changes. The newest entries come first.",
+    "columns": {
+      "time": "Time",
+      "user": "User",
+      "action": "Action",
+      "target": "Target",
+      "result": "Result",
+      "organization": "Organization"
+    },
+    "results": {
+      "ok": "OK",
+      "allowed": "Allowed",
+      "denied": "Denied",
+      "fail": "Failed"
+    },
+    "empty": "No audit entries yet.",
+    "actions": {
+      "login": "Sign in",
+      "login_mfa": "MFA verification",
+      "logout": "Sign out",
+      "password_change": "Password change",
+      "password_reset": "Password reset",
+      "password_reset_issue": "Password reset link created",
+      "mfa_enable": "MFA turned on",
+      "mfa_disable": "MFA turned off",
+      "mfa_reset": "MFA reset",
+      "invite_create": "Invite created",
+      "invite_accept": "Invite accepted",
+      "invite_revoke": "Invite revoked",
+      "invite_regenerate": "Invite link renewed",
+      "user_disable": "User disabled",
+      "user_enable": "User enabled",
+      "tenant_create": "Organization created",
+      "tenant_cids": "CIDs changed",
+      "integration_falcon_update": "Falcon connection saved",
+      "integration_falcon_test": "Falcon connection tested",
+      "integration_falcon_sync": "Falcon sync started",
+      "route": "Blocked request",
+      "mail_recipient_create": "Alert recipient added",
+      "mail_recipient_delete": "Alert recipient removed",
+      "mail_recipient_update": "Alert recipient changed",
+      "mail_sender_create": "Mail sender added",
+      "mail_sender_delete": "Mail sender removed",
+      "mail_sender_test": "Mail sender tested",
+      "mail_sender_update": "Mail sender changed",
+      "tenant_delete": "Organization deleted",
+      "tenant_rename": "Organization renamed",
+      "user_access": "User access changed",
+      "user_delete": "User deleted",
+      "integration_line_update": "LINE bot setup saved",
+      "integration_line_test": "LINE bot connection tested",
+      "tenant_line_chat": "Organization LINE group changed",
+      "integration_feeds_update": "CVE feed settings changed",
+      "integration_feeds_run": "CVE feeds synced manually"
+    },
+    "filters": {
+      "user": "User",
+      "allUsers": "All users",
+      "result": "Result",
+      "allResults": "All results",
+      "organization": "Organization",
+      "allOrganizations": "All organizations",
+      "showViews": "Show page views",
+      "shown": "{shown} of {total} entries",
+      "noMatch": "No entries match these filters."
+    },
+    "reads": {
+      "summary": "Viewed overview",
+      "vulnerabilities": "Viewed vulnerabilities",
+      "hosts": "Viewed devices",
+      "host": "Viewed a device",
+      "graph": "Viewed graph tree",
+      "cve": "Viewed CVE",
+      "executive": "Viewed executive overview"
+    }
+  },
+  "graph": {
+    "title": "Graph Tree",
+    "description": "How devices connect to the most widespread vulnerabilities. Hover to follow a path, click a device or a CVE to open it.",
+    "severity": "Severity",
+    "allSeverities": "All severities",
+    "size": "CVEs shown",
+    "topCves": "Top {count} CVEs",
+    "summary": "{shown} of {total} devices shown · {cves} of {allCves} CVEs",
+    "trimmed": "Only the {count} most exposed devices are drawn.",
+    "legend": "Colour legend",
+    "empty": "There is nothing to draw yet.",
+    "emptyFiltered": "No CVEs match this severity.",
+    "unknownProduct": "Unknown product",
+    "unknownPlatform": "Unknown",
+    "more": "+{count} more",
+    "moreProducts": "+{count} more products",
+    "findingsCount": "{count, plural, one {# finding} other {# findings}}",
+    "devicesCount": "{count, plural, one {# device} other {# devices}}",
+    "hostAria": "Tree of one device, its products and their vulnerabilities",
+    "overviewAria": "Graph of devices and the vulnerabilities they are linked to",
+    "search": "Search the devices and CVEs shown",
+    "priority": "Look at first",
+    "priorityHint": "Ordered by facts we hold, not by a guess.",
+    "noPriority": "There are no CVEs in this graph.",
+    "selected": "Selected",
+    "openDetails": "Open details",
+    "clearFocus": "Clear selection",
+    "linkedDevices": "Linked devices ({count})",
+    "linkedCves": "Linked CVEs ({count})",
+    "cvesCount": "{count, plural, one {# CVE} other {# CVEs}}",
+    "notShown": "This item is not in the graph shown.",
+    "raiseCves": "Show 40 CVEs",
+    "viewBy": "Group the list",
+    "byDevice": "By device",
+    "byCve": "By vulnerability",
+    "noMatch": "Nothing matches your search.",
+    "viewInGraph": "View in graph",
+    "why": "Why this order?",
+    "whyIntro": "Each CVE gets a score that adds up facts we hold. The highest score comes first.",
+    "whyKev": "CISA KEV: the public list of vulnerabilities exploited in real attacks (largest weight).",
+    "whyExploit": "Falcon exploit status: actively used, easily accessible or exploit available.",
+    "whyExprt": "CrowdStrike ExPRT: CrowdStrike's model of how likely a vulnerability is to be exploited.",
+    "whyInternet": "Internet exposure: found on a device that can be reached from the internet (Falcon).",
+    "whySeverity": "Falcon severity (Critical, High, Medium) and the CVSS score.",
+    "whyDevices": "Number of devices affected (more devices, more urgent).",
+    "reasonKev": "Exploited in real attacks (CISA KEV)",
+    "reasonExploited": "Working exploit in use",
+    "reasonExprt": "High ExPRT",
+    "reasonInternet": "Exposed to the internet",
+    "pickHint": "Click a device or a CVE in the graph to see what it is linked to."
+  },
+  "tenants": {
+    "title": "Tenants",
+    "description": "A tenant is one customer organization. It sees only the Falcon CIDs linked to it.",
+    "new": "New tenant",
+    "empty": "No tenants yet. A tenant is one customer organization: you link Falcon CIDs and users to it, and it sees only its own data.",
+    "columns": {
+      "name": "Name",
+      "status": "Data status",
+      "cids": "CIDs",
+      "users": "Users",
+      "dataAsOf": "Data as of",
+      "actions": "Actions"
+    },
+    "states": {
+      "no_cids": "No CrowdStrike yet",
+      "not_synced": "Not synced",
+      "complete": "Complete",
+      "partial": "Incomplete",
+      "failed": "Failed",
+      "no_connection": "No login of its own"
+    },
+    "usersCount": "{count, plural, one {# user} other {# users}}",
+    "adminsCount": "{count, plural, one {# admin} other {# admins}}",
+    "moreCids": "{count, plural, one {# more CID} other {# more CIDs}}",
+    "none": "None",
+    "actions": {
+      "menu": "Actions for {name}",
+      "rename": "Rename",
+      "editCids": "Edit CIDs",
+      "sync": "Sync now",
+      "users": "Users",
+      "delete": "Delete",
+      "lineChat": "LINE group"
+    },
+    "create": {
+      "title": "New tenant",
+      "description": "Give the customer organization a name. You can link Falcon CIDs now or later.",
+      "name": "Tenant name",
+      "cids": "Falcon CIDs (optional)",
+      "submit": "Create tenant"
+    },
+    "rename": {
+      "title": "Rename tenant",
+      "description": "Users see the new name straight away.",
+      "name": "Tenant name"
+    },
+    "cids": {
+      "title": "CIDs of {name}",
+      "description": "This tenant sees only the findings of the CIDs listed here.",
+      "label": "Falcon CIDs",
+      "help": "One CID per line. A CID has 32 hexadecimal characters. A CID can belong to one tenant only.",
+      "count": "{count, plural, =0 {No CIDs} one {# CID} other {# CIDs}}"
+    },
+    "delete": {
+      "title": "Delete {name}?",
+      "body": "This permanently deletes the tenant, its findings and its CIDs, and removes every user from it. Users who belong to no other tenant can no longer see any data. This cannot be undone.",
+      "confirmLabel": "Type {name} to confirm",
+      "action": "Delete tenant"
+    },
+    "notices": {
+      "created": "Tenant created.",
+      "renamed": "Tenant renamed.",
+      "cidsSaved": "CIDs saved.",
+      "deleted": "Tenant deleted.",
+      "syncStarted": "Sync started. This can take a few minutes.",
+      "createdCidsFailed": "Tenant created, but the CIDs were not saved. Open Edit CIDs to try again.",
+      "lineChatSaved": "LINE group saved."
+    },
+    "errors": {
+      "exists": "A tenant with this name already exists.",
+      "cid_taken": "One of these CIDs is already linked to another organization.",
+      "invalid_cid": "Each CID must have 32 hexadecimal characters.",
+      "confirm_name": "The name you typed does not match.",
+      "no_cids": "Link at least one CID to this tenant first.",
+      "running": "A sync is already running.",
+      "not_configured": "Save the Falcon connection first.",
+      "unknown": "Something went wrong. Try again.",
+      "chat_taken": "This group already belongs to another organization.",
+      "invalid_chat": "A chat ID may only contain letters, digits, - and _."
+    },
+    "copyCid": "Copy CID {cid}",
+    "lineChat": {
+      "title": "LINE group of this organization",
+      "description": "News answers about this organization's devices, and only its own, are sent to this group, starting with \"Your organization\". Leave empty to have the details sent to the SOC chat instead.",
+      "label": "LINE group ID",
+      "help": "Add the bot to the organization's group, then type \"id\" there (the SOC dashboard answers with the group ID). The ID starts with C. One group can belong to one organization only."
+    }
+  },
+  "cve": {
+    "subtitle": "Vulnerability affecting devices in this organization.",
+    "subtitleMisconfig": "Security misconfiguration found on devices or internet-facing assets of this organization.",
+    "kinds": {
+      "vulnerability": "Vulnerability",
+      "misconfiguration": "Misconfiguration"
+    },
+    "kev": "Actively exploited (CISA KEV)",
+    "what": "What it is",
+    "more": "Show more",
+    "less": "Show less",
+    "cvss": "Falcon score",
+    "exprt": "ExPRT rating",
+    "exprtHelp": "ExPRT is CrowdStrike's exploit prediction rating.",
+    "exploit": "Exploit status",
+    "devices": "Affected devices",
+    "published": "Published",
+    "exploitability": "Exploitability",
+    "impact": "Impact",
+    "weakness": "Weakness (CWE)",
+    "vector": "CVSS vector",
+    "software": "Affected software",
+    "unknownSoftware": "Not identified",
+    "deviceCount": "{count, plural, one {# device} other {# devices}}",
+    "remediation": "Recommended actions",
+    "noRemediation": "Falcon returned no recommended action.",
+    "references": "References",
+    "affected": "Affected devices",
+    "showing": "Showing {shown} of {total} devices.",
+    "notFoundTitle": "No open findings for {cve}",
+    "notFoundComplete": "No device in this organization has an open finding for this as of {time}.",
+    "notFoundPartial": "Nothing is in the data we have, but the data is incomplete. It may still affect some devices.",
+    "columns": {
+      "device": "Device",
+      "source": "Source",
+      "product": "Software",
+      "status": "Status",
+      "severity": "Severity"
+    },
+    "sources": {
+      "endpoint": "Endpoint",
+      "external": "External"
+    },
+    "riskScore": "Risk score",
+    "riskScoreHelp": "CrowdStrike's own risk score for the worst finding of this kind (0-100).",
+    "firstSeen": "First seen",
+    "internetFacing": "Internet-facing",
+    "internetFacingHelp": "Devices or assets reachable from the internet.",
+    "exploitableDevices": "Exploitable devices",
+    "ports": "Open ports",
+    "assetTitle": "Affected asset",
+    "assetHelp": "This is a configuration weakness on an internet-facing asset, not a flaw in installed software, so there is no software to list. The assets are in the table below.",
+    "installedVersions": "Installed versions",
+    "fixedIn": "Fixed in version",
+    "softwareUnavailable": "Installed versions could not be read from Falcon right now. Try again later.",
+    "pub": {
+      "announced": "CVE announced",
+      "yes": "Yes",
+      "waiting": "Waiting for CVE Program data",
+      "rejected": "The CVE Program REJECTED this CVE. It is not a real vulnerability.",
+      "cvss": "Public CVSS (CVE Program)",
+      "noData": "No data yet",
+      "publishedAt": "Published by the CVE Program",
+      "ingestedAt": "Received by this system",
+      "kevTitle": "In CISA KEV",
+      "no": "No",
+      "kevDateAdded": "Added to KEV",
+      "kevDueDate": "CISA due date",
+      "kevRansomware": "Used in ransomware",
+      "kevAction": "Action required by CISA",
+      "kevNote": "KEV is public information from CISA. It does not by itself mean this organization was attacked.",
+      "falconTitle": "Found in this organization by Falcon",
+      "asOf": "Falcon data updated {time}",
+      "asOfHint": "The time Falcon last evaluated and synced the devices. It is not the time of the CVE.",
+      "noAsOf": "No Falcon data yet",
+      "scope": "Checked {cids, plural, one {# CID} other {# CIDs}}",
+      "scopePartial": "Checked {cids, plural, one {# CID} other {# CIDs}} ({complete} complete)",
+      "pending": "The latest Falcon data is older than the CVE announcement. Waiting for new data.",
+      "states": {
+        "affected": "Affected devices found",
+        "pending": "Waiting for results",
+        "partial": "Partly checked",
+        "unavailable": "Cannot be checked",
+        "not_found": "Not in the latest Falcon data"
+      },
+      "publicOnly": "Public facts only. They do not change this organization's numbers."
+    },
+    "cvssHelp": "CVSS base score that CrowdStrike Falcon reports for this CVE on your devices. The public CVSS from the CVE Program is shown above.",
+    "findingsOnDevice": "{count, plural, one {# finding} other {# findings}}",
+    "moreProducts": "+{count} more"
+  },
+  "filters": {
+    "source": "Source",
+    "allSources": "All sources",
+    "endpoint": "Endpoints",
+    "external": "External assets"
+  },
+  "tenantsGrid": {
+    "open": "Open overview",
+    "findings": "Findings",
+    "critical": "Critical",
+    "devices": "Devices",
+    "kev": "KEV",
+    "lastSync": "Last sync"
+  },
+  "drawer": {
+    "backToCve": "Back to CVE",
+    "backToDevice": "Back to device",
+    "backToSoftware": "Back to software",
+    "backToFix": "Back to fix"
+  },
+  "software": {
+    "title": "Software",
+    "description": "Applications, packages, browser and IDE extensions and AI models Falcon Discover has found on your devices.",
+    "searchPlaceholder": "Search software or vendor…",
+    "type": "Type",
+    "allTypes": "All",
+    "sortBy": "Sort by",
+    "flagged": "Flagged",
+    "flaggedOnly": "Flagged only",
+    "sort": {
+      "devices": "Most devices",
+      "name": "Name",
+      "recent": "Newest"
+    },
+    "devices": "Devices",
+    "versions": "Versions",
+    "firstSeen": "First seen",
+    "category": "Category",
+    "latestAvailable": "Latest available",
+    "threat": "Threat level",
+    "hostApp": "Runs in",
+    "unknownVendor": "Unknown vendor",
+    "noVersion": "No version reported",
+    "device": "Device",
+    "platform": "Platform",
+    "version": "Version",
+    "installedVersions": "Installed versions",
+    "about": "What this is",
+    "onDevices": "Installed on",
+    "deviceCount": "{count, plural, one {# device} other {# devices}}",
+    "showing": "Showing {shown} of {total} devices.",
+    "rowSummary": "{devices} devices · {versions} versions",
+    "columns": {
+      "software": "Software",
+      "type": "Type",
+      "category": "Category"
+    },
+    "types": {
+      "application": "Application",
+      "browser_extension": "Browser extension",
+      "dev_package": "Developer package",
+      "ide_extension": "IDE extension",
+      "llm": "AI model",
+      "mcp": "MCP server"
+    },
+    "typeHelp": {
+      "application": "A program installed on the device, as reported by the Falcon sensor.",
+      "browser_extension": "An extension installed in a web browser. Extensions can read page content, so Falcon flags risky ones.",
+      "dev_package": "A library installed through a package manager such as npm or pip. Outdated packages are a common source of vulnerabilities.",
+      "ide_extension": "A plug-in installed in a code editor.",
+      "llm": "A local AI model found on the device.",
+      "mcp": "A Model Context Protocol server that lets AI tools reach local files or services."
+    },
+    "empty": {
+      "filtered": "No software matches your filters.",
+      "none": "No software was found as of the last complete update.",
+      "unknown": "No software to show. The inventory is not complete, so this does not mean there is none."
+    },
+    "sheet": {
+      "title": "Software",
+      "notFound": "Software not found",
+      "notFoundHelp": "This item is not in the inventory of this organization."
+    },
+    "stats": {
+      "items": "Software items",
+      "devices": "Devices reporting",
+      "types": "Types",
+      "asOf": "Data as of"
+    }
+  },
+  "executive": {
+    "headlineNone": "No Critical or High findings are open.",
+    "tiles": {
+      "kev": "Known exploited (KEV)",
+      "kevNote": "On {count} devices",
+      "kevNone": "None known",
+      "internet": "On the internet",
+      "internetNote": "Critical or High, on {count} devices"
+    },
+    "source": {
+      "title": "Where the risk is",
+      "note": "Findings by severity, on endpoints and on internet-facing assets.",
+      "endpoint": "Endpoints",
+      "external": "Internet-facing",
+      "empty": "No findings."
+    },
+    "aging": {
+      "title": "How long it has been open",
+      "note": "Critical and High findings, by age.",
+      "d30": "Under 30 days",
+      "d90": "30 to 90 days",
+      "d180": "90 to 180 days",
+      "older": "Over 180 days",
+      "unknown": "{count} Critical or High findings have no first-seen date and are not counted above.",
+      "empty": "No Critical or High findings."
+    },
+    "kev": {
+      "title": "Exploited in the wild",
+      "note": "CVEs on the CISA known exploited list that affect this organization.",
+      "hosts": "{count, plural, one {# device} other {# devices}}",
+      "empty": "None of the open findings are on the CISA known exploited list."
+    },
+    "external": {
+      "title": "Internet-facing surface",
+      "note": "{count, plural, one {# external asset has} other {# external assets have}} findings. Worst first.",
+      "ports": "Ports {ports}",
+      "findings": "{count, plural, one {# finding} other {# findings}}",
+      "empty": "No internet-facing assets with findings."
+    },
+    "headlineBase": "{critical} Critical and {high} High findings are open on {devices} devices.",
+    "headlineKev": "{kev, plural, one {# vulnerability is} other {# vulnerabilities are}} known to be exploited in attacks (CISA KEV).",
+    "headlineKevNone": "None are known to be exploited in attacks (CISA KEV).",
+    "headlineInternet": "{internet, plural, one {# Critical or High finding is} other {# Critical or High findings are}} on internet-facing assets.",
+    "headlineInternetNone": "None are on internet-facing assets."
+  },
+  "settings": {
+    "title": "Settings",
+    "sections": {
+      "connections": "Connections",
+      "people": "Users and audit",
+      "data": "Organizations and data",
+      "system": "System"
+    },
+    "cards": {
+      "falcon": "Old shared connection (advanced)",
+      "feeds": "CVE feeds",
+      "line": "LINE bot (system)",
+      "email": "Email",
+      "tenants": "Organizations",
+      "team": "Users",
+      "audit": "Audit log",
+      "system": "Data status"
+    },
+    "drawer": {
+      "falcon": "The old CrowdStrike connection shared by several organizations. New organizations should use their own connection.",
+      "feeds": "Public CVE List and CISA KEV schedule.",
+      "line": "The system's LINE connection and the SOC team's own chats. Not the organizations' chats.",
+      "email": "Senders, recipients and the alerts they get.",
+      "tenants": "Create an organization, then set its own CrowdStrike connections and its own LINE sources and groups.",
+      "team": "Invite people and manage who can sign in.",
+      "audit": "Sign-ins, invites and changes, newest first.",
+      "system": "Is data pulled, stored and served from our own database?"
+    },
+    "chip": {
+      "unavailable": "Status unavailable",
+      "setup": "Needs setup",
+      "syncingProgress": "Syncing {read}/{total}",
+      "syncing": "Syncing",
+      "neverSynced": "Not synced yet",
+      "syncFailed": "{count, plural, one {Sync failed for # CID} other {Sync failed for # CIDs}}",
+      "syncPartial": "{count, plural, one {# CID incomplete} other {# CIDs incomplete}}",
+      "syncedAgo": "Synced {ago}",
+      "feedOff": "Off",
+      "feedError": "Sync problem",
+      "feedNever": "Never synced",
+      "feedStale": "Stale · {ago}",
+      "feedFresh": "Updated {ago}",
+      "lineForward": "Forwarding problem",
+      "lineOk": "Connected",
+      "mailNoRecipient": "No recipients",
+      "mailFailed": "Last send failed",
+      "mailOk": "{count, plural, one {# recipient} other {# recipients}}",
+      "tenantsNone": "No organizations",
+      "tenantsFailed": "{count, plural, one {# organization failed} other {# organizations failed}}",
+      "tenantsCheck": "{count, plural, one {# organization to check} other {# organizations to check}}",
+      "tenantsOk": "{count, plural, one {# organization} other {# organizations}}",
+      "teamNoMfa": "{count} without MFA",
+      "teamInvites": "{count, plural, one {# pending invite} other {# pending invites}}",
+      "teamUsers": "{count, plural, one {# user} other {# users}}",
+      "auditNone": "No entries yet",
+      "auditDenied": "{count} denied or failed in 24 h",
+      "auditLast": "Latest {ago}",
+      "sysPartial": "{count, plural, one {# organization incomplete} other {# organizations incomplete}}",
+      "sysFailed": "{count, plural, one {# organization failed} other {# organizations failed}}",
+      "tenantsUnlinked": "{count} without CrowdStrike"
+    },
+    "system": {
+      "refresh": "Refresh",
+      "auto": "Refreshes by itself every 15 seconds.",
+      "falconTitle": "Pulled from CrowdStrike Falcon",
+      "falconNote": "Read-only. Each organization's findings are read from Falcon and saved here.",
+      "running": "Syncing now",
+      "lastRun": "Last sync {ago}",
+      "noRun": "Never synced",
+      "empty": "Nothing has been pulled from Falcon yet.",
+      "noTenant": "(not linked to an organization)",
+      "cols": {
+        "org": "Organization",
+        "state": "Status",
+        "asOf": "Data as of",
+        "lastRun": "Last run",
+        "findings": "Findings stored",
+        "closed": "Closed in 7 days",
+        "took": "Took"
+      },
+      "states": {
+        "complete": "Complete",
+        "partial": "Incomplete",
+        "failed": "Failed"
+      },
+      "dbTitle": "Stored in our database",
+      "dbNote": "What was pulled is saved in the portal's own database. Every page reads from here and does not call Falcon each time.",
+      "db": {
+        "findings": "Open findings",
+        "closedFindings": "Closed findings",
+        "cves": "CVEs",
+        "publicCves": "Public CVE list",
+        "kev": "KEV",
+        "software": "Software",
+        "organizations": "Organizations"
+      },
+      "cacheTitle": "Summary cache",
+      "cacheNote": "Heavy summaries are kept in memory and in the database, so the next person gets the answer at once without recomputing. The higher the hit rate, the faster the pages.",
+      "cache": {
+        "hitRate": "Served from cache",
+        "entries": "Entries in cache",
+        "avg": "Average build",
+        "slowest": "Slowest build",
+        "hits": "From memory {memory} · from database {db} · built {builds}",
+        "warmed": "Cache warmed {ago}",
+        "warming": "Warming the cache",
+        "notWarmed": "Cache not warmed yet",
+        "none": "No data yet"
+      },
+      "ms": "{n} ms",
+      "sec": "{n} s",
+      "min": "{n} min"
+    },
+    "description": "Manage organizations (each with its own CrowdStrike and LINE), users, the SOC LINE bot, CVE feeds, email and the audit log.",
+    "sectionNotes": {
+      "connections": "Where data comes from and where alerts go",
+      "people": "Organizations, who can sign in, and what they did",
+      "data": "Organizations with their own CrowdStrike and LINE, the people who sign in, and whether the data is current",
+      "system": "The SOC's own LINE bot, CVE feeds, email and the audit log"
+    },
+    "legacyLink": "Old shared connection (advanced)",
+    "legacyWarning": "New organizations should use their own CrowdStrike connection in Organizations."
+  },
+  "tenants2": {
+    "back": "All organizations",
+    "listTitle": "Organizations",
+    "add": "Add organization",
+    "empty": "No organizations yet. Add one: name it, connect CrowdStrike, then set up LINE.",
+    "openOrg": "Open {name}",
+    "gone": "This organization no longer exists.",
+    "chips": {
+      "cs": "CrowdStrike: {count, plural, one {# connection} other {# connections}}",
+      "csNone": "CrowdStrike not connected",
+      "csShared": "CrowdStrike: shared login",
+      "line": "LINE: {sources, plural, one {# news source} other {# news sources}} · {groups, plural, one {# group} other {# groups}}",
+      "lineNone": "LINE not set up",
+      "csUnconnected": "{count, plural, one {# CID} other {# CIDs}} without login"
+    },
+    "notices": {
+      "syncStarted": "Sync started. This can take a few minutes."
+    },
+    "errors": {
+      "exists": "An organization with this name already exists.",
+      "cid_taken": "This CID belongs to another organization.",
+      "invalid_cid": "A CID has 32 hexadecimal characters (0-9, a-f).",
+      "invalid_base_url": "Use an official CrowdStrike API URL, for example https://api.us-2.crowdstrike.com.",
+      "client_id_required": "Enter the Client ID.",
+      "client_secret_required": "Enter the Client Secret.",
+      "confirm_cid": "The CID you typed does not match.",
+      "confirm_name": "The name you typed does not match.",
+      "chat_taken": "A room can belong to only one organization, in every role.",
+      "invalid_chat": "A room ID may only contain letters, digits, - and _ (5 to 64 characters).",
+      "no_cids": "Add a CrowdStrike connection to this organization first.",
+      "running": "A sync is already running.",
+      "not_configured": "Add a CrowdStrike connection first.",
+      "no_shared": "There is no shared connection to move.",
+      "unknown": "Something went wrong. Try again.",
+      "name_exists": "An organization with this name already exists.",
+      "cid_has_connection": "This CID already has a connection."
+    },
+    "test": {
+      "okLogin": "Login works. Add the CID to also check that it can be read.",
+      "okRead": "Login works and this CID can be read ({count} findings found).",
+      "invalid_credentials": "Wrong Client ID or Client Secret (or the wrong cloud). Check both and try again.",
+      "missing_scope": "Login works, but the API client lacks a scope. Give it read access to Spotlight Vulnerabilities (Spotlight: Read), Discover (Assets: Read) and Exposure Management (External Assets: Read).",
+      "unreachable": "Could not reach CrowdStrike. Check the cloud address and the network.",
+      "error": "CrowdStrike returned an unexpected error. Try again later.",
+      "cid_not_authorized": "Login works, but this API client cannot read this CID: the CID belongs to another CrowdStrike tenant. Use the API client created in that tenant's own Falcon."
+    },
+    "wizard": {
+      "done": "Organization created. You can keep adjusting it here.",
+      "leave": "Leave and open the organization",
+      "cancel": "Back",
+      "steps": {
+        "label": "Steps to create an organization",
+        "org": "Organization",
+        "falcon": "CrowdStrike",
+        "line": "LINE"
+      },
+      "org": {
+        "title": "Name the organization",
+        "help": "Step 1 of 3. Only the name now. CrowdStrike and LINE come next, and you can skip them.",
+        "name": "Organization name",
+        "nameHelp": "The name users see. You can rename it later.",
+        "creating": "Creating…",
+        "next": "Create and continue"
+      },
+      "falcon": {
+        "title": "Connect CrowdStrike",
+        "help": "Step 2 of 3. This organization's Falcon API client (Client ID, Secret, cloud) and the CID to read. Saving checks them with Falcon.",
+        "savedSync": "CrowdStrike saved and reading its data now.",
+        "saved": "CrowdStrike saved.",
+        "skip": "Skip for now"
+      },
+      "line": {
+        "title": "Set up LINE",
+        "help": "Step 3 of 3. News sources and notification groups are two separate lists, each saved on its own.",
+        "skip": "Skip"
+      }
+    },
+    "falcon": {
+      "title": "CrowdStrike",
+      "help": "Each connection is one Falcon API client (Client ID and Secret, cloud) reading one CID. Fill them in for this organization; they are checked against Falcon when you save.",
+      "cloud": "Falcon cloud",
+      "name": "Connection name (optional)",
+      "namePlaceholder": "e.g. Head office",
+      "customHelp": "Only for a non-standard cloud. It must be an https address.",
+      "clientId": "Client ID",
+      "clientSecret": "Client Secret",
+      "secretKeep": "Never shown again. Leave empty to keep the saved secret.",
+      "secretHelp": "Stored encrypted and never shown again.",
+      "cid": "CID",
+      "cidInvalid": "A CID has exactly 32 hexadecimal characters (0-9, a-f).",
+      "cidFixed": "The CID cannot be changed. Remove the connection and add it again to change it.",
+      "cidHelp": "32 hexadecimal characters, lower case. Found in Falcon under Host setup and management.",
+      "saving": "Saving…",
+      "saveEdit": "Save changes",
+      "saveSync": "Save and read data now",
+      "saveOnly": "Save only",
+      "testing": "Testing…",
+      "test": "Test connection",
+      "unnamed": "Connection {cid}",
+      "dataAsOf": "Data as of",
+      "copyCid": "Copy CID {cid}",
+      "remove": "Remove",
+      "removeWarn": "Removing this connection also deletes the data already read for this CID (findings, devices, software). This cannot be undone.",
+      "removeConfirm": "Type the CID {cid} to confirm",
+      "removing": "Removing…",
+      "removeAction": "Remove connection and data",
+      "syncing": "Syncing…",
+      "syncNow": "Sync now",
+      "adopted": "{count, plural, one {# CID} other {# CIDs}} moved to this organization.",
+      "added": "Connection saved.",
+      "addedSync": "Connection saved and reading its data now.",
+      "none": "This organization has no CrowdStrike connection yet. Add one to read its data.",
+      "sharedTitle": "Using the shared connection (old way)",
+      "sharedChip": "Shared",
+      "sharedHelp": "These CIDs are still read with the one shared login. Move them to this organization so they can be changed separately.",
+      "adopting": "Moving…",
+      "adopt": "Move to this organization",
+      "noShared": "The shared login is no longer saved, so these CIDs cannot be moved. Add a connection for each instead.",
+      "addTitle": "Add CrowdStrike",
+      "add": "Add CrowdStrike",
+      "checkOnSave": "Saving checks the login and the CID with Falcon first; nothing is saved if Falcon refuses it. \"Test connection\" does the same check without saving.",
+      "addedLater": "Saved. It will be read in the next round (another sync is running now).",
+      "unconnectedTitle": "No login of its own yet",
+      "unconnectedHelp": "The system does not read these CIDs and what is shown for them is old data. Add the API client of each CID's own Falcon.",
+      "oldData": "Old data: {count} findings from {time}.",
+      "noData": "Nothing stored.",
+      "addLogin": "Add login",
+      "convert": "Try the old shared login",
+      "converting": "Trying…",
+      "convertHelp": "Checks each CID with the old shared login and keeps it only where Falcon allows it.",
+      "convertOk": "Now has its own connection.",
+      "convertFail": "The old login cannot read this CID.",
+      "convertedSome": "{count, plural, one {# CID} other {# CIDs}} now have their own connection."
+    },
+    "line": {
+      "title": "LINE",
+      "help": "News sources and notification groups are two separate lists, each saved on its own.",
+      "sources": {
+        "title": "News sources (several rooms)",
+        "help": "LINE rooms that send news to the bot (checked against this organization's devices only).",
+        "empty": "No news source yet.",
+        "save": "Save news sources",
+        "both": "A room here is also a notification group: the bot would answer there twice."
+      },
+      "destinations": {
+        "title": "Notification groups (several groups)",
+        "help": "LINE groups where the bot sends CVE results for this organization.",
+        "empty": "No notification group yet.",
+        "save": "Save notification groups",
+        "both": "A group here is also a news source: the bot would answer there twice."
+      },
+      "namePlaceholder": "Room name",
+      "name": "Room name",
+      "copyChat": "Copy room ID {chat}",
+      "remove": "Remove {name}",
+      "chatId": "Room ID",
+      "add": "Add",
+      "invalid": "A room ID is 5 to 64 characters: letters, digits, - and _.",
+      "duplicate": "This room is already in the list.",
+      "saved": "LINE settings saved.",
+      "saving": "Saving…",
+      "save": "Save LINE settings",
+      "saveFinish": "Save and finish",
+      "dirty": "Changes not saved yet",
+      "fallback": "With no notification group, the bot replies in the room the news came from.",
+      "hint": "To find a room ID, add the bot to the group and type /chatid there. The bot answers with the ID.",
+      "pending": "A room ID is typed but not added yet: Save adds it.",
+      "finish": "Finish",
+      "finishBlocked": "Save or clear the changes above first."
+    },
+    "data": {
+      "title": "Users and data",
+      "help": "Who can sign in to this organization and how its data is doing.",
+      "users": "Users",
+      "manageUsers": "Manage users",
+      "sync": "Data sync",
+      "dataAsOf": "Complete data as of",
+      "messages": "Messages from the last sync"
+    },
+    "status": {
+      "failedOld": "The last read failed. The numbers shown are OLD data from the last complete update: {time}.",
+      "failedNone": "The last read failed and nothing complete was ever stored.",
+      "partial": "Only part of the data was read; numbers may be lower than real. Last complete update: {time}.",
+      "complete": "Complete. Last complete update: {time}.",
+      "not_synced": "Not read yet.",
+      "no_connection": "No login of its own: the system does not read this. Any numbers are old data.",
+      "no_cids": "No CrowdStrike connection yet, no data loaded."
+    },
+    "banner": {
+      "no_cids": "No CrowdStrike connection yet, no data loaded. Fill in the CrowdStrike section: Client ID, Client Secret, cloud and CID.",
+      "no_connection": "This organization's CIDs have no login of their own, so no data is read and what is shown is old. Add each one's own login in the CrowdStrike section.",
+      "action": "Go to CrowdStrike"
+    }
+  },
+  "easm": {
+    "tab": "External surface",
+    "title": "External attack surface (EASM)",
+    "description": "Internet-facing IP addresses and domains Falcon EASM found for your organization, and what is wrong on them.",
+    "asOf": "Data as of {time}",
+    "updated": "Last updated {time}",
+    "notUpdated": "Not updated yet",
+    "noData": "No data",
+    "unknown": "Unknown",
+    "kpi": {
+      "ips": "IP addresses",
+      "rootDomains": "Root domains",
+      "subdomains": "Subdomains",
+      "findings": "Findings on external assets",
+      "findingsNote": "on {assets} assets"
+    },
+    "tiles": {
+      "exprt": "Vulnerabilities by ExPRT rating",
+      "type": "Vulnerabilities by type",
+      "perimeter": "IP addresses by perimeter",
+      "reviewIps": "IP addresses by review status",
+      "reviewRoots": "Root domains by review status",
+      "online": "IP addresses online / offline",
+      "found": "Discovered by",
+      "foundNote": "How Falcon found the external assets.",
+      "cloud": "Cloud providers",
+      "cloudNote": "Top cloud providers hosting the IP addresses."
+    },
+    "center": {
+      "findings": "findings",
+      "ips": "IPs",
+      "domains": "domains"
+    },
+    "type": {
+      "vulnerability": "Vulnerability",
+      "misconfiguration": "Misconfiguration",
+      "other": "Other"
+    },
+    "perimeter": {
+      "official": "Official",
+      "unofficial": "Unofficial"
+    },
+    "review": {
+      "reviewed": "Reviewed",
+      "notReviewed": "Not reviewed"
+    },
+    "online": {
+      "online": "Online",
+      "offline": "Offline"
+    },
+    "found": {
+      "surface": "Surface scan",
+      "user": "Added by a user"
+    },
+    "empty": {
+      "title": "No external assets",
+      "body": "External assets are read from Falcon EASM. None were found for this organization. If you expect some, ask your TENIX SOC to check that the Falcon API client has the scope \"Falcon Exposure Management external assets: read\"."
+    }
+  },
+  "foundation": {
+    "tier": {
+      "help": "What are P1 / P2 / P3?",
+      "suppressed": "Suppressed findings are not counted in any tier. Escalations (internet-facing, critical asset, CISA overdue) never change the tier; they appear as extra chips.",
+      "P1": {
+        "name": "Fix now",
+        "definition": "Fix now: a vulnerability already exploited in the wild (in CISA KEV or Falcon exploit status 60-90), or a Critical that Falcon ExPRT also rates Critical."
+      },
+      "P2": {
+        "name": "Fix in cycle",
+        "definition": "Fix in the regular cycle: not P1, but Critical, or ExPRT High/Critical, or exploit code is available (exploit status 30)."
+      },
+      "P3": {
+        "name": "Plan",
+        "definition": "Plan the fix: everything else."
+      }
+    },
+    "reasons": {
+      "kev": "KEV",
+      "exprt": "ExPRT",
+      "exploited": "Exploited",
+      "internet": "Internet-facing",
+      "critical": "Critical asset",
+      "overdue": "CISA overdue"
+    },
+    "coverage": {
+      "full": "Held in full",
+      "countOnly": "Counted only",
+      "part": "Held {percent}% ({held})"
+    },
+    "stale": "Old data"
+  },
+  "news": {
+    "title": "CVE news",
+    "description": "Which CVEs in the news affect you, and what state they are in.",
+    "soon": "Under development",
+    "soonBody": "This page is being built. News about CVEs and whether they affect your devices will appear here."
+  },
+  "watch": {
+    "label": "Watch",
+    "watch": "Add {name} to the watchlist",
+    "unwatch": "Remove {name} from the watchlist",
+    "removed": "Removed {name} from the watchlist",
+    "undo": "Undo"
+  },
+  "retention": {
+    "banner": {
+      "title": "Data for severity {levels} will be deleted in {time}",
+      "at": "on {date}",
+      "undo": "Cancel deletion",
+      "view": "View settings",
+      "undoFailed": "Could not cancel the deletion. Try again.",
+      "undone": "Deletion cancelled."
+    },
+    "time": {
+      "dh": "{days} d {hours} h",
+      "hm": "{hours} h {minutes} min",
+      "m": "{minutes} min",
+      "soon": "less than 1 min"
+    },
+    "title": "Data retention",
+    "sub": "{org} · which severities the system keeps in detail",
+    "info": "Un-ticking a severity stops collecting it at once. Its stored rows are deleted only after {days} days; ticking it again inside that time cancels the deletion. Falcon totals on the Overview never change: they come from Falcon's own counts.",
+    "sliced": "This organization has {total} findings in Falcon. The system keeps detail for {held} of them; the rest is kept as totals only. A tick means \"may be stored\" and does not change the Falcon totals.",
+    "table": {
+      "level": "Severity",
+      "falcon": "In Falcon",
+      "held": "Held",
+      "keep": "Keep {level}"
+    },
+    "state": {
+      "counting": "Totals only",
+      "rebuilding": "Re-reading from Falcon",
+      "pending": "Deleted in {time}",
+      "pendingAt": "({date})",
+      "undo": "Cancel deletion"
+    },
+    "grace": {
+      "title": "Un-ticking does not delete at once",
+      "body": "Stored data of an un-ticked severity is deleted after {days} days. Tick it again within {days} days and nothing is lost. After that it has to be read again from Falcon, which can take a while."
+    },
+    "confirm": {
+      "title": "Stop keeping detail for {levels}?",
+      "body": "Collecting stops now. Stored rows of {levels} are deleted in {days} days ({date}). Falcon totals on the Overview do not change. You can undo this until then.",
+      "yes": "Yes, save",
+      "no": "Back"
+    },
+    "save": "Save",
+    "close": "Close",
+    "saved": "Saved.",
+    "readOnly": "You can view these settings but only an administrator of the organization can change them.",
+    "keepOne": "Keep at least one severity.",
+    "error": {
+      "keep_empty": "Keep at least one severity.",
+      "invalid_severity": "One of the severities is not valid.",
+      "network": "The server could not be reached. Nothing was saved.",
+      "generic": "Could not save. Nothing was changed."
+    },
+    "unavailable": "These settings are not available for this organization.",
+    "noOrg": "Choose an organization first.",
+    "p1Note": "Always-keep-P1 is not offered: KEV and exploited findings of an un-ticked severity are deleted with it."
+  },
+  "notifyPrefs": {
+    "title": "LINE notification settings",
+    "sub": "{org} · what is sent to the organization's LINE group",
+    "enabled": "Send notifications",
+    "enabledOff": "Notifications are off. Nothing is sent to LINE.",
+    "group": "LINE group: {names}",
+    "groupNone": "No LINE group is connected for this organization.",
+    "test": "Send test message",
+    "testSent": "Test message sent to {n} group(s).",
+    "testNoLine": "No LINE group is set up for this organization.",
+    "testFailed": "The test message could not be sent.",
+    "severities": "Send when a vulnerability of this severity is found",
+    "severitiesHint": "Choose at least one. To stop all messages use the switch at the top.",
+    "oneRequired": "Choose at least 1 severity",
+    "p1Always": "Always send P1 (KEV and exploited), even if its severity is not ticked",
+    "default": "Default: all severities",
+    "devices": "Device names in the message",
+    "mode": {
+      "all": "Every affected device",
+      "watched": "Only devices on my watchlist",
+      "watchedHint": "If none of the affected devices is watched, the message carries counts only.",
+      "top": "Only the {n} most important devices",
+      "topLabel": "Only the top",
+      "topUnit": "devices",
+      "topHint": "Ranked by Critical CVEs, then number of CVEs, then name."
+    },
+    "watchedCount": "{n} watched",
+    "maxNames": "Show at most",
+    "maxNamesUnit": "names per message; the rest become \"and N more\"",
+    "news": "News about CVEs",
+    "newsPossible": "Also tell me about \"possibly affected\" (product match only)",
+    "newsHostNames": "Show host names in news messages",
+    "preview": "Message preview",
+    "previewSample": "Sample with invented names: this organization has no CVE yet.",
+    "previewDropped": "With these options nothing would be sent.",
+    "previewTruncated": "The list of names is shortened.",
+    "previewFailed": "Preview is not available right now.",
+    "previewLoading": "Building preview",
+    "save": "Save",
+    "close": "Close",
+    "saved": "Saved.",
+    "readOnly": "You can view these settings but only an administrator of the organization can change them.",
+    "defaults": "No settings saved yet: messages go out as before (every severity, every device name).",
+    "error": {
+      "severities_empty": "Choose at least one severity, or switch notifications off.",
+      "invalid_severity": "One of the severities is not valid.",
+      "invalid_mode": "The device list option is not valid.",
+      "invalid_top_n": "The number of top devices must be 1 to 100.",
+      "invalid_max_names": "The number of names must be 1 to 50.",
+      "network": "The server could not be reached. Nothing was saved.",
+      "generic": "Could not save. Nothing was changed.",
+      "forbidden": "Only an administrator of the organization can change this.",
+      "invalid_matrix": "The matrix is not valid.",
+      "invalid_esc_days": "Days must be 1 to 30.",
+      "invalid_group_levels": "The host group list is not valid (at most 100)."
+    },
+    "lv": {
+      "title": "Notification level matrix",
+      "on": "Filter by notification level (CVE level x asset level) instead of the CVE severity alone",
+      "off": "Off: the severities above filter the CVE severity, as before.",
+      "hint": "Rows: CVE level. Columns: asset level (Unassigned counts as Medium). The severities above then filter the result.",
+      "corner": "CVE \\ Asset",
+      "cell": "Notification level for CVE {cve} on an asset of level {asset}",
+      "reset": "Reset to default",
+      "exCve": "CVE {cve} on a {asset} asset",
+      "exTitle": "Examples",
+      "gridLabel": "Matrix of notification levels",
+      "escTitle": "Raise to Critical when the machine is being attacked",
+      "escAlert": "A Falcon alert on that device in the last",
+      "escDays": "days",
+      "escKev": "Also when the CVE is exploited in the wild (CISA KEV / exploit status), even without an alert on the device",
+      "escKevHint": "Off by default: this is weaker evidence and is only shown as a badge.",
+      "ev": {
+        "unknown": "Alert access not checked yet.",
+        "ok": "Falcon alerts can be read for this organization.",
+        "forbidden": "No permission to check evidence: the Falcon API client needs the Alerts read scope. No escalation until it is added."
+      },
+      "groupsTitle": "Host group to asset level",
+      "groupsHint": "Used when a device has no level on the watchlist and Falcon has none. The highest level of the device's groups wins.",
+      "groupPlaceholder": "Host group name",
+      "groupAdd": "Add group",
+      "groupRemove": "Remove group {name}",
+      "groupLevel": "Asset level of group {name}",
+      "sources": "Order: watchlist level, Falcon asset criticality, host group, then Unassigned."
+    }
+  },
+  "settingsLinks": {
+    "notify": "Notification settings",
+    "retention": "Data retention",
+    "notifyHint": "What is sent to LINE",
+    "retentionHint": "Which severities are kept in detail"
+  },
+  "graphView": {
+    "title": "Graph",
+    "description": "Fixes, products and hosts as relationships",
+    "lensLabel": "Graph view",
+    "lens": {
+      "fix": "What to fix first",
+      "fixHint": "fix → hosts",
+      "matrix": "Product × host group",
+      "matrixHint": "where it spreads",
+      "focus": "Blast radius",
+      "focusHint": "CVE · fix · host"
+    },
+    "search": {
+      "placeholder": "Search CVE, fix, product, host",
+      "none": "No match",
+      "label": "Search the graph"
+    },
+    "kind": {
+      "cve": "CVE",
+      "fix": "Fix",
+      "product": "Product",
+      "host": "Host"
+    },
+    "filters": {
+      "label": "Filters",
+      "tier": "Tier",
+      "p1": "P1 Fix now",
+      "p2": "P2 Fix in cycle",
+      "p3": "P3",
+      "p3None": "not held in detail",
+      "only": "Only",
+      "kev": "CISA KEV",
+      "internet": "Internet-facing",
+      "by": "Group by",
+      "value": "Show",
+      "all": "All",
+      "top": "Show",
+      "topN": "Top {count}",
+      "dim": {
+        "group": "Host group",
+        "os": "Operating system",
+        "site": "Site"
+      }
+    },
+    "crumb": {
+      "label": "Path",
+      "back": "Back",
+      "root": "Whole organization",
+      "fix": "Fix: {name}",
+      "product": "Product: {name}",
+      "cve": "CVE: {name}",
+      "host": "Host: {name}",
+      "group": "Group: {name}",
+      "os": "OS: {name}",
+      "site": "Site: {name}"
+    },
+    "sub": {
+      "fix": "{fixes} fixes · {hosts} hosts · {findings} {unit}",
+      "matrix": "{hosts} hosts · {products} products",
+      "focus": "{hosts} hosts · {findings} {unit} involved"
+    },
+    "unit": {
+      "p1": "P1 findings",
+      "all": "findings"
+    },
+    "stamp": {
+      "old": "Old data",
+      "partial": "Incomplete {percent}%",
+      "partialNoPct": "Incomplete"
+    },
+    "view": {
+      "label": "Display",
+      "graph": "Graph",
+      "table": "Table"
+    },
+    "col": {
+      "fix": "Fixes (ranked by findings closed)",
+      "hostsMax": "Hosts (top 12)",
+      "partsCve": "Related CVEs",
+      "partsCveOf": "Product / fix",
+      "partsHost": "Fixes needed on this host"
+    },
+    "node": {
+      "findings": "{count} findings",
+      "hosts": "{count} hosts",
+      "share": "{percent}% of {total}",
+      "otherFixes": "Other ({count} fixes)",
+      "otherDim": "Other ({count})",
+      "otherHosts": "Other ({count} hosts)",
+      "otherCves": "Other ({count} CVEs)",
+      "otherFixesHost": "Other ({count} fixes)",
+      "kev": "KEV",
+      "internet": "internet-facing",
+      "noFix": "No fix named by Falcon",
+      "noFixToast": "Falcon names no fix for this item, so there is no fix page. Use the product filter instead.",
+      "otherToast": "The rest is in the list beside the graph.",
+      "drill": "Click to drill in",
+      "drillHosts": "Click to break down into hosts",
+      "aria": "{name}: {hosts} hosts, {findings} findings",
+      "ariaFindings": "{name}: {findings} findings",
+      "ariaHosts": "{name}: {hosts} of {total} hosts",
+      "ariaHostsOnly": "{name}: {hosts} hosts",
+      "tipLine": "{hosts} hosts · {findings} findings (P1 {p1})",
+      "tipKev": "KEV {kev} · on {inet} internet-facing hosts",
+      "openCenter": "Open details of {name}",
+      "centerAria": "{name}"
+    },
+    "hostsHint": "Links between fixes and hosts show on hover or focus (too many to draw at once).",
+    "svgAria": {
+      "fix": "Fixes linked to {dim}",
+      "fixHost": "Fixes linked to hosts",
+      "focus": "Blast radius of {name}"
+    },
+    "legend": {
+      "p1": "P1 findings",
+      "p2": "P2 findings",
+      "hosts": "Hosts",
+      "width": "Line width = hosts joined",
+      "dots": "Dot (CVE only)",
+      "shade": "Darker = larger share of the group's hosts",
+      "cell": "Number = hosts",
+      "rows": "Rows ranked by hosts affected"
+    },
+    "focus": {
+      "open": "Open details",
+      "kev": "KEV",
+      "kevN": "KEV {count}",
+      "internet": "Internet-facing",
+      "internetN": "Internet-facing {count}",
+      "hostsLine": "{count} hosts",
+      "unknown": "Not found in the current filters",
+      "pickTitle": "Blast radius: what one CVE, fix, product or host touches",
+      "pickHint": "Type in the search box, or pick one of your watched hosts.",
+      "pickWatched": "Watched hosts"
+    },
+    "panel": {
+      "pick": "Choose what to look at",
+      "pickMeta": "Search a CVE, fix, product or host",
+      "fixes": "All fixes",
+      "fixesMeta": "Ranked by findings closed · the graph shows the top ones only",
+      "products": "All products",
+      "productsMeta": "Ranked by hosts · click for the blast radius",
+      "hosts": "Hosts",
+      "hostsMeta": "Ranked by P1, KEV, findings",
+      "hostsIn": "Hosts in the chosen {dim}",
+      "total": {
+        "fix": "{count} fixes",
+        "product": "{count} products",
+        "host": "{count} hosts",
+        "hostCves": "{count} vulnerabilities on this host"
+      },
+      "showing": "Showing {count}",
+      "more": "Load {count} more of {rest}",
+      "open": "Open details",
+      "openAria": "Open details of {name}",
+      "findings": "{count} findings",
+      "hostsN": "{count} hosts",
+      "p1": "P1 {count}",
+      "kev": "KEV {count}",
+      "inet": "internet",
+      "metaFocus": "{sub} · {hosts} hosts · {findings} {unit}",
+      "empty": "Nothing to list for these filters.",
+      "label": "List"
+    },
+    "table": {
+      "caption": "Fixes that close the most risk",
+      "rank": "#",
+      "fix": "Fix",
+      "findings": "Findings",
+      "hosts": "Hosts",
+      "p1": "P1",
+      "kev": "KEV"
+    },
+    "matrix": {
+      "caption": "Top {count} products by hosts affected, split by {dim}",
+      "product": "Products ({count} at risk)",
+      "other": "Other ({count})",
+      "hasFix": "has a fix",
+      "shown": "Showing {shown} of {total} products · the rest is in the list beside the table, or search a product name",
+      "cell": "{product} in {group}: {hosts} hosts",
+      "cellOther": "{product} in other groups: {hosts} hosts",
+      "cellPct": "{hosts} hosts ({percent}% of {total})"
+    },
+    "cards": {
+      "more": "And {count} more, see the list below"
+    },
+    "state": {
+      "emptyTitle": "Nothing matches the filters",
+      "emptyBody": "The chosen filters match no host or vulnerability held in detail.",
+      "clear": "Clear filters",
+      "noneTitle": "Data appears after the first read from Falcon",
+      "noneBody": "When the read finishes, this page shows the fixes that close the most risk.",
+      "orgTitle": "Choose an organization first",
+      "orgBody": "Fixes and host groups belong to one organization. Pick one in the header.",
+      "loading": "Loading the graph"
+    },
+    "canvas": {
+      "fix": "Fixes that close the most risk",
+      "matrix": "Products × {dim}",
+      "focus": "Blast radius"
+    }
+  },
+  "newsPage": {
+    "title": "CVE news",
+    "description": "Which CVEs in the news affect your devices, and in what state.",
+    "searchPlaceholder": "Search CVE or headline",
+    "allStates": "All states",
+    "allSeverities": "All severities",
+    "severity": "Severity",
+    "period": "Period",
+    "days": "Last {n} days",
+    "kevOnly": "KEV only",
+    "state": {
+      "label": "State",
+      "exact": "Affected",
+      "exactN": "Affects {n} devices",
+      "possible": "Possibly affected",
+      "wait": "Waiting for Falcon data",
+      "not_affected": "Not affected"
+    },
+    "columns": {
+      "cve": "CVE",
+      "state": "State",
+      "cvss": "CVSS",
+      "devices": "Devices",
+      "source": "Source",
+      "time": "Changed"
+    },
+    "view": {
+      "org": "This organization",
+      "all": "All organizations"
+    },
+    "soc": {
+      "note": "Cross-organization view for the SOC. Customers never see other organizations.",
+      "tenants": "Organizations",
+      "totalDevices": "Devices in total",
+      "none": "No organization yet"
+    },
+    "newsCount": "{n} news",
+    "showHosts": "Show device names",
+    "hideHosts": "Hide device names",
+    "hostsHidden": "Device names are hidden for this organization.",
+    "hostsFailed": "Could not load device names.",
+    "moreHosts": "+{n} more",
+    "possibleHidden": "\"Possibly affected\" (product name match only) is hidden for this organization. The SOC can turn it on in the notification settings.",
+    "empty": {
+      "title": "No CVE news yet",
+      "none": "When a CVE shows up in the news we follow, it appears here with whether it affects your devices.",
+      "filteredTitle": "Nothing matches",
+      "filtered": "No CVE news matches these filters. Clear a filter to see more."
+    }
+  },
+  "easmAssets": {
+    "title": "External assets",
+    "servicesLine": "{services} services on {assets} assets",
+    "searchPlaceholder": "Search name, IP or domain",
+    "allTypes": "All types",
+    "allPerimeters": "All perimeters",
+    "allReviews": "All review states",
+    "type": {
+      "dns": "DNS domain",
+      "root": "Root domain",
+      "sub": "Subdomain"
+    },
+    "perimeter": {
+      "official": "Official",
+      "unofficial": "Unofficial"
+    },
+    "review": {
+      "reviewed": "Reviewed",
+      "notReviewed": "Not reviewed"
+    },
+    "online": "Online",
+    "offline": "Offline",
+    "new": "New",
+    "riskyPort": "Risky port",
+    "filters": {
+      "type": "Type",
+      "perimeter": "Perimeter",
+      "review": "Review status",
+      "sort": "Sort",
+      "expiredCert": "Expired certificate",
+      "expiringCert": "Certificate expires in 30 days",
+      "riskyPort": "Risky port",
+      "isNew": "New in 7 days"
+    },
+    "sort": {
+      "triage": "Not reviewed and new first",
+      "name": "Name",
+      "lastSeen": "Last seen",
+      "firstSeen": "First seen",
+      "findings": "Most findings"
+    },
+    "columns": {
+      "asset": "Asset",
+      "type": "Type",
+      "review": "Review",
+      "ports": "Open ports",
+      "cert": "TLS certificate expires",
+      "findings": "Vulnerabilities",
+      "location": "Location",
+      "firstSeen": "First seen",
+      "perimeter": "Perimeter"
+    },
+    "cert": {
+      "expired": "Expired",
+      "expiring": "In {days} d",
+      "none": "No certificate data"
+    },
+    "certCount": "{n} certificates",
+    "noServices": "No service data for this asset",
+    "noServiceData": "Ports and certificates are not read yet. They appear after the next sync.",
+    "empty": {
+      "title": "No external assets",
+      "none": "Falcon EASM has not reported any external asset for this organization.",
+      "unknown": "The assets have not been read completely yet.",
+      "filteredTitle": "Nothing matches",
+      "filtered": "No asset matches these filters. Clear a filter to see more."
+    },
+    "drawer": {
+      "title": "External asset",
+      "sub": "Read from Falcon EASM. Review status is read only here.",
+      "gone": "This asset is no longer in the list.",
+      "type": "Type",
+      "status": "Status",
+      "criticality": "Criticality",
+      "ip": "IP address",
+      "fqdn": "Domain",
+      "ptr": "Reverse DNS (PTR)",
+      "location": "Location",
+      "asn": "Network (ASN)",
+      "cloud": "Cloud",
+      "lastSeen": "Last seen",
+      "services": "Services and ports",
+      "port": "Port",
+      "app": "Application",
+      "tls": "TLS certificate expires",
+      "noServices": "Falcon found no open service on this asset.",
+      "noServiceData": "Services are not read yet. They appear after the next sync.",
+      "discovery": "How it was discovered",
+      "noDiscovery": "No discovery path was recorded.",
+      "vulns": "Vulnerabilities",
+      "noVulns": "No vulnerability found on this asset."
+    }
+  },
+  "lists2": {
+    "common": {
+      "activeFilters": "Active filters",
+      "removeFilter": "Remove this filter",
+      "clearAll": "Clear all",
+      "rows": "{count, plural, one {# item} other {# items}}",
+      "heldNote": "Showing the {held} items held in detail, out of {total} in Falcon. The rest is counted only; open Falcon to see them.",
+      "exportCsv": "Export CSV",
+      "tierName": {
+        "P1": "Fix now",
+        "P2": "Fix in cycle",
+        "P3": "Plan"
+      },
+      "tierDefinition": {
+        "P1": "Fix now: already exploited in the wild (CISA KEV or Falcon exploit status 60-90), or Critical and also ExPRT Critical.",
+        "P2": "Fix in the regular cycle: not P1, but Critical, or ExPRT High/Critical, or exploit code is available.",
+        "P3": "Plan the fix: everything else."
+      },
+      "filters": "Filters",
+      "filtersCount": "Filters ({count})"
+    },
+    "vulns": {
+      "title": "Vulnerabilities",
+      "description": "Which CVEs to fix first, or which fixes close the most.",
+      "searchPlaceholder": "Search CVE or software…",
+      "tier": "Priority tier",
+      "severity": "Severity",
+      "allSeverities": "All severities",
+      "allTiers": "All tiers",
+      "allExprt": "All ExPRT",
+      "sort": "Sort by",
+      "exploited": "Exploited",
+      "internet": "Internet-facing",
+      "kevTitle": "Listed by CISA as actively exploited. The date is CISA's due date.",
+      "internetCount": "{count} internet-facing",
+      "openFix": "Open the fix",
+      "days": "{count, plural, one {# day} other {# days}}",
+      "rowSummary": "{devices, plural, one {# device} other {# devices}} · CVSS {score}",
+      "chip": {
+        "tier": "Tier {v}",
+        "fix": "Closed by fix {id}"
+      },
+      "tabs": {
+        "cve": "By CVE",
+        "fix": "By fix"
+      },
+      "sortOptions": {
+        "priority": "Priority",
+        "severity": "Highest severity",
+        "cvss": "Highest CVSS",
+        "hosts": "Most devices",
+        "age": "Oldest",
+        "new": "Newest"
+      },
+      "columns": {
+        "tier": "Tier",
+        "cve": "CVE",
+        "severity": "Severity · CVSS",
+        "exploit": "Exploit status",
+        "devices": "Devices",
+        "fix": "Fix",
+        "age": "Age"
+      },
+      "empty": {
+        "filtered": "No vulnerabilities match your filters. Remove a filter above.",
+        "none": "No open vulnerabilities were found as of the last complete update.",
+        "unknown": "No vulnerabilities to show. The data is not complete, so this does not mean there are none."
+      }
+    },
+    "fixes": {
+      "searchPlaceholder": "Search fix or software…",
+      "totals": "{p1} P1 findings · {kev} fixes close a KEV CVE",
+      "noTitle": "Fix without a description from Falcon",
+      "rowSummary": "{devices, plural, one {# device} other {# devices}} · {cves, plural, one {# CVE} other {# CVEs}} · P1 {p1}",
+      "kevCves": "{count} KEV",
+      "impactHint": "Share of all P1 findings this fix removes",
+      "sortOptions": {
+        "impact": "Biggest impact",
+        "hosts": "Most devices",
+        "cves": "Most CVEs",
+        "title": "Name",
+        "age": "Oldest"
+      },
+      "columns": {
+        "fix": "Fix",
+        "cves": "CVEs closed",
+        "devices": "Devices",
+        "worst": "Worst",
+        "age": "Since",
+        "impact": "P1 removed"
+      },
+      "empty": {
+        "filtered": "No fixes match your filters.",
+        "none": "No fixes are needed as of the last complete update.",
+        "unknown": "No fixes to show. The data is not complete, so this does not mean there are none."
+      }
+    },
+    "fix": {
+      "title": "Fix",
+      "subtitle": "One action that closes several CVEs",
+      "what": "What to do",
+      "noFixTitle": "Update {product} to the latest version",
+      "untitled": "Fix without a description from Falcon",
+      "noFixBody": "Falcon gave no recommended action. Update {product} to the latest version.",
+      "noFixGeneric": "Falcon gave no recommended action for these findings.",
+      "facts": {
+        "p1": "P1 findings",
+        "cves": "CVEs closed",
+        "hosts": "Devices to touch",
+        "internet": "Internet-facing devices",
+        "impact": "Share of all P1",
+        "firstSeen": "Open since",
+        "tiers": "P1 · P2 · P3"
+      },
+      "kevCves": "{count} KEV",
+      "versions": "Installed versions",
+      "deviceCount": "{count, plural, one {# device} other {# devices}}",
+      "cvesTitle": "CVEs this fix closes ({count})",
+      "allCves": "See all in the list",
+      "columns": {
+        "tier": "Tier",
+        "severity": "Severity",
+        "devices": "Devices",
+        "device": "Device",
+        "os": "OS",
+        "lastSeen": "Last seen"
+      },
+      "overdue": "past CISA due date",
+      "hostsTitle": "Devices to fix ({count})",
+      "exportHosts": "Export device list (CSV)",
+      "noHosts": "No device is listed for this fix.",
+      "watch": "Watch",
+      "internet": "Internet-facing",
+      "showing": "Showing {shown} of {total} devices. The CSV has all of them."
+    },
+    "devices": {
+      "title": "Devices",
+      "description": "Every device of the organization, worst first. A device that Falcon has not seen for a while carries an old-data stamp.",
+      "searchPlaceholder": "Search name, IP or device ID…",
+      "platform": "Platform",
+      "type": "Type",
+      "lastSeen": "Last seen",
+      "hasP1": "Has P1",
+      "internet": "Internet-facing",
+      "duplicates": "Duplicates",
+      "sort": "Sort by",
+      "allPlatforms": "All platforms",
+      "allTypes": "All types",
+      "seen": {
+        "all": "Last seen: any",
+        "active": "Active, 30 days",
+        "stale7": "Unseen over 7 days",
+        "stale30": "Unseen over 30 days"
+      },
+      "sortOptions": {
+        "p1": "Most P1",
+        "hostname": "Name",
+        "lastSeen": "Last seen",
+        "critical": "Most Critical",
+        "findings": "Most findings",
+        "os": "Operating system"
+      },
+      "chip": {
+        "tier": "Has {v}"
+      },
+      "stats": {
+        "all": "All devices",
+        "p1": "With P1",
+        "internet": "Internet-facing",
+        "stale": "Unseen over 7 days"
+      },
+      "flags": {
+        "internet": "Internet-facing",
+        "duplicate": "Duplicate",
+        "staleTwin": "Possible duplicate",
+        "duplicateHint": "Shares a {reason} with another device of the same organization",
+        "notInventory": "Not in inventory",
+        "notInventoryHint": "Only the findings know this device; the device inventory has no record of it."
+      },
+      "noFindings": "No findings",
+      "twins": "{count, plural, one {# possible duplicate} other {# possible duplicates}} (older twins of re-imaged devices)",
+      "watch": "Watch",
+      "columns": {
+        "device": "Device",
+        "os": "OS",
+        "worst": "Worst severity",
+        "fixes": "Fixes",
+        "lastSeen": "Last seen",
+        "flags": "Flags"
+      },
+      "empty": {
+        "filtered": "No devices match your filters. Remove a filter above.",
+        "none": "No devices as of the last complete update.",
+        "unknown": "No devices to show. The data is not complete, so this does not mean there are none."
+      },
+      "worstDot": "Worst severity: {severity}"
+    },
+    "device": {
+      "title": "Device",
+      "build": "build",
+      "flags": {
+        "internet": "Internet-facing",
+        "duplicate": "Duplicate",
+        "staleTwin": "Possible duplicate",
+        "duplicateHint": "Shares a {reason} with another device of the same organization",
+        "contained": "Network-contained",
+        "rfm": "Reduced functionality",
+        "notInventory": "Not in inventory",
+        "notInventoryHint": "Only the findings know this device; the device inventory has no record of it.",
+        "criticality": "Asset criticality: {v}"
+      },
+      "facts": {
+        "ip": "Local IP",
+        "externalIp": "External IP",
+        "lastSeen": "Last seen",
+        "firstSeen": "First seen",
+        "domain": "Domain",
+        "site": "Site",
+        "agent": "Sensor version",
+        "groups": "Groups",
+        "tags": "Tags",
+        "deviceId": "Device ID (AID)",
+        "cid": "CID"
+      },
+      "checklist": "What to fix on this device",
+      "noFixes": "No fixes are needed on this device as of the last complete update.",
+      "noFixesUnknown": "No fixes to show. The data is not complete, so this does not mean there are none.",
+      "tick": "Mark {title} as done",
+      "untitledFix": "Fix without a description from Falcon",
+      "fixLine": "P1 {p1} · P2 {p2} · {cves, plural, one {# CVE} other {# CVEs}}",
+      "fixesMore": "and {count} more fixes",
+      "tickNote": "The ticks are only for you while this drawer is open; nothing is saved.",
+      "cvesTitle": "CVEs on this device ({count})",
+      "columns": {
+        "tier": "Tier",
+        "severity": "Severity",
+        "product": "Software",
+        "fix": "Fix"
+      },
+      "openFix": "Open",
+      "showing": "Showing the {shown} highest-priority of {total} CVEs.",
+      "software": "Software with findings",
+      "softwareCves": "{count, plural, one {# CVE} other {# CVEs}}"
+    },
+    "software": {
+      "hasP1": "Has P1 CVEs",
+      "hasKev": "Has KEV CVEs",
+      "sort": {
+        "risk": "Most P1 / KEV CVEs",
+        "devices": "Most devices",
+        "name": "Name",
+        "recent": "Newest"
+      },
+      "columns": {
+        "p1Cves": "P1 CVEs",
+        "latest": "Latest version"
+      }
+    },
+    "cveDrawer": {
+      "whyTitle": "Why this is {tier}",
+      "why": {
+        "kev": "Listed in CISA's Known Exploited Vulnerabilities catalog",
+        "exploited": "Falcon exploit status 60-90: exploitation is confirmed or very likely",
+        "critical_exprt": "Severity Critical and Falcon ExPRT also rates it Critical",
+        "critical": "Severity Critical",
+        "exprt_high": "Falcon ExPRT rates it High or Critical",
+        "exploit_code": "Exploit code is available (exploit status 30)"
+      },
+      "whyP3": "Not exploited, not Critical, ExPRT below High: plan the fix.",
+      "whyNone": "The server did not say which rule applies.",
+      "newsTitle": "In the news",
+      "news": {
+        "exact": "Affects your devices",
+        "possible": "May affect you",
+        "wait": "Waiting for Falcon to evaluate",
+        "not_affected": "Not affected"
+      },
+      "newsDevices": "{count, plural, one {# device} other {# devices}}",
+      "newsAll": "All CVE news",
+      "openFix": "Open the fix",
+      "moreFixes": "{count} more fixes",
+      "openSoftware": "Search this software",
+      "watch": "Watch",
+      "os": "OS",
+      "internet": "Internet-facing",
+      "firstSeen": "since {date}",
+      "watchAll": "Watch all ({count})"
+    },
+    "softwareDrawer": {
+      "cvesTitle": "CVEs of this software (found by name)",
+      "cvesError": "The CVE list could not be loaded.",
+      "noCves": "No CVE with an open finding matches this name.",
+      "cveDevices": "{count, plural, one {# device} other {# devices}}",
+      "allCves": "See all {count} in the CVE list",
+      "fixes": "Fixes",
+      "openFix": "Open the fix"
+    }
+  },
+  "ovw": {
+    "title": "Overview",
+    "titleAll": "Overview of all organizations",
+    "description": "How exposed you are, whether it is getting better, and what to fix first.",
+    "view": "View",
+    "view_org": "This organization",
+    "view_all": "All organizations",
+    "exec": "Executive summary",
+    "csv": "Export CSV",
+    "footer": "Data from CrowdStrike Falcon",
+    "noData": {
+      "not_synced": "No data yet",
+      "none": "There are no numbers to show",
+      "afterFirst": "The numbers appear after the first read from Falcon.",
+      "steps": "Create an API client in the customer's Falcon, add the CID, test the connection and save it in Settings > Organizations.",
+      "ask": "Ask your TENIX SOC to set up the Falcon connection."
+    },
+    "a": {
+      "title": "Fix now (P1)",
+      "note": "Exploited for real, or Critical that ExPRT also rates Critical",
+      "level": "Risk level",
+      "levels": {
+        "low": "Low",
+        "medium": "Medium",
+        "high": "High",
+        "critical": "Critical"
+      },
+      "escalated": "one step up",
+      "how": "How is it worked out?",
+      "howTitle": "Risk level = share of hosts that have a P1",
+      "rule": {
+        "low": "under 5%",
+        "medium": "5-19%",
+        "high": "20-59%",
+        "critical": "60% and over"
+      },
+      "inputs": "Now: {hosts} hosts with a P1 of {total} = {share}.",
+      "escalationRule": "One level higher when a P1 KEV past its CISA due date sits on an internet-facing host.",
+      "standard": "This is the 10CYBER standard, not a CrowdStrike value. Filter tier = P1 on the list to reproduce it.",
+      "vs7": "in 7 days",
+      "onHosts": "findings on {hosts} hosts ({pct} of {total}) · {cves} CVEs",
+      "exact": "exact",
+      "atLeast": "at least (not all read yet)",
+      "sayNone": "No P1 findings were found. Keep patching on the regular cycle.",
+      "sayDown": "{hosts} hosts ({share}) have vulnerabilities that are exploited or very likely to be. Down {change} from last week. Start with the fixes listed next to this.",
+      "sayUp": "{hosts} hosts ({share}) have vulnerabilities that are exploited or very likely to be. Up {change} from last week. Start with the fixes listed next to this.",
+      "sayFlat": "{hosts} hosts ({share}) have vulnerabilities that are exploited or very likely to be. Start with the top fixes in the list.",
+      "facts": {
+        "kev": "KEV (CISA known exploited)",
+        "exploited": "Exploited (status 60-90)",
+        "exprt": "ExPRT Critical",
+        "internet": "P1",
+        "hosts": "internet-facing hosts"
+      },
+      "factsNote": "KEV, Exploited and ExPRT count findings (one CVE on one device = one finding) and are exact counts from Falcon."
+    },
+    "b": {
+      "title": "P1 open per day",
+      "range": "Period",
+      "days": "{n} d",
+      "since": "Trend collected since {date}",
+      "noteNone": "The trend starts with the first daily snapshot",
+      "onePoint": "P1 today: {value}. The trend shows after at least 2 days of data.",
+      "needTwo": "The trend shows after at least 2 days of data.",
+      "chartLabel": "P1 findings over time, from {from} to {to}",
+      "noNew": "No new data: the line stops at the last good day.",
+      "thisWeek": "This week:",
+      "new": "new",
+      "closed": "closed",
+      "net": "net"
+    },
+    "c": {
+      "title": "What to fix first",
+      "note": "Top {n} fixes remove {share} of P1 · of {total} fixes with P1",
+      "noteShort": "{total} fixes, most impact first",
+      "noteEmpty": "No open fixes",
+      "csv": "Export CSV for IT",
+      "emptyTitle": "Nothing to fix first",
+      "emptyBody": "No fixes with findings in scope.",
+      "noP1": "No P1 findings: showing the fixes with the most P2.",
+      "col": {
+        "fix": "Fix",
+        "cves": "CVEs closed",
+        "p1": "P1",
+        "hosts": "Hosts",
+        "severity": "Highest"
+      },
+      "short": "{hosts} hosts · {cves} CVEs",
+      "internet": "internet {n}",
+      "order": "Sorted by P1 removed, then KEV, then hosts.",
+      "all": "See all {n} fixes"
+    },
+    "d": {
+      "title": "Exposure by tier",
+      "note": "{total} in Falcon in total. The solid part is held in detail.",
+      "name": {
+        "P1": "fix now",
+        "P2": "fix in cycle",
+        "P3": "plan"
+      },
+      "heldOf": "held {held} of {total} ({pct})",
+      "legendHeld": "held in detail",
+      "legendCount": "counted by Falcon only",
+      "total": "Held {held} of {total} ({pct})",
+      "heldAll": "held in full",
+      "countOnly": "counted by Falcon only"
+    },
+    "e": {
+      "title": "By severity",
+      "noteFalcon": "Exact counts from Falcon (open + reopened)",
+      "noteHeld": "Counted from the findings we hold",
+      "heldAll": "held in full",
+      "heldOf": "held {held} of {total}",
+      "countOnly": "counted only"
+    },
+    "f": {
+      "title": "Riskiest devices",
+      "note": "Most P1, then Critical",
+      "emptyTitle": "No device has a P1",
+      "emptyBody": "Nothing needs fixing on any device right now.",
+      "col": {
+        "host": "Device"
+      },
+      "internet": "internet-facing",
+      "all": "All {n} devices with a P1",
+      "allNo": "Devices with a P1"
+    },
+    "g": {
+      "title": "Most vulnerable software",
+      "note": "Most P1 CVEs, then KEV",
+      "noteDevices": "Installed on the most devices",
+      "emptyTitle": "No software read yet",
+      "emptyBody": "The software list appears after the Discover read.",
+      "col": {
+        "product": "Product",
+        "versions": "Versions",
+        "devices": "Devices",
+        "p1": "P1 CVEs"
+      },
+      "total": "{n} products on {devices} devices",
+      "all": "All software"
+    },
+    "h": {
+      "title": "External attack surface (EASM)",
+      "note": "{n} internet-facing assets",
+      "stat": {
+        "ips": "IP addresses",
+        "domains": "Domains",
+        "pending": "Waiting for review",
+        "new": "New in 7 days"
+      },
+      "risks": "{certs} expired certificates · {ports} assets with risky open ports",
+      "ports": "ports {ports}",
+      "noPorts": "no open ports read",
+      "pendingOne": "waiting for review",
+      "all": "All external assets"
+    },
+    "i": {
+      "title": "CVE news that affects you",
+      "note": "Last 7 days, matched against your devices and software",
+      "emptyTitle": "No CVE news affects you",
+      "emptyBody": "Nothing in the last 7 days.",
+      "state": {
+        "exact": "affects {n} devices",
+        "possible": "may affect",
+        "wait": "waiting for Falcon",
+        "not_affected": "not affected"
+      },
+      "all": "All CVE news ({n})"
+    },
+    "j": {
+      "title": "Data coverage and sync",
+      "note": "When each source was last read",
+      "hostsN": "{n} devices",
+      "line": {
+        "findings": "Vulnerabilities (Spotlight)",
+        "hosts": "Devices",
+        "software": "Software (Discover)",
+        "easm": "External surface (EASM)"
+      },
+      "state": {
+        "complete": "complete",
+        "partial": "incomplete",
+        "failed": "failed, old data",
+        "no_connection": "no connection, old data",
+        "not_synced": "not read yet",
+        "no_cids": "not linked"
+      },
+      "coverage": "Detail kept for {held} of {total} findings ({pct}). P1 is kept in full; the other counts come exact from Falcon.",
+      "lastRun": "Last run {time}",
+      "retention": "Data retention settings",
+      "connection": "Open the connection"
+    },
+    "k": {
+      "title": "Watchlist",
+      "count": "{hosts} devices · {auto} automatic items",
+      "addPlaceholder": "+ Add a device: type its name",
+      "noMatch": "No device found",
+      "limit": "{n} of {max}",
+      "mine": "Devices I watch",
+      "noneTitle": "No devices are watched yet. Add one above, or start with these:",
+      "watch": "watch",
+      "missing": "not found",
+      "noDetail": "no detail",
+      "remove": "Remove {name} from the watchlist",
+      "auto": "Automatic items",
+      "autoNone": "No urgent items in the last 7 days",
+      "type": {
+        "kev_added": "New KEV",
+        "critical_new": "New Critical",
+        "cve_news": "CVE news",
+        "first_impact": "First impact"
+      },
+      "criticalNew": "{findings} findings on {devices} devices",
+      "devices": "{n} devices",
+      "hint": "A star on any list adds a device here.",
+      "notify": "Notification settings",
+      "note": "Note",
+      "addNote": "+ add a note",
+      "assetLevel": "Asset level",
+      "assetLevelAuto": "Auto",
+      "assetLevelHint": "How much this device matters; used for the notification level"
+    },
+    "p": {
+      "state": {
+        "complete": "Data complete",
+        "priority": "Priority part complete",
+        "partial": "Incomplete",
+        "failed": "Cannot connect",
+        "no_connection": "No connection",
+        "not_synced": "Not read yet",
+        "no_cids": "No CID linked"
+      },
+      "tile": {
+        "all": "organizations",
+        "complete": "data normal",
+        "priority": "priority part only",
+        "partial": "first read / incomplete",
+        "broken": "cannot connect",
+        "kev": "new KEV in 7 days",
+        "overdue": "P1 past CISA due date"
+      },
+      "attention": "Look at first",
+      "attentionNote": "Most urgent first: connection broken, new KEV, past due date, incomplete",
+      "attentionNone": "Nothing needs attention",
+      "reason": {
+        "broken_connection": "connection broken",
+        "kev_new": "new KEV: {n} items",
+        "p1_overdue": "P1 past CISA due: {n}",
+        "partial": "data incomplete",
+        "stale": "no sync for over 24 h",
+        "staleHours": "old data {h} h"
+      },
+      "openConnection": "Open the connection",
+      "openOverview": "Open overview",
+      "shared": "CVEs hitting several organizations",
+      "sharedNote": "SOC only",
+      "sharedNone": "No CVE is shared yet",
+      "orgs": "{n} orgs",
+      "hosts": "{n} devices",
+      "table": "All organizations",
+      "tableNote": "Sorted by need for attention, not by P1 count (a big organization would always win)",
+      "csv": "Export CSV",
+      "search": "Search organization",
+      "sortBy": "Sort by",
+      "sort": {
+        "attention": "Urgency",
+        "p1": "P1",
+        "share": "Hosts with P1 %",
+        "delta": "Change in 7 days",
+        "asOf": "Oldest data",
+        "name": "Name"
+      },
+      "clearFilter": "Clear filter",
+      "noOrgs": "No organizations yet",
+      "noOrgsLink": "Add one in Settings > Organizations",
+      "noMatch": "No organization matches",
+      "col": {
+        "org": "Organization",
+        "state": "Data state",
+        "trend": "7 days",
+        "hostsP1": "Hosts with P1",
+        "kevNew": "New KEV",
+        "overdue": "Past due"
+      },
+      "asOfOld": "old data {ago}",
+      "fix": "Fix",
+      "open": "Open",
+      "total": "Total P1",
+      "totalStale": "Total P1 (without {n} organizations with old data)",
+      "sync": "Syncs in the last 24 hours",
+      "syncNote": "One bar per run: green complete, yellow incomplete, red failed",
+      "syncLabel": "{n} runs in 24 hours",
+      "noRuns": "no run yet"
+    }
+  }
+}

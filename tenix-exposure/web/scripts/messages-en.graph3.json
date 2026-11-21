@@ -1,0 +1,24 @@
+{
+  "graph": {
+    "description": "How devices connect to the CVEs to look at first. Click a device or a CVE to follow its links, then open its details from the bar under the graph.",
+    "priorityHint": "Ordered by facts we hold, not by a guess.",
+    "noPriority": "There are no CVEs in this graph.",
+    "why": "Why this order?",
+    "whyIntro": "Each CVE gets a score that adds up facts we hold. The highest score comes first.",
+    "whyKev": "CISA KEV: the public list of vulnerabilities exploited in real attacks (largest weight).",
+    "whyExploit": "Falcon exploit status: actively used, easily accessible or exploit available.",
+    "whyExprt": "CrowdStrike ExPRT: CrowdStrike's model of how likely a vulnerability is to be exploited.",
+    "whyInternet": "Internet exposure: found on a device that can be reached from the internet (Falcon).",
+    "whySeverity": "Falcon severity (Critical, High, Medium) and the CVSS score.",
+    "whyDevices": "Number of devices affected (more devices, more urgent).",
+    "reasonKev": "Exploited in real attacks (CISA KEV)",
+    "reasonExploited": "Working exploit in use",
+    "reasonExprt": "High ExPRT",
+    "reasonInternet": "Exposed to the internet",
+    "pickHint": "Click a device or a CVE in the graph to see what it is linked to."
+  },
+  "header": {
+    "searchOrganization": "Search organizations",
+    "noOrganizationMatch": "No organization matches your search."
+  }
+}

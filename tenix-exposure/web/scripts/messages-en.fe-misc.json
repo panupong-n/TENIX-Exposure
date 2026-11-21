@@ -1,0 +1,262 @@
+{
+ "retention": {
+  "banner": {
+   "title": "Data for severity {levels} will be deleted in {time}",
+   "at": "on {date}",
+   "undo": "Cancel deletion",
+   "view": "View settings",
+   "undoFailed": "Could not cancel the deletion. Try again.",
+   "undone": "Deletion cancelled."
+  },
+  "time": {
+   "dh": "{days} d {hours} h",
+   "hm": "{hours} h {minutes} min",
+   "m": "{minutes} min",
+   "soon": "less than 1 min"
+  },
+  "title": "Data retention",
+  "sub": "{org} · which severities the system keeps in detail",
+  "info": "Un-ticking a severity stops collecting it at once. Its stored rows are deleted only after {days} days; ticking it again inside that time cancels the deletion. Falcon totals on the Overview never change: they come from Falcon's own counts.",
+  "sliced": "This organization has {total} findings in Falcon. The system keeps detail for {held} of them; the rest is kept as totals only. A tick means \"may be stored\" and does not change the Falcon totals.",
+  "table": {
+   "level": "Severity",
+   "falcon": "In Falcon",
+   "held": "Held",
+   "keep": "Keep {level}"
+  },
+  "state": {
+   "counting": "Totals only",
+   "rebuilding": "Re-reading from Falcon",
+   "pending": "Deleted in {time}",
+   "pendingAt": "({date})",
+   "undo": "Cancel deletion"
+  },
+  "grace": {
+   "title": "Un-ticking does not delete at once",
+   "body": "Stored data of an un-ticked severity is deleted after {days} days. Tick it again within {days} days and nothing is lost. After that it has to be read again from Falcon, which can take a while."
+  },
+  "confirm": {
+   "title": "Stop keeping detail for {levels}?",
+   "body": "Collecting stops now. Stored rows of {levels} are deleted in {days} days ({date}). Falcon totals on the Overview do not change. You can undo this until then.",
+   "yes": "Yes, save",
+   "no": "Back"
+  },
+  "save": "Save",
+  "close": "Close",
+  "saved": "Saved.",
+  "readOnly": "You can view these settings but only an administrator of the organization can change them.",
+  "keepOne": "Keep at least one severity.",
+  "error": {
+   "keep_empty": "Keep at least one severity.",
+   "invalid_severity": "One of the severities is not valid.",
+   "network": "The server could not be reached. Nothing was saved.",
+   "generic": "Could not save. Nothing was changed."
+  },
+  "unavailable": "These settings are not available for this organization.",
+  "noOrg": "Choose an organization first.",
+  "p1Note": "Always-keep-P1 is not offered: KEV and exploited findings of an un-ticked severity are deleted with it."
+ },
+ "notifyPrefs": {
+  "title": "LINE notification settings",
+  "sub": "{org} · what is sent to the organization's LINE group",
+  "enabled": "Send notifications",
+  "enabledOff": "Notifications are off. Nothing is sent to LINE.",
+  "group": "LINE group: {names}",
+  "groupNone": "No LINE group is connected for this organization.",
+  "test": "Send test message",
+  "testSent": "Test message sent to {n} group(s).",
+  "testNoLine": "No LINE group is set up for this organization.",
+  "testFailed": "The test message could not be sent.",
+  "severities": "Send when a vulnerability of this severity is found",
+  "severitiesHint": "Choose at least one. To stop all messages use the switch at the top.",
+  "oneRequired": "Choose at least 1 severity",
+  "p1Always": "Always send P1 (KEV and exploited), even if its severity is not ticked",
+  "default": "Default: all severities",
+  "devices": "Device names in the message",
+  "mode": {
+   "all": "Every affected device",
+   "watched": "Only devices on my watchlist",
+   "watchedHint": "If none of the affected devices is watched, the message carries counts only.",
+   "top": "Only the {n} most important devices",
+   "topLabel": "Only the top",
+   "topUnit": "devices",
+   "topHint": "Ranked by Critical CVEs, then number of CVEs, then name."
+  },
+  "watchedCount": "{n} watched",
+  "maxNames": "Show at most",
+  "maxNamesUnit": "names per message; the rest become \"and N more\"",
+  "news": "News about CVEs",
+  "newsPossible": "Also tell me about \"possibly affected\" (product match only)",
+  "newsHostNames": "Show host names in news messages",
+  "preview": "Message preview",
+  "previewSample": "Sample with invented names: this organization has no CVE yet.",
+  "previewDropped": "With these options nothing would be sent.",
+  "previewTruncated": "The list of names is shortened.",
+  "previewFailed": "Preview is not available right now.",
+  "previewLoading": "Building preview",
+  "save": "Save",
+  "close": "Close",
+  "saved": "Saved.",
+  "readOnly": "You can view these settings but only an administrator of the organization can change them.",
+  "defaults": "No settings saved yet: messages go out as before (every severity, every device name).",
+  "error": {
+   "severities_empty": "Choose at least one severity, or switch notifications off.",
+   "invalid_severity": "One of the severities is not valid.",
+   "invalid_mode": "The device list option is not valid.",
+   "invalid_top_n": "The number of top devices must be 1 to 100.",
+   "invalid_max_names": "The number of names must be 1 to 50.",
+   "network": "The server could not be reached. Nothing was saved.",
+   "generic": "Could not save. Nothing was changed.",
+   "forbidden": "Only an administrator of the organization can change this."
+  }
+ },
+ "settingsLinks": {
+  "notify": "Notification settings",
+  "retention": "Data retention",
+  "notifyHint": "What is sent to LINE",
+  "retentionHint": "Which severities are kept in detail"
+ },
+ "newsPage": {
+  "title": "CVE news",
+  "description": "Which CVEs in the news affect your devices, and in what state.",
+  "searchPlaceholder": "Search CVE or headline",
+  "allStates": "All states",
+  "allSeverities": "All severities",
+  "severity": "Severity",
+  "period": "Period",
+  "days": "Last {n} days",
+  "kevOnly": "KEV only",
+  "state": {
+   "label": "State",
+   "exact": "Affected",
+   "exactN": "Affects {n} devices",
+   "possible": "Possibly affected",
+   "wait": "Waiting for Falcon data",
+   "not_affected": "Not affected"
+  },
+  "columns": {
+   "cve": "CVE",
+   "state": "State",
+   "cvss": "CVSS",
+   "devices": "Devices",
+   "source": "Source",
+   "time": "Changed"
+  },
+  "view": {
+   "org": "This organization",
+   "all": "All organizations"
+  },
+  "soc": {
+   "note": "Cross-organization view for the SOC. Customers never see other organizations.",
+   "tenants": "Organizations",
+   "totalDevices": "Devices in total",
+   "none": "No organization yet"
+  },
+  "newsCount": "{n} news",
+  "showHosts": "Show device names",
+  "hideHosts": "Hide device names",
+  "hostsHidden": "Device names are hidden for this organization.",
+  "hostsFailed": "Could not load device names.",
+  "moreHosts": "+{n} more",
+  "possibleHidden": "\"Possibly affected\" (product name match only) is hidden for this organization. The SOC can turn it on in the notification settings.",
+  "empty": {
+   "title": "No CVE news yet",
+   "none": "When a CVE shows up in the news we follow, it appears here with whether it affects your devices.",
+   "filteredTitle": "Nothing matches",
+   "filtered": "No CVE news matches these filters. Clear a filter to see more."
+  }
+ },
+ "easmAssets": {
+  "title": "External assets",
+  "servicesLine": "{services} services on {assets} assets",
+  "searchPlaceholder": "Search name, IP or domain",
+  "allTypes": "All types",
+  "allPerimeters": "All perimeters",
+  "allReviews": "All review states",
+  "type": {
+   "dns": "DNS domain",
+   "root": "Root domain",
+   "sub": "Subdomain"
+  },
+  "perimeter": {
+   "official": "Official",
+   "unofficial": "Unofficial"
+  },
+  "review": {
+   "reviewed": "Reviewed",
+   "notReviewed": "Not reviewed"
+  },
+  "online": "Online",
+  "offline": "Offline",
+  "new": "New",
+  "riskyPort": "Risky port",
+  "filters": {
+   "type": "Type",
+   "perimeter": "Perimeter",
+   "review": "Review status",
+   "sort": "Sort",
+   "expiredCert": "Expired certificate",
+   "expiringCert": "Certificate expires in 30 days",
+   "riskyPort": "Risky port",
+   "isNew": "New in 7 days"
+  },
+  "sort": {
+   "triage": "Not reviewed and new first",
+   "name": "Name",
+   "lastSeen": "Last seen",
+   "firstSeen": "First seen",
+   "findings": "Most findings"
+  },
+  "columns": {
+   "asset": "Asset",
+   "type": "Type",
+   "review": "Review",
+   "ports": "Open ports",
+   "cert": "TLS certificate expires",
+   "findings": "Vulnerabilities",
+   "location": "Location",
+   "firstSeen": "First seen",
+   "perimeter": "Perimeter"
+  },
+  "cert": {
+   "expired": "Expired",
+   "expiring": "In {days} d",
+   "none": "No certificate data"
+  },
+  "certCount": "{n} certificates",
+  "noServices": "No service data for this asset",
+  "noServiceData": "Ports and certificates are not read yet. They appear after the next sync.",
+  "empty": {
+   "title": "No external assets",
+   "none": "Falcon EASM has not reported any external asset for this organization.",
+   "unknown": "The assets have not been read completely yet.",
+   "filteredTitle": "Nothing matches",
+   "filtered": "No asset matches these filters. Clear a filter to see more."
+  },
+  "drawer": {
+   "title": "External asset",
+   "sub": "Read from Falcon EASM. Review status is read only here.",
+   "gone": "This asset is no longer in the list.",
+   "type": "Type",
+   "status": "Status",
+   "criticality": "Criticality",
+   "ip": "IP address",
+   "fqdn": "Domain",
+   "ptr": "Reverse DNS (PTR)",
+   "location": "Location",
+   "asn": "Network (ASN)",
+   "cloud": "Cloud",
+   "lastSeen": "Last seen",
+   "services": "Services and ports",
+   "port": "Port",
+   "app": "Application",
+   "tls": "TLS certificate expires",
+   "noServices": "Falcon found no open service on this asset.",
+   "noServiceData": "Services are not read yet. They appear after the next sync.",
+   "discovery": "How it was discovered",
+   "noDiscovery": "No discovery path was recorded.",
+   "vulns": "Vulnerabilities",
+   "noVulns": "No vulnerability found on this asset."
+  }
+ }
+}

@@ -1,0 +1,751 @@
+{
+  "app": {
+    "name": "10CYBER Exposure",
+    "tagline": "See which devices are exposed to each vulnerability, and fix the riskiest first."
+  },
+  "common": {
+    "loading": "Loading…",
+    "retry": "Try again",
+    "save": "Save",
+    "back": "Back",
+    "search": "Search",
+    "all": "All",
+    "copy": "Copy",
+    "copied": "Copied",
+    "done": "Done",
+    "none": "None",
+    "unnamedDevice": "Unnamed device",
+    "showing": "{from}–{to} of {total}",
+    "previous": "Previous",
+    "next": "Next",
+    "notAvailable": "Not available",
+    "never": "Never",
+    "organization": "Organization",
+    "viewAll": "View all",
+    "yes": "Yes",
+    "no": "No",
+    "close": "Close",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "home": "Home",
+    "error": "Something went wrong. Please try again.",
+    "confirmDelete": "Click to confirm"
+  },
+  "sidebar": {
+    "groups": {
+      "menu": "Menu",
+      "support": "Support",
+      "others": "Others",
+      "manage": "Manage"
+    },
+    "badges": {
+      "new": "new",
+      "pro": "pro"
+    },
+    "items": {
+      "dashboard": "Dashboard",
+      "ecommerceHome": "Ecommerce",
+      "analytics": "Analytics",
+      "marketing": "Marketing",
+      "crm": "CRM",
+      "stocks": "Stocks",
+      "saas": "SaaS",
+      "logistics": "Logistics",
+      "ai": "AI",
+      "sales": "Sales",
+      "finance": "Finance",
+      "aiAssistant": "AI Assistant",
+      "textGenerator": "Text Generator",
+      "imageGenerator": "Image Generator",
+      "codeGenerator": "Code Generator",
+      "videoGenerator": "Video Generator",
+      "aiSettings": "AI Settings",
+      "ecommerce": "E-commerce",
+      "products": "Products",
+      "addProduct": "Add Product",
+      "billing": "Billing",
+      "invoices": "Invoices",
+      "singleInvoice": "Single Invoice",
+      "createInvoice": "Create Invoice",
+      "transactions": "Transactions",
+      "singleTransaction": "Single Transaction",
+      "calendar": "Calendar",
+      "userProfile": "User Profile",
+      "task": "Task",
+      "taskList": "List",
+      "kanban": "Kanban",
+      "forms": "Forms",
+      "formElements": "Form Elements",
+      "formLayout": "Form Layout",
+      "tables": "Tables",
+      "basicTables": "Basic Tables",
+      "dataTables": "Data Tables",
+      "pages": "Pages",
+      "fileManager": "File Manager",
+      "pricingTables": "Pricing Tables",
+      "faq": "FAQ",
+      "apiKeys": "API Keys",
+      "integrations": "Integrations",
+      "blankPage": "Blank Page",
+      "error404": "404 Error",
+      "error500": "500 Error",
+      "error503": "503 Error",
+      "comingSoon": "Coming Soon",
+      "maintenance": "Maintenance",
+      "successPage": "Success",
+      "layouts": "Layouts",
+      "layoutOne": "Layout One",
+      "layoutTwo": "Layout Two",
+      "layoutThree": "Layout Three",
+      "layoutFour": "Layout Four",
+      "layoutFive": "Layout Five",
+      "layoutSix": "Layout Six",
+      "charts": "Charts",
+      "lineChart": "Line Chart",
+      "barChart": "Bar Chart",
+      "pieChart": "Pie Chart",
+      "radarChart": "Radar Chart",
+      "radialChart": "Radial Chart",
+      "maps": "Maps",
+      "mapsGoogle": "Maps",
+      "vectorMap": "Vector Map",
+      "uiElements": "UI Elements",
+      "alerts": "Alerts",
+      "avatar": "Avatar",
+      "badge": "Badge",
+      "breadcrumb": "Breadcrumb",
+      "buttons": "Buttons",
+      "buttonsGroup": "Buttons Group",
+      "cards": "Cards",
+      "carousel": "Carousel",
+      "dropdowns": "Dropdowns",
+      "images": "Images",
+      "links": "Links",
+      "listView": "List",
+      "dialogs": "Dialogs",
+      "notificationUi": "Notification",
+      "pagination": "Pagination",
+      "popovers": "Popovers",
+      "progressbar": "Progressbar",
+      "ribbons": "Ribbons",
+      "spinners": "Spinners",
+      "tabs": "Tabs",
+      "tooltips": "Tooltips",
+      "videos": "Videos",
+      "authentication": "Authentication",
+      "signIn": "Sign In",
+      "signUp": "Sign Up",
+      "resetPassword": "Reset Password",
+      "twoStepVerification": "Two Step Verification",
+      "chat": "Chat",
+      "supportMenu": "Support",
+      "supportList": "Support List",
+      "supportReply": "Support Reply",
+      "email": "Email",
+      "inbox": "Inbox",
+      "inboxDetails": "Details",
+      "hr": "HR",
+      "emptyState": "Empty State",
+      "variants01": "Variants 01",
+      "variants02": "Variants 02",
+      "variants03": "Variants 03",
+      "variants04": "Variants 04",
+      "variants05": "Variants 05",
+      "overview": "Overview",
+      "vulnerabilities": "Vulnerabilities",
+      "devices": "Devices",
+      "team": "Team",
+      "auditLog": "Audit Log",
+      "account": "Account",
+      "graph": "Graph Tree",
+      "tenants": "Tenants"
+    },
+    "widget": {
+      "title": "#1 Tailwind CSS Dashboard",
+      "description": "Leading Tailwind CSS Admin Template with 500+ UI Component and Pages.",
+      "purchaseNow": "Purchase Now"
+    }
+  },
+  "header": {
+    "searchPlaceholder": "Search CVE or device…",
+    "organization": "Organization",
+    "selectOrganization": "Choose an organization",
+    "noOrganizations": "No organizations yet",
+    "toggleTheme": "Toggle theme",
+    "toggleMenu": "Toggle application menu",
+    "menu": "Main menu"
+  },
+  "userDropdown": {
+    "account": "My account",
+    "security": "Security and MFA",
+    "language": "Language",
+    "signOut": "Sign out"
+  },
+  "severity": {
+    "CRITICAL": "Critical",
+    "HIGH": "High",
+    "MEDIUM": "Medium",
+    "LOW": "Low",
+    "NONE": "Informational"
+  },
+  "exploit": {
+    "0": "Unproven",
+    "30": "Medium",
+    "60": "High",
+    "90": "Critical",
+    "unknown": "Unknown"
+  },
+  "roles": {
+    "super_admin": "Super admin",
+    "member": "Member",
+    "admin": "Admin",
+    "operator": "Operator"
+  },
+  "states": {
+    "complete": {
+      "title": "Data is complete",
+      "body": "Every finding was read from CrowdStrike Falcon. Last complete update: {time}."
+    },
+    "partial": {
+      "title": "Data is incomplete",
+      "body": "Some findings could not be read, so the numbers may be lower than the real figures. Last complete update: {time}."
+    },
+    "failed": {
+      "title": "Could not read data from Falcon",
+      "body": "The last sync failed, so no data is available. Ask your TENIX SOC to check the Falcon connection."
+    },
+    "not_synced": {
+      "title": "No data yet",
+      "body": "Data has not been synced from Falcon yet. It appears after the first sync."
+    },
+    "no_cids": {
+      "title": "No Falcon account is linked",
+      "body": "This organization has no Falcon customer ID (CID) yet. Ask your TENIX SOC administrator to link one."
+    },
+    "noCompleteUpdate": "no complete update yet",
+    "openIntegrations": "Open Integrations"
+  },
+  "overview": {
+    "title": "Overview",
+    "description": "Open vulnerabilities and affected devices from CrowdStrike Falcon.",
+    "metrics": {
+      "findings": "Open findings",
+      "critical": "Critical findings",
+      "devices": "Affected devices",
+      "exploited": "CVEs with known exploits",
+      "findingsNote": "{count} unique CVEs",
+      "criticalNote": "Needs attention",
+      "criticalNone": "None found",
+      "devicesNote": "With open findings",
+      "exploitedNote": "Known to be used in attacks",
+      "exploitedNone": "None known"
+    },
+    "severity": {
+      "title": "Findings by severity",
+      "description": "Open findings at each severity level.",
+      "total": "Findings"
+    },
+    "trend": {
+      "description": "Last {count} days, one point per day.",
+      "range": "Last {count} days",
+      "rangeLabel": "Time range",
+      "oneDay": "Only one day of history so far. The chart fills in with each daily update.",
+      "empty": "No history yet. It appears after the first complete update."
+    },
+    "topCves": {
+      "title": "Most widespread CVEs",
+      "description": "Devices affected by each CVE.",
+      "series": "Devices"
+    },
+    "topDevices": {
+      "title": "Devices with the most risk",
+      "device": "Device",
+      "platform": "Platform",
+      "cves": "CVEs",
+      "critical": "Critical"
+    },
+    "noData": "No open findings to show."
+  },
+  "vulns": {
+    "title": "Vulnerabilities",
+    "description": "CVEs with open findings in your organization.",
+    "searchPlaceholder": "Search CVE or product…",
+    "severity": "Severity",
+    "allSeverities": "All severities",
+    "sort": "Sort by",
+    "sortOptions": {
+      "severity": "Highest severity",
+      "hosts": "Most devices",
+      "cvss": "Highest CVSS"
+    },
+    "columns": {
+      "cve": "CVE",
+      "severity": "Severity",
+      "cvss": "CVSS",
+      "exprt": "ExPRT rating",
+      "exploit": "Exploit status",
+      "devices": "Devices",
+      "findings": "Findings"
+    },
+    "empty": {
+      "filtered": "No vulnerabilities match your filters. Clear the search or choose another severity.",
+      "none": "No open vulnerabilities were found as of the last complete update.",
+      "unknown": "No vulnerabilities to show. The data is not complete, so this does not mean there are none."
+    },
+    "detail": {
+      "back": "All vulnerabilities",
+      "summary": "Summary",
+      "cvss": "CVSS score",
+      "exprt": "ExPRT rating",
+      "exprtHelp": "ExPRT is CrowdStrike's exploit prediction rating.",
+      "exploit": "Exploit status",
+      "remediation": "Recommended actions",
+      "noRemediation": "Falcon returned no recommended action for this CVE.",
+      "devices": "Affected devices",
+      "notFoundTitle": "No open findings for {cve}",
+      "notFoundComplete": "No device in this organization has an open finding for this CVE as of {time}.",
+      "notFoundPartial": "No finding for this CVE is in the data we have, but the data is incomplete. It may still affect some devices.",
+      "columns": {
+        "device": "Device",
+        "platform": "Platform",
+        "ip": "Local IP",
+        "product": "Product",
+        "status": "Status",
+        "severity": "Severity"
+      }
+    }
+  },
+  "devices": {
+    "title": "Devices",
+    "description": "Devices with open findings. A device is identified by its CID and device ID, not by its name.",
+    "searchPlaceholder": "Search name, IP or device ID…",
+    "columns": {
+      "device": "Device",
+      "platform": "Platform",
+      "ip": "Local IP",
+      "cves": "CVEs",
+      "critical": "Critical"
+    },
+    "empty": {
+      "filtered": "No devices match your search.",
+      "none": "No devices with open findings as of the last complete update.",
+      "unknown": "No devices to show. The data is not complete, so this does not mean there are none."
+    },
+    "unnamedHint": "Falcon has no host name for this device.",
+    "sheet": {
+      "deviceId": "Device ID (AID)",
+      "cid": "CID",
+      "ip": "Local IP",
+      "externalIp": "External IP",
+      "findings": "Findings",
+      "product": "Product",
+      "status": "Status",
+      "platform": "Platform",
+      "total": "Open findings",
+      "graphTab": "Graph",
+      "findingsTab": "Findings ({count})",
+      "graphHelp": "Device → software → worst vulnerabilities. Click a CVE to open it.",
+      "cve": "CVE",
+      "severity": "Severity",
+      "cvss": "CVSS",
+      "fix": "How to fix",
+      "showing": "Showing the {shown} most severe of {total} findings."
+    },
+    "loadFailed": "Could not load this device."
+  },
+  "integrations": {
+    "title": "Integrations",
+    "description": "Connect CrowdStrike Falcon and decide which Falcon accounts each organization can see.",
+    "tabs": {
+      "falcon": "Falcon connection",
+      "organizations": "Organizations and CIDs",
+      "email": "Email alerts"
+    },
+    "falcon": {
+      "title": "CrowdStrike Falcon",
+      "description": "10CYBER Exposure reads vulnerability data from Falcon with a read-only API client.",
+      "cloud": "Falcon cloud",
+      "baseUrl": "API base URL",
+      "clientId": "Client ID",
+      "clientSecret": "Client secret",
+      "secretSaved": "Saved. Leave empty to keep the current secret.",
+      "secretHelp": "Create the API client in Falcon with read-only access to Vulnerabilities (Spotlight) and Hosts. The secret is stored encrypted and is never shown again.",
+      "clouds": {
+        "us1": "US-1",
+        "us2": "US-2",
+        "eu1": "EU-1",
+        "gov": "US-GOV-1"
+      },
+      "save": "Save connection",
+      "saving": "Saving…",
+      "saved": "Connection saved.",
+      "test": "Test connection",
+      "testing": "Testing…",
+      "testOk": "Connected to Falcon.",
+      "testFail": {
+        "invalid_credentials": "Falcon rejected the client ID or secret. Check them and try again.",
+        "missing_scope": "The API client is missing a required read scope. Add it in Falcon and try again.",
+        "unreachable": "Could not reach Falcon. Check the cloud URL and the network.",
+        "error": "Falcon returned an unexpected error. Try again later."
+      },
+      "invalid_base_url": "Use an official CrowdStrike API URL, for example https://api.us-2.crowdstrike.com.",
+      "cloudCustom": "Custom URL"
+    },
+    "sync": {
+      "title": "Data sync",
+      "description": "Findings are read from Falcon every hour. Run a sync to refresh now. Large environments take several minutes.",
+      "syncAll": "Sync all",
+      "running": "Sync running…",
+      "started": "Sync started. This can take a few minutes.",
+      "notConfigured": "Save the Falcon connection first.",
+      "noCids": "Link at least one CID to an organization first.",
+      "columns": {
+        "organization": "Organization",
+        "cid": "CID",
+        "state": "State",
+        "dataAsOf": "Complete data as of",
+        "lastRun": "Last run",
+        "detail": "Detail"
+      },
+      "states": {
+        "complete": "Complete",
+        "partial": "Incomplete",
+        "failed": "Failed"
+      },
+      "empty": "No sync has run yet.",
+      "progress": {
+        "findings": "Reading findings: {read} of {total} · page {pages}",
+        "devices": "Looking up device names: {read} of {total}",
+        "remediations": "Looking up fixes: {read} of {total}",
+        "saving": "Saving {read} findings…"
+      }
+    },
+    "organizations": {
+      "title": "Organizations and CIDs",
+      "description": "Each organization sees only the Falcon CIDs linked to it. A CID belongs to one organization.",
+      "add": "Add organization",
+      "name": "Organization name",
+      "create": "Create organization",
+      "cids": "Falcon CIDs",
+      "cidsHelp": "One CID per line. A CID has 32 hexadecimal characters.",
+      "saveCids": "Save CIDs",
+      "cidsSaved": "CIDs saved.",
+      "count": "{count, plural, =0 {No CIDs} one {# CID} other {# CIDs}}",
+      "syncOne": "Sync now",
+      "empty": "No organizations yet. Add the first one.",
+      "errors": {
+        "cid_taken": "One of these CIDs is already linked to another organization.",
+        "invalid_cid": "Each CID must have 32 hexadecimal characters.",
+        "exists": "An organization with this name already exists."
+      }
+    },
+    "email": {
+      "actions": "Actions",
+      "senders": {
+        "title": "Senders",
+        "description": "The mailboxes 10CYBER Exposure sends alert emails from. The first one added is used.",
+        "add": "Add sender",
+        "empty": "No sender yet. Add one to send alert emails.",
+        "name": "Name",
+        "server": "Server",
+        "from": "From",
+        "default": "Default",
+        "test": "Send test",
+        "makeDefault": "Make default"
+      },
+      "sender": {
+        "addTitle": "Add sender",
+        "editTitle": "Edit sender",
+        "description": "SMTP settings of the mailbox that sends the alerts. The password is stored encrypted and never shown again.",
+        "name": "Name",
+        "host": "SMTP server",
+        "port": "Port",
+        "securityLabel": "Connection security",
+        "security": {
+          "starttls": "STARTTLS (port 587)",
+          "tls": "SSL/TLS (port 465)",
+          "none": "None (port 25)"
+        },
+        "username": "Username",
+        "password": "Password",
+        "keepPassword": "Leave empty to keep the current one",
+        "fromEmail": "From address",
+        "fromName": "From name",
+        "invalid": "Check the sender details: server, port and from address."
+      },
+      "test": {
+        "title": "Send a test email from {name}",
+        "description": "Sends one short message to check that these settings work.",
+        "to": "Send to",
+        "send": "Send test email",
+        "sent": "Test email sent. Check the inbox.",
+        "failed": "The email could not be sent."
+      },
+      "recipients": {
+        "title": "Recipients",
+        "description": "Choose who receives which alert. Tick a box to subscribe.",
+        "email": "Email",
+        "emailPlaceholder": "name@company.com",
+        "organization": "Organization",
+        "allOrgs": "All organizations",
+        "add": "Add recipient",
+        "empty": "No recipients yet.",
+        "active": "Active",
+        "exists": "This recipient already exists for that organization.",
+        "scopeHelp": "A recipient tied to an organization only receives alerts about that organization. \"All organizations\" is for SOC staff."
+      },
+      "events": {
+        "sync_failed": "Sync problems",
+        "critical_new": "New critical findings"
+      },
+      "log": {
+        "title": "Recent emails",
+        "sent": "Sent",
+        "failed": "Failed"
+      }
+    }
+  },
+  "team": {
+    "title": "Team",
+    "description": "Invite people and manage who can sign in.",
+    "tabs": {
+      "users": "Users",
+      "invites": "Pending invites"
+    },
+    "invite": {
+      "button": "Invite user",
+      "title": "Invite a user",
+      "description": "They get a link to set a password and join.",
+      "email": "Email",
+      "role": "Role",
+      "organization": "Organization",
+      "choose": "Choose an organization",
+      "create": "Create invite link",
+      "createdTitle": "Invite link created",
+      "createdBody": "Send this link to {email}. It works once and expires in 7 days. It cannot be shown again.",
+      "copy": "Copy link",
+      "mail": "Open in email app",
+      "mailSubject": "Your 10CYBER Exposure invitation",
+      "mailBody": "Open this link to create your account. It works once and expires in 7 days: {link}"
+    },
+    "columns": {
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "organization": "Organization",
+      "mfa": "MFA",
+      "lastSignIn": "Last sign-in",
+      "status": "Status",
+      "expires": "Expires",
+      "actions": "Actions"
+    },
+    "status": {
+      "active": "Active",
+      "disabled": "Disabled"
+    },
+    "mfa": {
+      "on": "On",
+      "off": "Off"
+    },
+    "actions": {
+      "disable": "Disable user",
+      "enable": "Enable user",
+      "resetMfa": "Reset MFA",
+      "resetPassword": "Create password reset link",
+      "newLink": "New link",
+      "revoke": "Revoke invite",
+      "menu": "Actions for {name}"
+    },
+    "confirm": {
+      "disableTitle": "Disable {name}?",
+      "disableBody": "They are signed out now and cannot sign in until you enable them again.",
+      "disable": "Disable",
+      "resetMfaTitle": "Reset MFA for {name}?",
+      "resetMfaBody": "Their authenticator is removed and they are signed out. They can set up MFA again after signing in.",
+      "resetMfa": "Reset MFA",
+      "revokeTitle": "Revoke the invite for {email}?",
+      "revokeBody": "The link stops working right away.",
+      "revoke": "Revoke"
+    },
+    "linkTitle": "Link created",
+    "linkBody": "Send this link to the user. It works once and expires in 7 days. It cannot be shown again.",
+    "emptyUsers": "No users yet.",
+    "emptyInvites": "No pending invites.",
+    "never": "Never",
+    "you": "You",
+    "errors": {
+      "exists": "A user with this email already exists.",
+      "forbidden": "You cannot do this with your role."
+    }
+  },
+  "account": {
+    "title": "Account",
+    "description": "Your profile, password and sign-in security.",
+    "profile": {
+      "title": "Profile",
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "organization": "Organization"
+    },
+    "password": {
+      "title": "Change password",
+      "current": "Current password",
+      "new": "New password",
+      "confirm": "Confirm new password",
+      "help": "Use at least 12 characters.",
+      "submit": "Change password",
+      "saving": "Saving…",
+      "success": "Password changed. Your other sessions were signed out.",
+      "mismatch": "The two passwords do not match.",
+      "wrong": "The current password is incorrect."
+    },
+    "mfa": {
+      "title": "Two-step verification (MFA)",
+      "description": "Optional. Adds a 6-digit code from an authenticator app when you sign in.",
+      "on": "MFA is on",
+      "off": "MFA is off",
+      "setup": "Set up MFA",
+      "step1": "Scan this QR code with an authenticator app, such as Google Authenticator, Microsoft Authenticator or 1Password.",
+      "manual": "Or enter this key manually",
+      "step2": "Enter the 6-digit code from the app to finish.",
+      "code": "6-digit code",
+      "verify": "Turn on MFA",
+      "cancel": "Cancel setup",
+      "disable": "Turn off MFA",
+      "disableHint": "Enter your password and a current code. If you just signed in, wait for the next code.",
+      "confirmDisable": "Turn off MFA",
+      "enabled": "MFA is now on.",
+      "disabled": "MFA is now off.",
+      "invalid": "That code is not valid. Enter the newest code from your app.",
+      "disableFailed": "The password or code is incorrect. Wait for a new code and try again."
+    }
+  },
+  "audit": {
+    "title": "Audit Log",
+    "description": "Sign-ins, invites and changes. The newest entries come first.",
+    "columns": {
+      "time": "Time",
+      "user": "User",
+      "action": "Action",
+      "target": "Target",
+      "result": "Result",
+      "organization": "Organization"
+    },
+    "results": {
+      "ok": "OK",
+      "allowed": "Allowed",
+      "denied": "Denied",
+      "fail": "Failed"
+    },
+    "empty": "No audit entries yet.",
+    "actions": {
+      "login": "Sign in",
+      "login_mfa": "MFA verification",
+      "logout": "Sign out",
+      "password_change": "Password change",
+      "password_reset": "Password reset",
+      "password_reset_issue": "Password reset link created",
+      "mfa_enable": "MFA turned on",
+      "mfa_disable": "MFA turned off",
+      "mfa_reset": "MFA reset",
+      "invite_create": "Invite created",
+      "invite_accept": "Invite accepted",
+      "invite_revoke": "Invite revoked",
+      "invite_regenerate": "Invite link renewed",
+      "user_disable": "User disabled",
+      "user_enable": "User enabled",
+      "tenant_create": "Organization created",
+      "tenant_cids": "CIDs changed",
+      "integration_falcon_update": "Falcon connection saved",
+      "integration_falcon_test": "Falcon connection tested",
+      "integration_falcon_sync": "Falcon sync started",
+      "route": "Blocked request"
+    }
+  },
+  "auth": {
+    "signIn": {
+      "title": "Sign In",
+      "subtitle": "Enter your email and password to continue.",
+      "email": "Email",
+      "password": "Password",
+      "keep": "Keep me signed in",
+      "forgot": "Forgot password?",
+      "submit": "Sign in",
+      "submitting": "Signing in…",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "errors": {
+        "invalid_credentials": "The email or password is incorrect.",
+        "rate_limited": "Too many attempts. Wait 15 minutes and try again.",
+        "generic": "Could not sign in. Try again.",
+        "email": "Enter a valid email address.",
+        "password": "Enter your password."
+      }
+    },
+    "mfa": {
+      "title": "Verification code",
+      "subtitle": "Enter the 6-digit code from your authenticator app.",
+      "verify": "Verify",
+      "verifying": "Verifying…",
+      "back": "Use a different account",
+      "invalid": "That code is not valid. Enter the newest code from your app.",
+      "expired": "This sign-in expired. Sign in again."
+    },
+    "forgot": {
+      "title": "Forgot password?",
+      "body": "Ask your TENIX administrator to create a password reset link for you. The link works once and expires in 7 days.",
+      "back": "Back to sign in"
+    },
+    "accept": {
+      "inviteTitle": "Create your account",
+      "resetTitle": "Set a new password",
+      "inviteSubtitleOrg": "You were invited to join {organization}.",
+      "inviteSubtitleSoc": "You were invited to 10CYBER Exposure as {role}.",
+      "resetSubtitle": "Choose a new password for {email}.",
+      "name": "Full name",
+      "password": "Password",
+      "confirm": "Confirm password",
+      "help": "Use at least 12 characters.",
+      "submit": "Create account",
+      "submitReset": "Save new password",
+      "saving": "Saving…",
+      "invalid": "This link is invalid or has expired. Ask your administrator for a new one.",
+      "mismatch": "The two passwords do not match.",
+      "weak": "Use at least 12 characters.",
+      "resetDone": "Password saved. Sign in with your new password.",
+      "toSignIn": "Go to sign in",
+      "errors": {
+        "name": "Enter your name."
+      }
+    },
+    "exists": "An account with this email already exists."
+  },
+  "errors": {
+    "network": "Could not reach the server. Check your connection and try again.",
+    "unknown": "Something went wrong. Try again.",
+    "forbidden": "You do not have access to this page.",
+    "loadFailed": "Could not load this data. Try again."
+  },
+  "graph": {
+    "title": "Graph Tree",
+    "description": "How devices connect to the most widespread vulnerabilities. Hover to follow a path, click a device or a CVE to open it.",
+    "severity": "Severity",
+    "allSeverities": "All severities",
+    "size": "CVEs shown",
+    "topCves": "Top {count} CVEs",
+    "summary": "{shown} of {total} devices shown · {cves} of {allCves} CVEs",
+    "trimmed": "Only the {count} most exposed devices are drawn.",
+    "legend": "Colour legend",
+    "empty": "There is nothing to draw yet.",
+    "emptyFiltered": "No CVEs match this severity.",
+    "unknownProduct": "Unknown product",
+    "unknownPlatform": "Unknown",
+    "more": "+{count} more",
+    "moreProducts": "+{count} more products",
+    "findingsCount": "{count, plural, one {# finding} other {# findings}}",
+    "devicesCount": "{count, plural, one {# device} other {# devices}}",
+    "hostAria": "Tree of one device, its products and their vulnerabilities",
+    "overviewAria": "Graph of devices and the vulnerabilities they are linked to"
+  }
+}

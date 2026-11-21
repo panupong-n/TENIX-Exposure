@@ -1,0 +1,60 @@
+{
+  "foundation": {
+    "tier": {
+      "help": "P1 / P2 / P3 คืออะไร",
+      "suppressed": "รายการที่ซ่อนไว้ไม่นับในทุกระดับ การยกระดับ (เชื่อมอินเทอร์เน็ต, Critical asset, เกินกำหนด CISA) ไม่เปลี่ยนระดับ แต่เพิ่มป้ายกำกับ",
+      "P1": {
+        "name": "แก้ทันที",
+        "definition": "แก้ทันที: ช่องโหว่ที่ถูกโจมตีจริงแล้ว (อยู่ใน CISA KEV หรือ exploit status 60-90 ของ Falcon) หรือเป็น Critical ที่ Falcon ExPRT ประเมินว่า Critical เช่นกัน"
+      },
+      "P2": {
+        "name": "แก้ตามรอบ",
+        "definition": "แก้ตามรอบ: ไม่ใช่ P1 แต่เป็น Critical, หรือ ExPRT High/Critical, หรือมี exploit code ใช้ได้ (exploit status 30)"
+      },
+      "P3": {
+        "name": "วางแผนแก้",
+        "definition": "วางแผนแก้: ที่เหลือทั้งหมด"
+      }
+    },
+    "reasons": {
+      "kev": "KEV",
+      "exprt": "ExPRT",
+      "exploited": "ถูกโจมตีแล้ว",
+      "internet": "เชื่อมอินเทอร์เน็ต",
+      "critical": "Critical asset",
+      "overdue": "เกินกำหนด CISA"
+    },
+    "coverage": {
+      "full": "เก็บครบ",
+      "countOnly": "นับรวมเท่านั้น",
+      "part": "เก็บ {percent}% ({held})"
+    },
+    "stale": "ข้อมูลเก่า"
+  },
+  "states": {
+    "priority": {
+      "line": "เก็บรายละเอียด {held} จาก {total} รายการ ({percent}) · รายการที่ต้องแก้ก่อน (P1) ครบ {priorityPercent}",
+      "why": "ทำไม"
+    },
+    "lastRun": "อ่านล่าสุด {time}"
+  },
+  "news": {
+    "title": "ข่าว CVE",
+    "description": "ข่าว CVE ฉบับไหนกระทบคุณ และอยู่ในสถานะอะไร",
+    "soon": "กำลังพัฒนา",
+    "soonBody": "หน้านี้กำลังพัฒนา ข่าว CVE และผลว่ากระทบอุปกรณ์ของคุณหรือไม่ จะแสดงที่นี่"
+  },
+  "sidebar": {
+    "items": {
+      "external": "พื้นผิวภายนอก",
+      "news": "ข่าว CVE"
+    }
+  },
+  "devices": {
+    "view": {
+      "label": "มุมมองอุปกรณ์",
+      "table": "ตาราง",
+      "graph": "กราฟ"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "graph": {
+    "description": "How devices connect to the most widespread vulnerabilities. Click a device or a CVE to see its links, then open its details from the side panel.",
+    "search": "Search the devices and CVEs shown",
+    "priority": "Look at first",
+    "priorityHint": "Critical and High CVEs found on the most devices. Click one to see its links.",
+    "noPriority": "No Critical or High CVEs in this graph.",
+    "selected": "Selected",
+    "openDetails": "Open details",
+    "clearFocus": "Clear selection",
+    "linkedDevices": "Linked devices ({count})",
+    "linkedCves": "Linked CVEs ({count})",
+    "cvesCount": "{count, plural, one {# CVE} other {# CVEs}}",
+    "notShown": "This item is not in the graph shown.",
+    "raiseCves": "Show 40 CVEs",
+    "viewBy": "Group the list",
+    "byDevice": "By device",
+    "byCve": "By vulnerability",
+    "noMatch": "Nothing matches your search.",
+    "viewInGraph": "View in graph"
+  }
+}

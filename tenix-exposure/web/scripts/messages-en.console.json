@@ -1,0 +1,9 @@
+{
+  "integrations": {
+    "falcon": {
+      "consoleUrl": "CrowdStrike button link",
+      "consoleUrlHelp": "Where the \"CrowdStrike\" button in LINE messages goes. Leave empty for the Falcon console home of the same cloud. Paste a console address and put {cve} where the CVE id belongs to open that CVE directly.",
+      "invalid_console_url": "Use an https address on crowdstrike.com."
+    }
+  }
+}

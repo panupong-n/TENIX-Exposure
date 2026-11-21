@@ -1,0 +1,158 @@
+{
+  "tenants2": {
+    "back": "All organizations",
+    "listTitle": "Organizations",
+    "add": "Add organization",
+    "empty": "No organizations yet. Add one: name it, connect CrowdStrike, then set up LINE.",
+    "openOrg": "Open {name}",
+    "gone": "This organization no longer exists.",
+    "chips": {
+      "cs": "CrowdStrike: {count, plural, one {# connection} other {# connections}}",
+      "csNone": "CrowdStrike not connected",
+      "csShared": "CrowdStrike: shared login",
+      "line": "LINE: {sources, plural, one {# news source} other {# news sources}} · {groups, plural, one {# group} other {# groups}}",
+      "lineNone": "LINE not set up"
+    },
+    "notices": {
+      "syncStarted": "Sync started. This can take a few minutes."
+    },
+    "errors": {
+      "exists": "This CID already has a connection.",
+      "cid_taken": "This CID belongs to another organization.",
+      "invalid_cid": "A CID has 32 hexadecimal characters (0-9, a-f).",
+      "invalid_base_url": "Use an official CrowdStrike API URL, for example https://api.us-2.crowdstrike.com.",
+      "client_id_required": "Enter the Client ID.",
+      "client_secret_required": "Enter the Client Secret.",
+      "confirm_cid": "The CID you typed does not match.",
+      "confirm_name": "The name you typed does not match.",
+      "chat_taken": "This room already belongs to another organization or to the SOC team.",
+      "invalid_chat": "A room ID may only contain letters, digits, - and _ (5 to 64 characters).",
+      "no_cids": "Add a CrowdStrike connection to this organization first.",
+      "running": "A sync is already running.",
+      "not_configured": "Add a CrowdStrike connection first.",
+      "no_shared": "There is no shared connection to move.",
+      "unknown": "Something went wrong. Try again."
+    },
+    "test": {
+      "okLogin": "Login works. Add the CID to also check that it can be read.",
+      "okRead": "Login works and this CID can be read ({count} findings found).",
+      "invalid_credentials": "Wrong Client ID or Client Secret, or the wrong cloud. Check them and try again.",
+      "missing_scope": "Login works, but this API client cannot read this CID. Give it the scope \"Spotlight Vulnerabilities: Read\" and check the CID.",
+      "unreachable": "Could not reach CrowdStrike. Check the cloud and the network.",
+      "error": "CrowdStrike returned an unexpected error. Try again later."
+    },
+    "wizard": {
+      "done": "Organization created. You can keep adjusting it here.",
+      "leave": "Leave and open the organization",
+      "cancel": "Back",
+      "steps": {
+        "label": "Steps to create an organization",
+        "org": "Organization",
+        "falcon": "CrowdStrike",
+        "line": "LINE"
+      },
+      "org": {
+        "title": "Name the organization",
+        "help": "Step 1 of 3. Only the name now. CrowdStrike and LINE come next, and you can skip them.",
+        "name": "Organization name",
+        "nameHelp": "The name users see. You can rename it later.",
+        "creating": "Creating…",
+        "next": "Create and continue"
+      },
+      "falcon": {
+        "title": "Connect CrowdStrike",
+        "help": "Step 2 of 3. The API client of this organization's Falcon and the CID to read. Each value has its own box.",
+        "savedSync": "CrowdStrike saved and reading its data now.",
+        "saved": "CrowdStrike saved.",
+        "skip": "Skip for now"
+      },
+      "line": {
+        "title": "Set up LINE",
+        "help": "Step 3 of 3. News sources and the groups that receive notifications. Both can have several rooms.",
+        "skip": "Skip"
+      }
+    },
+    "falcon": {
+      "title": "CrowdStrike",
+      "help": "Each connection is one Falcon API client reading one CID. An organization can have several.",
+      "cloud": "Falcon cloud",
+      "name": "Connection name (optional)",
+      "namePlaceholder": "e.g. Head office",
+      "customHelp": "Only for a non-standard cloud. It must be an https address.",
+      "clientId": "Client ID",
+      "clientSecret": "Client Secret",
+      "secretKeep": "Never shown again. Leave empty to keep the saved secret.",
+      "secretHelp": "Stored encrypted and never shown again.",
+      "cid": "CID",
+      "cidInvalid": "A CID has exactly 32 hexadecimal characters (0-9, a-f).",
+      "cidFixed": "The CID cannot be changed. Remove the connection and add it again to change it.",
+      "cidHelp": "32 hexadecimal characters, lower case. Found in Falcon under Host setup and management.",
+      "saving": "Saving…",
+      "saveEdit": "Save changes",
+      "saveSync": "Save and read data now",
+      "saveOnly": "Save only",
+      "testing": "Testing…",
+      "test": "Test connection",
+      "unnamed": "Connection {cid}",
+      "dataAsOf": "Data as of",
+      "copyCid": "Copy CID {cid}",
+      "remove": "Remove",
+      "removeWarn": "Removing this connection also deletes the data already read for this CID (findings, devices, software). This cannot be undone.",
+      "removeConfirm": "Type the CID {cid} to confirm",
+      "removing": "Removing…",
+      "removeAction": "Remove connection and data",
+      "syncing": "Syncing…",
+      "syncNow": "Sync now",
+      "adopted": "{count, plural, one {# CID} other {# CIDs}} moved to this organization.",
+      "added": "Connection saved.",
+      "addedSync": "Connection saved and reading its data now.",
+      "none": "This organization has no CrowdStrike connection yet. Add one to read its data.",
+      "sharedTitle": "Using the shared connection (old way)",
+      "sharedChip": "Shared",
+      "sharedHelp": "These CIDs are still read with the one shared login. Move them to this organization so they can be changed separately.",
+      "adopting": "Moving…",
+      "adopt": "Move to this organization",
+      "noShared": "The shared login is no longer saved, so these CIDs cannot be moved. Add a connection for each instead.",
+      "addTitle": "Add CrowdStrike",
+      "add": "Add CrowdStrike"
+    },
+    "line": {
+      "title": "LINE",
+      "help": "News sources and notification groups are separate lists. Save them together.",
+      "sources": {
+        "title": "News sources",
+        "help": "LINE rooms that send news to the bot to read (checked against this organization's devices only).",
+        "empty": "No news source yet."
+      },
+      "destinations": {
+        "title": "Notification groups",
+        "help": "LINE rooms where the bot sends CVE results for this organization (several groups allowed).",
+        "empty": "No notification group yet."
+      },
+      "namePlaceholder": "Room name",
+      "name": "Room name",
+      "copyChat": "Copy room ID {chat}",
+      "remove": "Remove {name}",
+      "chatId": "Room ID",
+      "add": "Add",
+      "invalid": "A room ID is 5 to 64 characters: letters, digits, - and _.",
+      "duplicate": "This room is already in the list.",
+      "saved": "LINE settings saved.",
+      "saving": "Saving…",
+      "save": "Save LINE settings",
+      "saveFinish": "Save and finish",
+      "dirty": "Changes not saved yet",
+      "fallback": "With no notification group, the bot replies in the room the news came from.",
+      "hint": "To find a room ID, add the bot to the group and type /chatid there. The bot answers with the ID."
+    },
+    "data": {
+      "title": "Users and data",
+      "help": "Who can sign in to this organization and how its data is doing.",
+      "users": "Users",
+      "manageUsers": "Manage users",
+      "sync": "Data sync",
+      "dataAsOf": "Complete data as of",
+      "messages": "Messages from the last sync"
+    }
+  }
+}

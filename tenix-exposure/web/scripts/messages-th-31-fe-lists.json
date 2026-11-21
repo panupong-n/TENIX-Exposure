@@ -1,0 +1,190 @@
+{
+  "drawer": { "backToFix": "กลับไปวิธีแก้ไข" },
+  "lists2": {
+    "common": {
+      "activeFilters": "ตัวกรองที่ใช้อยู่",
+      "removeFilter": "เอาตัวกรองนี้ออก",
+      "clearAll": "ล้างทั้งหมด",
+      "rows": "{count, plural, other {# รายการ}}",
+      "heldNote": "แสดง {held} รายการที่เก็บรายละเอียด จากทั้งหมด {total} ใน Falcon ส่วนที่เหลือนับรวมเท่านั้น ดูได้ใน Falcon",
+      "exportCsv": "ส่งออก CSV",
+      "tierName": { "P1": "แก้ทันที", "P2": "แก้ตามรอบ", "P3": "วางแผนแก้" },
+      "tierDefinition": {
+        "P1": "แก้ทันที: ถูกโจมตีจริงแล้ว (อยู่ใน CISA KEV หรือ exploit status 60-90 ของ Falcon) หรือเป็น Critical ที่ ExPRT ประเมินว่า Critical เช่นกัน",
+        "P2": "แก้ตามรอบ: ไม่ใช่ P1 แต่เป็น Critical หรือ ExPRT High/Critical หรือมี exploit code ใช้ได้",
+        "P3": "วางแผนแก้: ที่เหลือทั้งหมด"
+      }
+    },
+    "vulns": {
+      "title": "ช่องโหว่",
+      "description": "CVE ไหนควรแก้ก่อน หรือวิธีแก้ไหนปิดช่องโหว่ได้มากที่สุด",
+      "searchPlaceholder": "ค้นหา CVE หรือซอฟต์แวร์…",
+      "tier": "ระดับความสำคัญ",
+      "severity": "ความรุนแรง",
+      "allSeverities": "ทุกระดับความรุนแรง",
+      "allTiers": "ทุกระดับ",
+      "allExprt": "ExPRT ทั้งหมด",
+      "sort": "เรียงตาม",
+      "exploited": "ถูกโจมตีแล้ว",
+      "internet": "เชื่อมอินเทอร์เน็ต",
+      "kevTitle": "CISA ระบุว่าถูกโจมตีจริง วันที่คือกำหนดแก้ของ CISA",
+      "internetCount": "เชื่อมอินเทอร์เน็ต {count}",
+      "openFix": "เปิดวิธีแก้ไข",
+      "days": "{count} วัน",
+      "rowSummary": "{devices} เครื่อง · CVSS {score}",
+      "chip": { "tier": "ระดับ {v}", "fix": "ปิดโดยวิธีแก้ {id}" },
+      "tabs": { "cve": "ตาม CVE", "fix": "ตามวิธีแก้ไข" },
+      "sortOptions": { "priority": "ลำดับความสำคัญ", "severity": "รุนแรงที่สุด", "cvss": "CVSS สูงสุด", "hosts": "กระทบเครื่องมากที่สุด", "age": "เก่าที่สุด", "new": "ใหม่ที่สุด" },
+      "columns": { "tier": "ระดับ", "cve": "CVE", "severity": "ความรุนแรง · CVSS", "exploit": "สถานะ exploit", "devices": "เครื่อง", "fix": "วิธีแก้ไข", "age": "อายุ" },
+      "empty": {
+        "filtered": "ไม่มีช่องโหว่ที่ตรงกับตัวกรอง ลองเอาตัวกรองด้านบนออก",
+        "none": "ไม่พบช่องโหว่ที่ยังเปิดอยู่ ณ การอัปเดตที่ครบถ้วนล่าสุด",
+        "unknown": "ไม่มีช่องโหว่ให้แสดง ข้อมูลยังไม่ครบ จึงไม่ได้แปลว่าไม่มี"
+      }
+    },
+    "fixes": {
+      "searchPlaceholder": "ค้นหาวิธีแก้ไขหรือซอฟต์แวร์…",
+      "totals": "P1 {p1} รายการ · {kev} วิธีแก้ที่ปิด CVE ใน KEV",
+      "noTitle": "วิธีแก้ที่ Falcon ไม่ได้ระบุคำอธิบาย",
+      "rowSummary": "{devices} เครื่อง · {cves} CVE · P1 {p1}",
+      "kevCves": "KEV {count}",
+      "impactHint": "สัดส่วนของ P1 ทั้งหมดที่วิธีแก้นี้ปิดได้",
+      "sortOptions": { "impact": "ผลมากที่สุด", "hosts": "เครื่องมากที่สุด", "cves": "CVE มากที่สุด", "title": "ชื่อ", "age": "เก่าที่สุด" },
+      "columns": { "fix": "วิธีแก้ไข", "cves": "CVE ที่ปิด", "devices": "เครื่อง", "worst": "สูงสุด", "age": "ตั้งแต่", "impact": "P1 ที่ลด" },
+      "empty": {
+        "filtered": "ไม่มีวิธีแก้ที่ตรงกับตัวกรอง",
+        "none": "ไม่ต้องแก้อะไร ณ การอัปเดตที่ครบถ้วนล่าสุด",
+        "unknown": "ไม่มีวิธีแก้ให้แสดง ข้อมูลยังไม่ครบ จึงไม่ได้แปลว่าไม่มี"
+      }
+    },
+    "fix": {
+      "title": "วิธีแก้ไข",
+      "subtitle": "การแก้ครั้งเดียวที่ปิดได้หลาย CVE",
+      "what": "ต้องทำอะไร",
+      "noFixTitle": "อัปเดต {product} เป็นเวอร์ชันล่าสุด",
+      "untitled": "วิธีแก้ที่ Falcon ไม่ได้ระบุคำอธิบาย",
+      "noFixBody": "Falcon ไม่มีคำแนะนำ: อัปเดต {product} เป็นเวอร์ชันล่าสุด",
+      "noFixGeneric": "Falcon ไม่มีคำแนะนำสำหรับรายการเหล่านี้",
+      "facts": { "p1": "รายการ P1", "cves": "CVE ที่ปิด", "hosts": "เครื่องที่ต้องแก้", "internet": "เครื่องที่เชื่อมอินเทอร์เน็ต", "impact": "สัดส่วนของ P1 ทั้งหมด", "firstSeen": "เปิดค้างตั้งแต่", "tiers": "P1 · P2 · P3" },
+      "kevCves": "KEV {count}",
+      "versions": "เวอร์ชันที่ติดตั้ง",
+      "deviceCount": "{count} เครื่อง",
+      "cvesTitle": "CVE ที่วิธีแก้นี้ปิด ({count})",
+      "allCves": "ดูทั้งหมดในรายการ",
+      "columns": { "tier": "ระดับ", "severity": "ความรุนแรง", "devices": "เครื่อง", "device": "เครื่อง", "os": "ระบบปฏิบัติการ", "lastSeen": "เห็นล่าสุด" },
+      "overdue": "เกินกำหนด CISA",
+      "hostsTitle": "เครื่องที่ต้องแก้ ({count})",
+      "exportHosts": "ส่งออกรายชื่อเครื่อง (CSV)",
+      "noHosts": "ไม่มีเครื่องในรายการของวิธีแก้นี้",
+      "watch": "เฝ้าระวัง",
+      "internet": "เชื่อมอินเทอร์เน็ต",
+      "showing": "แสดง {shown} จาก {total} เครื่อง ไฟล์ CSV มีครบทุกเครื่อง"
+    },
+    "devices": {
+      "title": "อุปกรณ์",
+      "description": "อุปกรณ์ทั้งหมดขององค์กร เรียงจากเสี่ยงที่สุด เครื่องที่ Falcon ไม่เห็นมานานจะมีป้ายข้อมูลเก่า",
+      "searchPlaceholder": "ค้นหาชื่อ, IP หรือรหัสเครื่อง…",
+      "platform": "แพลตฟอร์ม",
+      "type": "ประเภท",
+      "lastSeen": "เห็นล่าสุด",
+      "hasP1": "มี P1",
+      "internet": "เชื่อมอินเทอร์เน็ต",
+      "duplicates": "ซ้ำซ้อน",
+      "sort": "เรียงตาม",
+      "allPlatforms": "ทุกแพลตฟอร์ม",
+      "allTypes": "ทุกประเภท",
+      "seen": { "all": "เห็นล่าสุด: ทั้งหมด", "active": "ใช้งานอยู่ (30 วัน)", "stale7": "ไม่เห็นเกิน 7 วัน", "stale30": "ไม่เห็นเกิน 30 วัน" },
+      "sortOptions": { "p1": "P1 มากที่สุด", "hostname": "ชื่อ", "lastSeen": "เห็นล่าสุด", "critical": "Critical มากที่สุด", "findings": "รายการมากที่สุด", "os": "ระบบปฏิบัติการ" },
+      "chip": { "tier": "มี {v}" },
+      "stats": { "all": "อุปกรณ์ทั้งหมด", "p1": "มี P1", "internet": "เชื่อมอินเทอร์เน็ต", "stale": "ไม่เห็นเกิน 7 วัน" },
+      "flags": {
+        "internet": "เชื่อมอินเทอร์เน็ต",
+        "duplicate": "ซ้ำ",
+        "staleTwin": "อาจซ้ำ",
+        "duplicateHint": "ใช้ {reason} ร่วมกับอีกเครื่องในองค์กรเดียวกัน",
+        "notInventory": "ไม่อยู่ในทะเบียน",
+        "notInventoryHint": "มีเฉพาะในรายการช่องโหว่ ทะเบียนอุปกรณ์ไม่มีเครื่องนี้"
+      },
+      "noFindings": "ไม่มีรายการ",
+      "twins": "อาจซ้ำ {count} เครื่อง (คู่เก่าของเครื่องที่ติดตั้งใหม่)",
+      "watch": "เฝ้าระวัง",
+      "worstDot": "ความรุนแรงสูงสุด: {severity}",
+      "columns": { "device": "อุปกรณ์", "os": "ระบบปฏิบัติการ", "fixes": "วิธีแก้", "lastSeen": "เห็นล่าสุด" },
+      "empty": {
+        "filtered": "ไม่มีอุปกรณ์ที่ตรงกับตัวกรอง ลองเอาตัวกรองด้านบนออก",
+        "none": "ไม่มีอุปกรณ์ ณ การอัปเดตที่ครบถ้วนล่าสุด",
+        "unknown": "ไม่มีอุปกรณ์ให้แสดง ข้อมูลยังไม่ครบ จึงไม่ได้แปลว่าไม่มี"
+      }
+    },
+    "device": {
+      "title": "อุปกรณ์",
+      "build": "บิลด์",
+      "flags": {
+        "internet": "เชื่อมอินเทอร์เน็ต",
+        "duplicate": "ซ้ำ",
+        "staleTwin": "อาจซ้ำ",
+        "duplicateHint": "ใช้ {reason} ร่วมกับอีกเครื่องในองค์กรเดียวกัน",
+        "contained": "ถูกแยกออกจากเครือข่าย",
+        "rfm": "ทำงานแบบจำกัด",
+        "notInventory": "ไม่อยู่ในทะเบียน",
+        "notInventoryHint": "มีเฉพาะในรายการช่องโหว่ ทะเบียนอุปกรณ์ไม่มีเครื่องนี้",
+        "criticality": "ความสำคัญของเครื่อง: {v}"
+      },
+      "facts": { "ip": "IP ภายใน", "externalIp": "IP ภายนอก", "lastSeen": "เห็นล่าสุด", "firstSeen": "เห็นครั้งแรก", "domain": "โดเมน", "site": "ไซต์", "agent": "เวอร์ชันเซนเซอร์", "groups": "กลุ่ม", "tags": "แท็ก", "deviceId": "รหัสเครื่อง (AID)", "cid": "CID" },
+      "checklist": "สิ่งที่ต้องแก้บนเครื่องนี้",
+      "noFixes": "ไม่ต้องแก้อะไรบนเครื่องนี้ ณ การอัปเดตที่ครบถ้วนล่าสุด",
+      "noFixesUnknown": "ไม่มีวิธีแก้ให้แสดง ข้อมูลยังไม่ครบ จึงไม่ได้แปลว่าไม่มี",
+      "tick": "ทำเครื่องหมายว่าแก้แล้ว: {title}",
+      "untitledFix": "วิธีแก้ที่ Falcon ไม่ได้ระบุคำอธิบาย",
+      "fixLine": "P1 {p1} · P2 {p2} · {cves} CVE",
+      "fixesMore": "และอีก {count} วิธีแก้",
+      "tickNote": "เครื่องหมายใช้ได้เฉพาะระหว่างเปิดหน้าต่างนี้ ระบบไม่ได้บันทึกไว้",
+      "cvesTitle": "CVE บนเครื่องนี้ ({count})",
+      "columns": { "tier": "ระดับ", "severity": "ความรุนแรง", "product": "ซอฟต์แวร์", "fix": "วิธีแก้ไข" },
+      "openFix": "เปิด",
+      "showing": "แสดง {shown} รายการที่สำคัญที่สุด จาก {total} CVE",
+      "software": "ซอฟต์แวร์ที่มีช่องโหว่",
+      "softwareCves": "{count} CVE"
+    },
+    "software": {
+      "hasP1": "มี CVE ระดับ P1",
+      "hasKev": "มี CVE ใน KEV",
+      "sort": { "risk": "CVE P1 / KEV มากที่สุด", "devices": "เครื่องมากที่สุด", "name": "ชื่อ", "recent": "ใหม่ที่สุด" },
+      "columns": { "p1Cves": "CVE P1", "latest": "เวอร์ชันล่าสุด" }
+    },
+    "cveDrawer": {
+      "whyTitle": "ทำไมเป็น {tier}",
+      "why": {
+        "kev": "อยู่ในรายการช่องโหว่ที่ถูกโจมตีจริงของ CISA (KEV)",
+        "exploited": "Falcon exploit status 60-90: มีการโจมตีจริงหรือมีโอกาสสูงมาก",
+        "critical_exprt": "ความรุนแรง Critical และ Falcon ExPRT ประเมินว่า Critical เช่นกัน",
+        "critical": "ความรุนแรง Critical",
+        "exprt_high": "Falcon ExPRT ประเมินว่า High หรือ Critical",
+        "exploit_code": "มี exploit code ใช้ได้ (exploit status 30)"
+      },
+      "whyP3": "ยังไม่ถูกโจมตี ไม่ใช่ Critical และ ExPRT ต่ำกว่า High: วางแผนแก้ได้",
+      "whyNone": "เซิร์ฟเวอร์ไม่ได้ระบุว่าใช้เกณฑ์ข้อไหน",
+      "newsTitle": "ในข่าว",
+      "news": { "exact": "กระทบเครื่องของคุณ", "possible": "อาจกระทบ", "wait": "รอ Falcon ประเมิน", "not_affected": "ไม่กระทบ" },
+      "newsDevices": "{count} เครื่อง",
+      "newsAll": "ข่าว CVE ทั้งหมด",
+      "openFix": "เปิดวิธีแก้ไข",
+      "moreFixes": "อีก {count} วิธีแก้",
+      "openSoftware": "ค้นหาซอฟต์แวร์นี้",
+      "watch": "เฝ้าระวัง",
+      "os": "ระบบปฏิบัติการ",
+      "internet": "เชื่อมอินเทอร์เน็ต",
+      "firstSeen": "ตั้งแต่ {date}",
+      "watchAll": "เฝ้าทั้งหมด ({count})"
+    },
+    "softwareDrawer": {
+      "cvesTitle": "CVE ของซอฟต์แวร์นี้ (ค้นจากชื่อ)",
+      "cvesError": "โหลดรายการ CVE ไม่สำเร็จ",
+      "noCves": "ไม่มี CVE ที่ยังเปิดอยู่และตรงกับชื่อนี้",
+      "cveDevices": "{count} เครื่อง",
+      "allCves": "ดูทั้ง {count} รายการในหน้าช่องโหว่",
+      "fixes": "วิธีแก้ไข",
+      "openFix": "เปิดวิธีแก้ไข"
+    }
+  }
+}

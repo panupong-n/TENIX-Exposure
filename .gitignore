@@ -1,0 +1,15 @@
+node_modules/
+# builds (the real one is web/dist on the server), backups and test output
+dist/
+dist-*/
+test-results/
+playwright-report/
+# secrets and machine state: never commit
+*.env
+.env*
+*.key
+*.pem
+*.zip
+.data/
+*.log
+.DS_Store

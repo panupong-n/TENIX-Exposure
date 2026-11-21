@@ -1,0 +1,73 @@
+{
+  "settings": {
+    "sections": {
+      "data": "Organizations and data",
+      "system": "System"
+    },
+    "sectionNotes": {
+      "data": "Organizations with their own CrowdStrike and LINE, the people who sign in, and whether the data is current",
+      "system": "The SOC's own LINE bot, CVE feeds, email and the audit log"
+    },
+    "cards": {
+      "tenants": "Organizations",
+      "team": "Users",
+      "system": "Data status",
+      "line": "LINE bot (system)",
+      "feeds": "CVE feeds",
+      "email": "Email",
+      "audit": "Audit log",
+      "falcon": "Old shared connection (advanced)"
+    },
+    "drawer": {
+      "tenants": "Create an organization, then set its own CrowdStrike connections and its own LINE sources and groups.",
+      "team": "Invite people and manage who can sign in.",
+      "line": "The system's LINE connection and the SOC team's own chats. Not the organizations' chats.",
+      "falcon": "The old CrowdStrike connection shared by several organizations. New organizations should use their own connection."
+    },
+    "legacyLink": "Old shared connection (advanced)",
+    "legacyWarning": "New organizations should use their own CrowdStrike connection in Organizations.",
+    "chip": {
+      "tenantsUnlinked": "{count} without CrowdStrike"
+    }
+  },
+  "team": {
+    "invite": {
+      "description": "They get a link to set a password and join. You can also email it to them."
+    },
+    "mail": {
+      "send": "Also send the link by email",
+      "noSender": "No email sender is set up yet",
+      "sent": "Email sent to {email}.",
+      "failed": "The email could not be sent. Send the link below yourself.",
+      "noSenderResult": "No email sender is set up. Send the link below yourself.",
+      "create": "Create link",
+      "resetTitle": "Create a password reset link",
+      "resetBody": "Creates a one-time link for {email} to set a new password.",
+      "regenerateTitle": "Create a new invite link",
+      "regenerateBody": "Creates a new link for {email}. The old link stops working."
+    }
+  },
+  "integrations": {
+    "line": {
+      "title": "LINE bot (system)",
+      "socNote": "This is the system's LINE connection and the SOC team's own chats. Each organization's own groups are set in Organizations.",
+      "sourceTitle": "SOC team chats that send news to the bot (checked against every organization)",
+      "sourceHelp": "The bot reads only these chats and the organizations' own news chats. It reacts to links, CVE ids and pictures. To find a chat's ID, add the bot to it and type /chatid.",
+      "sourceEmpty": "No SOC chat yet: the bot reads no SOC messages.",
+      "destTitle": "SOC team chats that receive the alert summaries",
+      "destHelp": "The bot sends every result, for all organizations, to each chat in this list. Use internal SOC groups, never a customer's group. The bot must be a member of each group.",
+      "destEmpty": "No destination set: the bot answers in the chat the news came from.",
+      "orgTitle": "Each organization's groups",
+      "orgHelp": "Read only. Each organization's news chats and destination groups are set in Organizations. A group receives only its own organization's results.",
+      "orgCount": "{count, plural, one {# organization} other {# organizations}}",
+      "orgSources": "News chats",
+      "orgDests": "Groups that receive alerts",
+      "orgNone": "None",
+      "orgEmpty": "No organization has its own LINE chat yet.",
+      "tenantChange": "Edit in Organizations",
+      "errors": {
+        "chat_taken": "This chat already belongs to an organization. Remove it there first or use another chat."
+      }
+    }
+  }
+}

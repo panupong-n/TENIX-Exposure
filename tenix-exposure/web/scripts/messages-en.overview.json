@@ -1,0 +1,57 @@
+{
+  "overview": {
+    "empty": "No open findings for this organization.",
+    "metrics": {
+      "delta": "{change} in {count} days"
+    },
+    "severity": {
+      "share": "{percent}%",
+      "filter": "Show {severity} vulnerabilities"
+    },
+    "trend": {
+      "latest": "Latest counts"
+    },
+    "topDevices": {
+      "high": "High",
+      "medium": "Medium"
+    }
+  },
+  "audit": {
+    "filters": {
+      "user": "User",
+      "allUsers": "All users",
+      "result": "Result",
+      "allResults": "All results",
+      "organization": "Organization",
+      "allOrganizations": "All organizations",
+      "showViews": "Show page views",
+      "shown": "{shown} of {total} entries",
+      "noMatch": "No entries match these filters."
+    },
+    "reads": {
+      "summary": "Viewed overview",
+      "vulnerabilities": "Viewed vulnerabilities",
+      "hosts": "Viewed devices",
+      "host": "Viewed a device",
+      "graph": "Viewed graph tree",
+      "cve": "Viewed CVE"
+    },
+    "actions": {
+      "mail_recipient_create": "Alert recipient added",
+      "mail_recipient_delete": "Alert recipient removed",
+      "mail_recipient_update": "Alert recipient changed",
+      "mail_sender_create": "Mail sender added",
+      "mail_sender_delete": "Mail sender removed",
+      "mail_sender_test": "Mail sender tested",
+      "mail_sender_update": "Mail sender changed",
+      "tenant_delete": "Organization deleted",
+      "tenant_rename": "Organization renamed",
+      "user_access": "User access changed",
+      "user_delete": "User deleted",
+      "tenant_line_chat": "Organization LINE group changed"
+    }
+  },
+  "account": {
+    "security": "Sign-in and security"
+  }
+}

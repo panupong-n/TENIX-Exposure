@@ -1,0 +1,170 @@
+{
+  "tenants": {
+    "title": "Tenants",
+    "description": "A tenant is one customer organization. It sees only the Falcon CIDs linked to it.",
+    "new": "New tenant",
+    "empty": "No tenants yet. A tenant is one customer organization: you link Falcon CIDs and users to it, and it sees only its own data.",
+    "columns": {
+      "name": "Name",
+      "status": "Data status",
+      "cids": "CIDs",
+      "users": "Users",
+      "dataAsOf": "Data as of",
+      "actions": "Actions"
+    },
+    "states": {
+      "no_cids": "No CIDs",
+      "not_synced": "Not synced",
+      "complete": "Complete",
+      "partial": "Incomplete",
+      "failed": "Failed"
+    },
+    "usersCount": "{count, plural, one {# user} other {# users}}",
+    "adminsCount": "{count, plural, one {# admin} other {# admins}}",
+    "moreCids": "{count, plural, one {# more CID} other {# more CIDs}}",
+    "none": "None",
+    "actions": {
+      "menu": "Actions for {name}",
+      "rename": "Rename",
+      "editCids": "Edit CIDs",
+      "sync": "Sync now",
+      "users": "Users",
+      "delete": "Delete",
+      "lineChat": "LINE group"
+    },
+    "create": {
+      "title": "New tenant",
+      "description": "Give the customer organization a name. You can link Falcon CIDs now or later.",
+      "name": "Tenant name",
+      "cids": "Falcon CIDs (optional)",
+      "submit": "Create tenant"
+    },
+    "rename": {
+      "title": "Rename tenant",
+      "description": "Users see the new name straight away.",
+      "name": "Tenant name"
+    },
+    "cids": {
+      "title": "CIDs of {name}",
+      "description": "This tenant sees only the findings of the CIDs listed here.",
+      "label": "Falcon CIDs",
+      "help": "One CID per line. A CID has 32 hexadecimal characters. A CID can belong to one tenant only.",
+      "count": "{count, plural, =0 {No CIDs} one {# CID} other {# CIDs}}"
+    },
+    "delete": {
+      "title": "Delete {name}?",
+      "body": "This permanently deletes the tenant, its findings and its CIDs, and removes every user from it. Users who belong to no other tenant can no longer see any data. This cannot be undone.",
+      "confirmLabel": "Type {name} to confirm",
+      "action": "Delete tenant"
+    },
+    "notices": {
+      "created": "Tenant created.",
+      "renamed": "Tenant renamed.",
+      "cidsSaved": "CIDs saved.",
+      "deleted": "Tenant deleted.",
+      "syncStarted": "Sync started. This can take a few minutes.",
+      "createdCidsFailed": "Tenant created, but the CIDs were not saved. Open Edit CIDs to try again.",
+      "lineChatSaved": "LINE group saved."
+    },
+    "errors": {
+      "exists": "A tenant with this name already exists.",
+      "cid_taken": "One of these CIDs is already linked to another organization.",
+      "invalid_cid": "Each CID must have 32 hexadecimal characters.",
+      "confirm_name": "The name you typed does not match.",
+      "no_cids": "Link at least one CID to this tenant first.",
+      "running": "A sync is already running.",
+      "not_configured": "Save the Falcon connection first.",
+      "unknown": "Something went wrong. Try again.",
+      "chat_taken": "This group already belongs to another organization.",
+      "invalid_chat": "A chat ID may only contain letters, digits, - and _."
+    },
+    "lineChat": {
+      "title": "LINE group of this organization",
+      "description": "News answers about this organization's devices, and only its own, are sent to this group, starting with \"Your organization\". Leave empty to have the details sent to the SOC chat instead.",
+      "label": "LINE group ID",
+      "help": "Add the bot to the organization's group, then type \"id\" there (the SOC dashboard answers with the group ID). The ID starts with C. One group can belong to one organization only."
+    }
+  },
+  "team": {
+    "description": "Invite people, choose which tenants they can see, and manage who can sign in.",
+    "filter": {
+      "label": "Tenant",
+      "all": "All tenants"
+    },
+    "columns": {
+      "user": "User",
+      "access": "Access"
+    },
+    "access": {
+      "superAdmin": "Super admin",
+      "chip": "{name} · {role}",
+      "hidden": "{count, plural, one {+# other organization} other {+# other organizations}}",
+      "none": "No tenant"
+    },
+    "actions": {
+      "editAccess": "Edit access",
+      "delete": "Delete user",
+      "cannotAdminister": "This user also belongs to another organization. Remove them from yours with Edit access instead.",
+      "isSelf": "You cannot do this to your own account."
+    },
+    "confirm": {
+      "deleteTitle": "Delete {name}?",
+      "deleteBody": "{email} is deleted for good and signed out. This cannot be undone. To keep the account, disable it instead.",
+      "delete": "Delete user"
+    },
+    "invite": {
+      "description": "They get a link to set a password and join. The link is shown here to copy; tick the box below to email it too.",
+      "userType": "User type",
+      "types": {
+        "member": "Member",
+        "super_admin": "Super admin"
+      },
+      "superAdminNote": "A super admin sees every tenant and its CIDs and manages everything. Use this for your own staff only.",
+      "tenants": "Tenants",
+      "tenantsHelp": "Tick the tenants this user can see and choose their role in each. Admins manage users; operators can only read.",
+      "noTenants": "There is no tenant you can add users to.",
+      "roleIn": "Role in {name}",
+      "atLeastOne": "Choose at least one tenant.",
+      "errors": {
+        "no_tenant": "Choose at least one tenant for a member."
+      }
+    },
+    "edit": {
+      "title": "Edit access of {name}",
+      "description": "Choose which tenants this user can see and their role in each.",
+      "save": "Save access",
+      "saved": "Access saved.",
+      "typeWarning": "Changing the user type signs the user out.",
+      "ownTypeLocked": "You cannot change your own user type.",
+      "removeAll": "Saving with no tenant ticked removes this user from your tenants.",
+      "errors": {
+        "no_tenant": "A member needs at least one tenant.",
+        "last_super_admin": "There must be at least one super admin."
+      }
+    },
+    "invites": {
+      "title": "Pending invites",
+      "reset": "Password reset",
+      "superAdmin": "Super admin"
+    },
+    "errors": {
+      "shared_user": "This user also belongs to another organization. Remove them from yours with Edit access instead.",
+      "last_super_admin": "There must be at least one super admin.",
+      "unknown": "Something went wrong. Try again."
+    }
+  },
+  "integrations": {
+    "description": "Connect CrowdStrike Falcon and sync its data. CIDs are linked to organizations under Organizations in Settings.",
+    "falcon": {
+      "connectionTitle": "Connection",
+      "connectionDescription": "A read-only Falcon API client.",
+      "connected": "Configured",
+      "notConnected": "Not configured",
+      "manageTenants": "Manage CIDs under Organizations in Settings"
+    },
+    "sync": {
+      "description": "Findings are read from Falcon every hour. Run a sync to refresh now.",
+      "empty": "No sync has run yet. Link CIDs to an organization under Organizations in Settings, then sync."
+    }
+  }
+}

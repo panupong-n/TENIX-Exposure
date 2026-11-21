@@ -1,0 +1,11 @@
+{
+  "sidebar": {
+    "items": {
+      "exposure": "Vulnerabilities & assets",
+      "settings": "Settings"
+    }
+  },
+  "header": {
+    "exposureViews": "Vulnerability and asset views"
+  }
+}

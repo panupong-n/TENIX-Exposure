@@ -1,0 +1,52 @@
+{
+  "cve": {
+    "subtitle": "Vulnerability affecting devices in this organization.",
+    "subtitleMisconfig": "Security misconfiguration found on devices or internet-facing assets of this organization.",
+    "kinds": {
+      "vulnerability": "Vulnerability",
+      "misconfiguration": "Misconfiguration"
+    },
+    "kev": "Actively exploited (CISA KEV)",
+    "what": "What it is",
+    "more": "Show more",
+    "less": "Show less",
+    "cvss": "CVSS score",
+    "exprt": "ExPRT rating",
+    "exprtHelp": "ExPRT is CrowdStrike's exploit prediction rating.",
+    "exploit": "Exploit status",
+    "devices": "Affected devices",
+    "published": "Published",
+    "exploitability": "Exploitability",
+    "impact": "Impact",
+    "weakness": "Weakness (CWE)",
+    "vector": "CVSS vector",
+    "software": "Affected software",
+    "unknownSoftware": "Not identified",
+    "deviceCount": "{count, plural, one {# device} other {# devices}}",
+    "remediation": "Recommended actions",
+    "noRemediation": "Falcon returned no recommended action.",
+    "references": "References",
+    "affected": "Affected devices",
+    "showing": "Showing {shown} of {total} devices.",
+    "notFoundTitle": "No open findings for {cve}",
+    "notFoundComplete": "No device in this organization has an open finding for this as of {time}.",
+    "notFoundPartial": "Nothing is in the data we have, but the data is incomplete. It may still affect some devices.",
+    "columns": {
+      "device": "Device",
+      "source": "Source",
+      "product": "Software",
+      "status": "Status",
+      "severity": "Severity"
+    },
+    "sources": {
+      "endpoint": "Endpoint",
+      "external": "External"
+    }
+  },
+  "filters": {
+    "source": "Source",
+    "allSources": "All sources",
+    "endpoint": "Endpoints",
+    "external": "External assets"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "audit": {
+    "actions": {
+      "integration_line_update": "บันทึกการตั้งค่าบอท LINE",
+      "integration_line_test": "ทดสอบการเชื่อมต่อบอท LINE"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "common": {
+    "home": "หน้าแรก", "edit": "แก้ไข", "close": "ปิด", "saveChanges": "บันทึกการเปลี่ยนแปลง", "viewMore": "ดูเพิ่มเติม", "delete": "ลบ",
+    "filter": "กรอง", "seeAll": "ดูทั้งหมด", "confirm": "ยืนยัน", "cancel": "ยกเลิก", "loading": "กำลังโหลด…", "retry": "ลองอีกครั้ง",
+    "save": "บันทึก", "back": "ย้อนกลับ", "search": "ค้นหา", "all": "ทั้งหมด", "copy": "คัดลอก", "copied": "คัดลอกแล้ว", "done": "เสร็จสิ้น",
+    "none": "ไม่มี", "unnamedDevice": "อุปกรณ์ไม่มีชื่อ", "showing": "{from}–{to} จาก {total}", "previous": "ก่อนหน้า", "next": "ถัดไป",
+    "notAvailable": "ไม่มีข้อมูล", "never": "ไม่เคย", "organization": "องค์กร", "viewAll": "ดูทั้งหมด", "yes": "ใช่", "no": "ไม่ใช่",
+    "error": "เกิดข้อผิดพลาด กรุณาลองอีกครั้ง", "confirmDelete": "คลิกอีกครั้งเพื่อยืนยัน", "skipToContent": "ข้ามไปยังเนื้อหา"
+  },
+  "sidebar": {
+    "items": {
+      "integrations": "การเชื่อมต่อ", "overview": "ภาพรวม", "vulnerabilities": "ช่องโหว่", "devices": "อุปกรณ์", "team": "ทีม",
+      "auditLog": "บันทึกการใช้งาน", "graph": "แผนผังกราฟ", "tenants": "องค์กร", "software": "ซอฟต์แวร์", "executive": "ผู้บริหาร"
+    }
+  },
+  "header": {
+    "searchPlaceholder": "ค้นหา CVE หรืออุปกรณ์…", "toggleSidebar": "เปิด/ปิดแถบด้านข้าง",
+    "notifications": { "title": "การแจ้งเตือน", "requestsPermission": "ขอสิทธิ์เปลี่ยนแปลง", "project": "โปรเจกต์", "minAgo": "{count} นาทีที่แล้ว", "hrAgo": "{count} ชั่วโมงที่แล้ว", "viewAll": "ดูการแจ้งเตือนทั้งหมด" },
+    "organization": "องค์กร", "selectOrganization": "เลือกองค์กร", "noOrganizations": "ยังไม่มีองค์กร",
+    "toggleTheme": "สลับธีม", "toggleMenu": "เปิด/ปิดเมนูแอปพลิเคชัน", "menu": "เมนูหลัก"
+  },
+  "userDropdown": {
+    "editProfile": "แก้ไขโปรไฟล์", "accountSettings": "ตั้งค่าบัญชี", "support": "ขอความช่วยเหลือ", "language": "ภาษา", "signOut": "ออกจากระบบ",
+    "account": "บัญชีของฉัน", "security": "ความปลอดภัยและ MFA"
+  },
+  "app": { "name": "10CYBER Exposure", "tagline": "ดูว่าอุปกรณ์ใดได้รับผลกระทบจากช่องโหว่แต่ละรายการ แล้วแก้รายการที่เสี่ยงที่สุดก่อน" },
+  "severity": { "CRITICAL": "Critical", "HIGH": "High", "MEDIUM": "Medium", "LOW": "Low", "NONE": "Informational" },
+  "exploit": { "0": "Unproven", "30": "Medium", "60": "High", "90": "Critical", "unknown": "Unknown" },
+  "roles": {
+    "soc_admin": "ผู้ดูแล SOC", "soc_analyst": "นักวิเคราะห์ SOC", "customer_admin": "ผู้ดูแลองค์กร", "customer_user": "สมาชิกองค์กร",
+    "super_admin": "ผู้ดูแลสูงสุด (Super Admin)", "member": "สมาชิก", "admin": "ผู้ดูแล (Admin)", "operator": "ผู้ปฏิบัติการระบบ (System Operator)"
+  },
+  "states": {
+    "complete": { "title": "ข้อมูลครบถ้วน", "body": "อ่านผลการตรวจพบทั้งหมดจาก CrowdStrike Falcon แล้ว อัปเดตครบถ้วนล่าสุด: {time}" },
+    "partial": { "title": "ข้อมูลไม่ครบ", "body": "อ่านผลการตรวจพบบางส่วนไม่ได้ ตัวเลขจึงอาจต่ำกว่าความเป็นจริง อัปเดตครบถ้วนล่าสุด: {time}" },
+    "failed": { "title": "อ่านข้อมูลจาก Falcon ไม่ได้", "body": "การซิงก์ครั้งล่าสุดล้มเหลว จึงไม่มีข้อมูลให้แสดง กรุณาแจ้ง TENIX SOC ให้ตรวจสอบการเชื่อมต่อกับ Falcon" },
+    "not_synced": { "title": "ยังไม่มีข้อมูล", "body": "ยังไม่ได้ซิงก์ข้อมูลจาก Falcon ข้อมูลจะปรากฏหลังซิงก์ครั้งแรก" },
+    "no_cids": { "title": "ยังไม่ได้เชื่อมบัญชี Falcon", "body": "องค์กรนี้ยังไม่มี Falcon Customer ID (CID) กรุณาแจ้งผู้ดูแล TENIX SOC ให้เชื่อมให้" },
+    "noCompleteUpdate": "ยังไม่มีการอัปเดตที่ครบถ้วน", "openIntegrations": "เปิดหน้าการเชื่อมต่อ"
+  },
+  "overview": {
+    "title": "ภาพรวม", "description": "ช่องโหว่ที่ยังเปิดอยู่และอุปกรณ์ที่ได้รับผลกระทบ จาก CrowdStrike Falcon",
+    "metrics": {
+      "findings": "ผลการตรวจพบที่ยังเปิดอยู่", "critical": "ผลการตรวจพบระดับ Critical", "devices": "อุปกรณ์ที่ได้รับผลกระทบ", "exploited": "CVE ที่มีการโจมตีจริง",
+      "findingsNote": "CVE ไม่ซ้ำ {count} รายการ", "criticalNote": "ต้องรีบดำเนินการ", "criticalNone": "ไม่พบ", "devicesNote": "ที่มีผลการตรวจพบที่ยังเปิดอยู่",
+      "exploitedNote": "ทราบว่ามีการใช้โจมตีจริง", "exploitedNone": "ไม่พบ", "delta": "{change} ใน {count} วัน"
+    },
+    "severity": { "title": "ผลการตรวจพบตามระดับความรุนแรง", "description": "ผลการตรวจพบที่ยังเปิดอยู่ในแต่ละระดับ", "total": "ผลการตรวจพบ", "share": "{percent}%", "filter": "แสดงช่องโหว่ระดับ {severity}" },
+    "trend": {
+      "title": "ผลการตรวจพบที่ยังเปิดอยู่ตามช่วงเวลา", "description": "{count} วันล่าสุด หนึ่งจุดต่อวัน", "empty": "ยังไม่มีประวัติ จะปรากฏหลังการอัปเดตที่ครบถ้วนครั้งแรก",
+      "range": "{count} วันล่าสุด", "rangeLabel": "ช่วงเวลา", "oneDay": "ตอนนี้มีประวัติเพียงวันเดียว กราฟจะเต็มขึ้นเมื่อมีการอัปเดตรายวัน", "latest": "จำนวนล่าสุด"
+    },
+    "topCves": { "title": "CVE ที่พบแพร่หลายที่สุด", "description": "จำนวนอุปกรณ์ที่ได้รับผลกระทบจากแต่ละ CVE", "series": "อุปกรณ์" },
+    "topDevices": { "title": "อุปกรณ์ที่เสี่ยงที่สุด", "device": "อุปกรณ์", "platform": "แพลตฟอร์ม", "cves": "CVE", "critical": "Critical", "high": "High", "medium": "Medium" },
+    "noData": "ไม่มีผลการตรวจพบที่ยังเปิดอยู่", "empty": "องค์กรนี้ไม่มีผลการตรวจพบที่ยังเปิดอยู่"
+  },
+  "errors": {
+    "network": "ติดต่อเซิร์ฟเวอร์ไม่ได้ กรุณาตรวจสอบการเชื่อมต่อแล้วลองอีกครั้ง", "unknown": "เกิดข้อผิดพลาด กรุณาลองอีกครั้ง",
+    "forbidden": "คุณไม่มีสิทธิ์เข้าถึงหน้านี้", "loadFailed": "โหลดข้อมูลนี้ไม่สำเร็จ กรุณาลองอีกครั้ง"
+  },
+  "graph": {
+    "title": "แผนผังกราฟ", "description": "อุปกรณ์เชื่อมโยงกับช่องโหว่ที่พบแพร่หลายที่สุดอย่างไร วางเมาส์เพื่อไล่เส้นทาง คลิกอุปกรณ์หรือ CVE เพื่อเปิดดู",
+    "severity": "ระดับความรุนแรง", "allSeverities": "ทุกระดับ", "size": "จำนวน CVE ที่แสดง", "topCves": "CVE สูงสุด {count} รายการ",
+    "summary": "แสดงอุปกรณ์ {shown} จาก {total} · CVE {cves} จาก {allCves}", "trimmed": "วาดเฉพาะอุปกรณ์ที่เสี่ยงที่สุด {count} เครื่อง",
+    "legend": "คำอธิบายสี", "empty": "ยังไม่มีข้อมูลให้วาด", "emptyFiltered": "ไม่มี CVE ที่ตรงกับระดับความรุนแรงนี้",
+    "unknownProduct": "ไม่ทราบผลิตภัณฑ์", "unknownPlatform": "ไม่ทราบ", "more": "+อีก {count}", "moreProducts": "+อีก {count} ผลิตภัณฑ์",
+    "findingsCount": "{count} ผลการตรวจพบ", "devicesCount": "{count} อุปกรณ์",
+    "hostAria": "แผนผังของอุปกรณ์หนึ่งเครื่อง ผลิตภัณฑ์ และช่องโหว่ของผลิตภัณฑ์เหล่านั้น", "overviewAria": "กราฟของอุปกรณ์และช่องโหว่ที่เชื่อมโยงกัน"
+  },
+  "filters": { "source": "แหล่งข้อมูล", "allSources": "ทุกแหล่ง", "endpoint": "เครื่องปลายทาง (Endpoint)", "external": "สินทรัพย์ภายนอก (External)" },
+  "drawer": { "backToCve": "กลับไปที่ CVE", "backToDevice": "กลับไปที่อุปกรณ์", "backToSoftware": "กลับไปที่ซอฟต์แวร์" }
+}

@@ -1,0 +1,101 @@
+{
+  "integrations": {
+    "line": {
+      "connection": "Connection",
+      "secretSaved": "Saved",
+      "secretMissing": "Not set",
+      "copied": "Copied",
+      "copyId": "Copy chat ID",
+      "sourceTitle": "Chats that send news to the bot",
+      "sourceHelp": "The bot reads only the chats in this list and reacts to links, CVE ids and pictures. It stays silent in every other chat. To find a chat's ID, add the bot to it and type /chatid.",
+      "sourceEmpty": "No chat yet: the bot reads no messages.",
+      "destTitle": "Chats that receive the notifications",
+      "destHelp": "The bot sends every result to each chat in this list. Results name organizations and devices, so use internal SOC groups, never a customer's group. The bot must be a member of each group.",
+      "destEmpty": "No destination set: the bot answers in the chat the news came from.",
+      "tenantTitle": "Each organization's customer group",
+      "tenantHelp": "Set on the Organizations page. These groups receive only the news that affects their own organization.",
+      "tenantEmpty": "No organization has a LINE group yet.",
+      "tenantChange": "Change on the Organizations page",
+      "labelAll": "Every news item checked",
+      "labelTenant": "Only {tenant}",
+      "nameLabel": "Chat name",
+      "namePlaceholder": "Name this chat, e.g. SOC on duty",
+      "chatIdLabel": "Chat ID",
+      "add": "Add",
+      "remove": "Remove",
+      "removeNamed": "Remove {name}",
+      "unnamed": "No name yet",
+      "duplicate": "This chat ID is already in the list.",
+      "invalidId": "A chat ID is 5 to 64 characters: letters, digits, - and _ only.",
+      "count": "{count, plural, one {# chat} other {# chats}}",
+      "unsaved": "You have unsaved changes",
+      "reset": "Discard",
+      "advanced": "Advanced",
+      "forwardTitle": "Pass on to another system"
+    }
+  },
+  "settings": {
+    "chip": {
+      "sysPartial": "{count, plural, one {# organization incomplete} other {# organizations incomplete}}",
+      "sysFailed": "{count, plural, one {# organization failed} other {# organizations failed}}"
+    },
+    "system": {
+      "refresh": "Refresh",
+      "auto": "Refreshes by itself every 15 seconds.",
+      "falconTitle": "Pulled from CrowdStrike Falcon",
+      "falconNote": "Read-only. Each organization's findings are read from Falcon and saved here.",
+      "running": "Syncing now",
+      "lastRun": "Last sync {ago}",
+      "noRun": "Never synced",
+      "empty": "Nothing has been pulled from Falcon yet.",
+      "noTenant": "(not linked to an organization)",
+      "cols": {
+        "org": "Organization",
+        "state": "Status",
+        "asOf": "Data as of",
+        "lastRun": "Last run",
+        "findings": "Findings stored",
+        "closed": "Closed in 7 days",
+        "took": "Took"
+      },
+      "states": {
+        "complete": "Complete",
+        "partial": "Incomplete",
+        "failed": "Failed"
+      },
+      "dbTitle": "Stored in our database",
+      "dbNote": "What was pulled is saved in the portal's own database. Every page reads from here and does not call Falcon each time.",
+      "db": {
+        "findings": "Open findings",
+        "closedFindings": "Closed findings",
+        "cves": "CVEs",
+        "publicCves": "Public CVE list",
+        "kev": "KEV",
+        "software": "Software",
+        "organizations": "Organizations"
+      },
+      "cacheTitle": "Summary cache",
+      "cacheNote": "Heavy summaries are kept in memory and in the database, so the next person gets the answer at once without recomputing. The higher the hit rate, the faster the pages.",
+      "cache": {
+        "hitRate": "Served from cache",
+        "entries": "Entries in cache",
+        "avg": "Average build",
+        "slowest": "Slowest build",
+        "hits": "From memory {memory} · from database {db} · built {builds}",
+        "warmed": "Cache warmed {ago}",
+        "warming": "Warming the cache",
+        "notWarmed": "Cache not warmed yet",
+        "none": "No data yet"
+      },
+      "ms": "{n} ms",
+      "sec": "{n} s",
+      "min": "{n} min"
+    },
+    "cards": {
+      "system": "Data status"
+    },
+    "drawer": {
+      "system": "Is data pulled, stored and served from our own database?"
+    }
+  }
+}

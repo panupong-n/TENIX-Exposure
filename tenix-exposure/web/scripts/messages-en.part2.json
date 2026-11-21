@@ -1,0 +1,25 @@
+{
+  "cve": {
+    "cvss": "Falcon score",
+    "cvssHelp": "CVSS base score that CrowdStrike Falcon reports for this CVE on your devices. The public CVSS from the CVE Program is shown above.",
+    "findingsOnDevice": "{count, plural, one {# finding} other {# findings}}",
+    "moreProducts": "+{count} more",
+    "pub": {
+      "cvss": "Public CVSS (CVE Program)"
+    }
+  },
+  "lists2": {
+    "common": {
+      "filters": "Filters",
+      "filtersCount": "Filters ({count})"
+    }
+  },
+  "auth": {
+    "accept": {
+      "invalidTitle": "Link not valid"
+    }
+  },
+  "settings": {
+    "description": "Manage organizations (each with its own CrowdStrike and LINE), users, the SOC LINE bot, CVE feeds, email and the audit log."
+  }
+}

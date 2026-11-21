@@ -1,0 +1,111 @@
+{
+  "cve": {
+    "pub": {
+      "announced": "CVE announced",
+      "yes": "Yes",
+      "waiting": "Waiting for CVE Program data",
+      "rejected": "The CVE Program REJECTED this CVE. It is not a real vulnerability.",
+      "cvss": "CVSS score",
+      "noData": "No data yet",
+      "publishedAt": "Published by the CVE Program",
+      "ingestedAt": "Received by this system",
+      "kevTitle": "In CISA KEV",
+      "no": "No",
+      "kevDateAdded": "Added to KEV",
+      "kevDueDate": "CISA due date",
+      "kevRansomware": "Used in ransomware",
+      "kevAction": "Action required by CISA",
+      "kevNote": "KEV is public information from CISA. It does not by itself mean this organization was attacked.",
+      "falconTitle": "Found in this organization by Falcon",
+      "asOf": "Falcon data updated {time}",
+      "asOfHint": "The time Falcon last evaluated and synced the devices. It is not the time of the CVE.",
+      "noAsOf": "No Falcon data yet",
+      "scope": "Checked {cids, plural, one {# CID} other {# CIDs}}",
+      "scopePartial": "Checked {cids, plural, one {# CID} other {# CIDs}} ({complete} complete)",
+      "pending": "The latest Falcon data is older than the CVE announcement. Waiting for new data.",
+      "states": {
+        "affected": "Affected devices found",
+        "pending": "Waiting for results",
+        "partial": "Partly checked",
+        "unavailable": "Cannot be checked",
+        "not_found": "Not in the latest Falcon data"
+      },
+      "publicOnly": "Public facts only. They do not change this organization's numbers."
+    }
+  },
+  "overview": {
+    "urgent": {
+      "title": "Urgent items",
+      "note": "CVEs still open on at least one device that just appeared in this organization or just entered CISA KEV. Near real time.",
+      "empty": "No urgent items",
+      "kev": "KEV",
+      "devices": "{count, plural, one {# device} other {# devices}}",
+      "reasons": {
+        "first_impact": "First found in this organization",
+        "kev_added": "Just added to CISA KEV"
+      }
+    },
+    "recent": {
+      "title": "Newly announced CVEs",
+      "note": "Public information from the CVE Program, near real time. It does not change this organization's numbers.",
+      "search": "Search CVE id or title",
+      "empty": "No CVE found",
+      "rejected": "Rejected",
+      "cvss": "CVSS {score}"
+    },
+    "feeds": {
+      "cve": "CVE List last synced {time}",
+      "kev": "CISA KEV last synced {time}",
+      "never": "never",
+      "error": "The latest sync had a problem. The last good data is still shown.",
+      "disabled": "Feed sync is off."
+    }
+  },
+  "integrations": {
+    "tabs": {
+      "feeds": "CVE feeds"
+    },
+    "feeds": {
+      "title": "CVE feeds",
+      "description": "Public CVE List and CISA KEV are fetched on their own schedule, separately from the Falcon sync. They hold public facts only and never change an organization's counts.",
+      "on": "On",
+      "off": "Off",
+      "cveList": "CVE List (CVE Program)",
+      "kev": "CISA KEV",
+      "lastOk": "Last success",
+      "lastTry": "Last attempt",
+      "never": "never",
+      "error": "Error",
+      "checkpoint": "Checkpoint",
+      "records": "Records",
+      "backlog": "Backlog",
+      "kevTotal": "KEV entries in the last read",
+      "gap": "The time since the last sync is longer than the log kept. Some CVEs may be missing.",
+      "settings": "Settings",
+      "enabled": "Fetch the feeds automatically",
+      "cveMinutes": "CVE List interval (minutes)",
+      "cveHelp": "5 to 1440. Default 10.",
+      "kevMinutes": "CISA KEV interval (minutes)",
+      "kevHelp": "15 to 1440. Default 60.",
+      "initialDays": "First sync reaches back (days)",
+      "initialHelp": "1 to 30. How far back the first sync reads.",
+      "falconNote": "The Falcon sync interval is separate and is not changed here.",
+      "save": "Save",
+      "saved": "Saved.",
+      "run": "Sync now",
+      "runCve": "CVE List: {ingested} received, {missing} missing, {remaining} remaining.",
+      "runKev": "CISA KEV: {total} in total, {added} added.",
+      "runError": "{feed} error: {error}",
+      "errors": {
+        "invalid_interval": "An interval or the number of days is outside the allowed range.",
+        "unknown": "Could not save. Try again."
+      }
+    }
+  },
+  "audit": {
+    "actions": {
+      "integration_feeds_update": "CVE feed settings changed",
+      "integration_feeds_run": "CVE feeds synced manually"
+    }
+  }
+}

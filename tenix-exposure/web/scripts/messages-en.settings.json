@@ -1,0 +1,57 @@
+{
+  "settings": {
+    "title": "Settings",
+    "sections": {
+      "connections": "Connections",
+      "people": "Users and audit"
+    },
+    "cards": {
+      "falcon": "CrowdStrike Falcon",
+      "feeds": "CVE feeds",
+      "line": "LINE bot",
+      "email": "Email alerts",
+      "tenants": "Organizations",
+      "team": "Team",
+      "audit": "Audit log"
+    },
+    "drawer": {
+      "falcon": "Read-only API client, sync and CID status.",
+      "feeds": "Public CVE List and CISA KEV schedule.",
+      "line": "Bot credentials, allowed chats and recent news.",
+      "email": "Senders, recipients and the alerts they get.",
+      "tenants": "Customer organizations and their Falcon CIDs.",
+      "team": "Invite people and manage who can sign in.",
+      "audit": "Sign-ins, invites and changes, newest first."
+    },
+    "chip": {
+      "unavailable": "Status unavailable",
+      "setup": "Needs setup",
+      "syncingProgress": "Syncing {read}/{total}",
+      "syncing": "Syncing",
+      "neverSynced": "Not synced yet",
+      "syncFailed": "{count, plural, one {Sync failed for # CID} other {Sync failed for # CIDs}}",
+      "syncPartial": "{count, plural, one {# CID incomplete} other {# CIDs incomplete}}",
+      "syncedAgo": "Synced {ago}",
+      "feedOff": "Off",
+      "feedError": "Sync problem",
+      "feedNever": "Never synced",
+      "feedStale": "Stale · {ago}",
+      "feedFresh": "Updated {ago}",
+      "lineForward": "Forwarding problem",
+      "lineOk": "Connected",
+      "mailNoRecipient": "No recipients",
+      "mailFailed": "Last send failed",
+      "mailOk": "{count, plural, one {# recipient} other {# recipients}}",
+      "tenantsNone": "No organizations",
+      "tenantsFailed": "{count, plural, one {# organization failed} other {# organizations failed}}",
+      "tenantsCheck": "{count, plural, one {# organization to check} other {# organizations to check}}",
+      "tenantsOk": "{count, plural, one {# organization} other {# organizations}}",
+      "teamNoMfa": "{count} without MFA",
+      "teamInvites": "{count, plural, one {# pending invite} other {# pending invites}}",
+      "teamUsers": "{count, plural, one {# user} other {# users}}",
+      "auditNone": "No entries yet",
+      "auditDenied": "{count} denied or failed in 24 h",
+      "auditLast": "Latest {ago}"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "overview": {
+    "band": {
+      "title": "Vulnerability overview",
+      "subtitle": "10CYBER Exposure: vulnerability risk dashboard for your organization",
+      "open": "Open vulnerabilities",
+      "openNote": "{count} unique CVEs",
+      "devices": "Affected devices",
+      "devicesNote": "With open findings",
+      "waiting": "Waiting for complete data",
+      "waitingNote": "CIDs not fully synced yet",
+      "waitingNone": "All CIDs are complete",
+      "empty": "This organization has no open findings.",
+      "emptyUnknown": "No data to show yet. The data is not complete, so this does not mean there is nothing."
+    },
+    "watch": {
+      "title": "Vulnerabilities to follow",
+      "search": "Search CVE or product…",
+      "filter": "Open the full list with filters",
+      "product": "Product",
+      "level": "Level",
+      "devices": "Devices",
+      "viewAll": "View all {count} vulnerabilities"
+    },
+    "urgentCard": {
+      "atLeast": "Found on at least {count} devices",
+      "view": "View affected devices"
+    },
+    "footer": {
+      "source": "Data from CrowdStrike Falcon, the CVE Program and CISA KEV. Counts are open findings only.",
+      "checked": "Last checked: {time}"
+    },
+    "trend": {
+      "titleRange": "Vulnerability trend (last {count} days)",
+      "pill": "{count} vulnerabilities",
+      "series": "Open findings"
+    },
+    "metrics": {
+      "closedNote": "Findings no longer open"
+    },
+    "hero": {
+      "closed30Title": "Closed in the last 30 days"
+    }
+  },
+  "devices": {
+    "stats": {
+      "devices": "Affected devices",
+      "cves": "Unique CVEs",
+      "exploited": "Exploited in the wild",
+      "asOf": "Data as of"
+    }
+  },
+  "software": {
+    "stats": {
+      "items": "Software items",
+      "devices": "Devices reporting",
+      "types": "Types",
+      "asOf": "Data as of"
+    }
+  },
+  "settings": {
+    "description": "Manage the Falcon connection, CVE feeds, notifications, organizations, users and the audit log.",
+    "sectionNotes": {
+      "connections": "Where data comes from and where alerts go",
+      "people": "Organizations, who can sign in, and what they did"
+    }
+  }
+}

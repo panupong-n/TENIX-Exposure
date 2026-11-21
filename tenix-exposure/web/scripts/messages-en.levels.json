@@ -1,0 +1,35 @@
+{
+ "ovw": { "k": { "assetLevel": "Asset level", "assetLevelAuto": "Auto", "assetLevelHint": "How much this device matters; used for the notification level" } },
+ "notifyPrefs": {
+  "lv": {
+   "title": "Notification level matrix",
+   "on": "Filter by notification level (CVE level x asset level) instead of the CVE severity alone",
+   "off": "Off: the severities above filter the CVE severity, as before.",
+   "hint": "Rows: CVE level. Columns: asset level (Unassigned counts as Medium). The severities above then filter the result.",
+   "corner": "CVE \\ Asset",
+   "cell": "Notification level for CVE {cve} on an asset of level {asset}",
+   "reset": "Reset to default",
+   "exCve": "CVE {cve} on a {asset} asset",
+   "exTitle": "Examples",
+   "gridLabel": "Matrix of notification levels",
+   "escTitle": "Raise to Critical when the machine is being attacked",
+   "escAlert": "A Falcon alert on that device in the last",
+   "escDays": "days",
+   "escKev": "Also when the CVE is exploited in the wild (CISA KEV / exploit status), even without an alert on the device",
+   "escKevHint": "Off by default: this is weaker evidence and is only shown as a badge.",
+   "ev": {
+    "unknown": "Alert access not checked yet.",
+    "ok": "Falcon alerts can be read for this organization.",
+    "forbidden": "No permission to check evidence: the Falcon API client needs the Alerts read scope. No escalation until it is added."
+   },
+   "groupsTitle": "Host group to asset level",
+   "groupsHint": "Used when a device has no level on the watchlist and Falcon has none. The highest level of the device's groups wins.",
+   "groupPlaceholder": "Host group name",
+   "groupAdd": "Add group",
+   "groupRemove": "Remove group {name}",
+   "groupLevel": "Asset level of group {name}",
+   "sources": "Order: watchlist level, Falcon asset criticality, host group, then Unassigned."
+  },
+  "error": { "invalid_matrix": "The matrix is not valid.", "invalid_esc_days": "Days must be 1 to 30.", "invalid_group_levels": "The host group list is not valid (at most 100)." }
+ }
+}

@@ -1,0 +1,190 @@
+{
+  "drawer": { "backToFix": "Back to fix" },
+  "lists2": {
+    "common": {
+      "activeFilters": "Active filters",
+      "removeFilter": "Remove this filter",
+      "clearAll": "Clear all",
+      "rows": "{count, plural, one {# item} other {# items}}",
+      "heldNote": "Showing the {held} items held in detail, out of {total} in Falcon. The rest is counted only; open Falcon to see them.",
+      "exportCsv": "Export CSV",
+      "tierName": { "P1": "Fix now", "P2": "Fix in cycle", "P3": "Plan" },
+      "tierDefinition": {
+        "P1": "Fix now: already exploited in the wild (CISA KEV or Falcon exploit status 60-90), or Critical and also ExPRT Critical.",
+        "P2": "Fix in the regular cycle: not P1, but Critical, or ExPRT High/Critical, or exploit code is available.",
+        "P3": "Plan the fix: everything else."
+      }
+    },
+    "vulns": {
+      "title": "Vulnerabilities",
+      "description": "Which CVEs to fix first, or which fixes close the most.",
+      "searchPlaceholder": "Search CVE or software…",
+      "tier": "Priority tier",
+      "severity": "Severity",
+      "allSeverities": "All severities",
+      "allTiers": "All tiers",
+      "allExprt": "All ExPRT",
+      "sort": "Sort by",
+      "exploited": "Exploited",
+      "internet": "Internet-facing",
+      "kevTitle": "Listed by CISA as actively exploited. The date is CISA's due date.",
+      "internetCount": "{count} internet-facing",
+      "openFix": "Open the fix",
+      "days": "{count, plural, one {# day} other {# days}}",
+      "rowSummary": "{devices, plural, one {# device} other {# devices}} · CVSS {score}",
+      "chip": { "tier": "Tier {v}", "fix": "Closed by fix {id}" },
+      "tabs": { "cve": "By CVE", "fix": "By fix" },
+      "sortOptions": { "priority": "Priority", "severity": "Highest severity", "cvss": "Highest CVSS", "hosts": "Most devices", "age": "Oldest", "new": "Newest" },
+      "columns": { "tier": "Tier", "cve": "CVE", "severity": "Severity · CVSS", "exploit": "Exploit status", "devices": "Devices", "fix": "Fix", "age": "Age" },
+      "empty": {
+        "filtered": "No vulnerabilities match your filters. Remove a filter above.",
+        "none": "No open vulnerabilities were found as of the last complete update.",
+        "unknown": "No vulnerabilities to show. The data is not complete, so this does not mean there are none."
+      }
+    },
+    "fixes": {
+      "searchPlaceholder": "Search fix or software…",
+      "totals": "{p1} P1 findings · {kev} fixes close a KEV CVE",
+      "noTitle": "Fix without a description from Falcon",
+      "rowSummary": "{devices, plural, one {# device} other {# devices}} · {cves, plural, one {# CVE} other {# CVEs}} · P1 {p1}",
+      "kevCves": "{count} KEV",
+      "impactHint": "Share of all P1 findings this fix removes",
+      "sortOptions": { "impact": "Biggest impact", "hosts": "Most devices", "cves": "Most CVEs", "title": "Name", "age": "Oldest" },
+      "columns": { "fix": "Fix", "cves": "CVEs closed", "devices": "Devices", "worst": "Worst", "age": "Since", "impact": "P1 removed" },
+      "empty": {
+        "filtered": "No fixes match your filters.",
+        "none": "No fixes are needed as of the last complete update.",
+        "unknown": "No fixes to show. The data is not complete, so this does not mean there are none."
+      }
+    },
+    "fix": {
+      "title": "Fix",
+      "subtitle": "One action that closes several CVEs",
+      "what": "What to do",
+      "noFixTitle": "Update {product} to the latest version",
+      "untitled": "Fix without a description from Falcon",
+      "noFixBody": "Falcon gave no recommended action. Update {product} to the latest version.",
+      "noFixGeneric": "Falcon gave no recommended action for these findings.",
+      "facts": { "p1": "P1 findings", "cves": "CVEs closed", "hosts": "Devices to touch", "internet": "Internet-facing devices", "impact": "Share of all P1", "firstSeen": "Open since", "tiers": "P1 · P2 · P3" },
+      "kevCves": "{count} KEV",
+      "versions": "Installed versions",
+      "deviceCount": "{count, plural, one {# device} other {# devices}}",
+      "cvesTitle": "CVEs this fix closes ({count})",
+      "allCves": "See all in the list",
+      "columns": { "tier": "Tier", "severity": "Severity", "devices": "Devices", "device": "Device", "os": "OS", "lastSeen": "Last seen" },
+      "overdue": "past CISA due date",
+      "hostsTitle": "Devices to fix ({count})",
+      "exportHosts": "Export device list (CSV)",
+      "noHosts": "No device is listed for this fix.",
+      "watch": "Watch",
+      "internet": "Internet-facing",
+      "showing": "Showing {shown} of {total} devices. The CSV has all of them."
+    },
+    "devices": {
+      "title": "Devices",
+      "description": "Every device of the organization, worst first. A device that Falcon has not seen for a while carries an old-data stamp.",
+      "searchPlaceholder": "Search name, IP or device ID…",
+      "platform": "Platform",
+      "type": "Type",
+      "lastSeen": "Last seen",
+      "hasP1": "Has P1",
+      "internet": "Internet-facing",
+      "duplicates": "Duplicates",
+      "sort": "Sort by",
+      "allPlatforms": "All platforms",
+      "allTypes": "All types",
+      "seen": { "all": "Last seen: any", "active": "Active, 30 days", "stale7": "Unseen over 7 days", "stale30": "Unseen over 30 days" },
+      "sortOptions": { "p1": "Most P1", "hostname": "Name", "lastSeen": "Last seen", "critical": "Most Critical", "findings": "Most findings", "os": "Operating system" },
+      "chip": { "tier": "Has {v}" },
+      "stats": { "all": "All devices", "p1": "With P1", "internet": "Internet-facing", "stale": "Unseen over 7 days" },
+      "flags": {
+        "internet": "Internet-facing",
+        "duplicate": "Duplicate",
+        "staleTwin": "Possible duplicate",
+        "duplicateHint": "Shares a {reason} with another device of the same organization",
+        "notInventory": "Not in inventory",
+        "notInventoryHint": "Only the findings know this device; the device inventory has no record of it."
+      },
+      "noFindings": "No findings",
+      "twins": "{count, plural, one {# possible duplicate} other {# possible duplicates}} (older twins of re-imaged devices)",
+      "watch": "Watch",
+      "worstDot": "Worst severity: {severity}",
+      "columns": { "device": "Device", "os": "OS", "fixes": "Fixes", "lastSeen": "Last seen" },
+      "empty": {
+        "filtered": "No devices match your filters. Remove a filter above.",
+        "none": "No devices as of the last complete update.",
+        "unknown": "No devices to show. The data is not complete, so this does not mean there are none."
+      }
+    },
+    "device": {
+      "title": "Device",
+      "build": "build",
+      "flags": {
+        "internet": "Internet-facing",
+        "duplicate": "Duplicate",
+        "staleTwin": "Possible duplicate",
+        "duplicateHint": "Shares a {reason} with another device of the same organization",
+        "contained": "Network-contained",
+        "rfm": "Reduced functionality",
+        "notInventory": "Not in inventory",
+        "notInventoryHint": "Only the findings know this device; the device inventory has no record of it.",
+        "criticality": "Asset criticality: {v}"
+      },
+      "facts": { "ip": "Local IP", "externalIp": "External IP", "lastSeen": "Last seen", "firstSeen": "First seen", "domain": "Domain", "site": "Site", "agent": "Sensor version", "groups": "Groups", "tags": "Tags", "deviceId": "Device ID (AID)", "cid": "CID" },
+      "checklist": "What to fix on this device",
+      "noFixes": "No fixes are needed on this device as of the last complete update.",
+      "noFixesUnknown": "No fixes to show. The data is not complete, so this does not mean there are none.",
+      "tick": "Mark {title} as done",
+      "untitledFix": "Fix without a description from Falcon",
+      "fixLine": "P1 {p1} · P2 {p2} · {cves, plural, one {# CVE} other {# CVEs}}",
+      "fixesMore": "and {count} more fixes",
+      "tickNote": "The ticks are only for you while this drawer is open; nothing is saved.",
+      "cvesTitle": "CVEs on this device ({count})",
+      "columns": { "tier": "Tier", "severity": "Severity", "product": "Software", "fix": "Fix" },
+      "openFix": "Open",
+      "showing": "Showing the {shown} highest-priority of {total} CVEs.",
+      "software": "Software with findings",
+      "softwareCves": "{count, plural, one {# CVE} other {# CVEs}}"
+    },
+    "software": {
+      "hasP1": "Has P1 CVEs",
+      "hasKev": "Has KEV CVEs",
+      "sort": { "risk": "Most P1 / KEV CVEs", "devices": "Most devices", "name": "Name", "recent": "Newest" },
+      "columns": { "p1Cves": "P1 CVEs", "latest": "Latest version" }
+    },
+    "cveDrawer": {
+      "whyTitle": "Why this is {tier}",
+      "why": {
+        "kev": "Listed in CISA's Known Exploited Vulnerabilities catalog",
+        "exploited": "Falcon exploit status 60-90: exploitation is confirmed or very likely",
+        "critical_exprt": "Severity Critical and Falcon ExPRT also rates it Critical",
+        "critical": "Severity Critical",
+        "exprt_high": "Falcon ExPRT rates it High or Critical",
+        "exploit_code": "Exploit code is available (exploit status 30)"
+      },
+      "whyP3": "Not exploited, not Critical, ExPRT below High: plan the fix.",
+      "whyNone": "The server did not say which rule applies.",
+      "newsTitle": "In the news",
+      "news": { "exact": "Affects your devices", "possible": "May affect you", "wait": "Waiting for Falcon to evaluate", "not_affected": "Not affected" },
+      "newsDevices": "{count, plural, one {# device} other {# devices}}",
+      "newsAll": "All CVE news",
+      "openFix": "Open the fix",
+      "moreFixes": "{count} more fixes",
+      "openSoftware": "Search this software",
+      "watch": "Watch",
+      "os": "OS",
+      "internet": "Internet-facing",
+      "firstSeen": "since {date}",
+      "watchAll": "Watch all ({count})"
+    },
+    "softwareDrawer": {
+      "cvesTitle": "CVEs of this software (found by name)",
+      "cvesError": "The CVE list could not be loaded.",
+      "noCves": "No CVE with an open finding matches this name.",
+      "cveDevices": "{count, plural, one {# device} other {# devices}}",
+      "allCves": "See all {count} in the CVE list",
+      "fixes": "Fixes",
+      "openFix": "Open the fix"
+    }
+  }
+}

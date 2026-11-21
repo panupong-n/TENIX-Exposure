@@ -1,0 +1,47 @@
+{
+  "cve": {
+    "deviceCount": "{count, plural, one {# device} other {# devices}}",
+    "riskScore": "Risk score",
+    "riskScoreHelp": "CrowdStrike's own risk score for the worst finding of this kind (0-100).",
+    "firstSeen": "First seen",
+    "internetFacing": "Internet-facing",
+    "internetFacingHelp": "Devices or assets reachable from the internet.",
+    "exploitableDevices": "Exploitable devices",
+    "ports": "Open ports",
+    "assetTitle": "Affected asset",
+    "assetHelp": "This is a configuration weakness on an internet-facing asset, not a flaw in installed software, so there is no software to list. The assets are in the table below.",
+    "installedVersions": "Installed versions",
+    "fixedIn": "Fixed in version",
+    "softwareUnavailable": "Installed versions could not be read from Falcon right now. Try again later."
+  },
+  "vulns": {
+    "kev": "KEV",
+    "kevTitle": "Listed by CISA as actively exploited",
+    "rowSummary": "{devices, plural, one {# device} other {# devices}} \u00b7 {findings, plural, one {# finding} other {# findings}} \u00b7 CVSS {score}",
+    "columns": {
+      "product": "Software",
+      "published": "Published"
+    }
+  },
+  "devices": {
+    "columns": {
+      "high": "High",
+      "medium": "Medium",
+      "exploited": "Exploited",
+      "externalIp": "External IP",
+      "split": "Severity split"
+    },
+    "rowSummary": "{platform} \u00b7 {ip}",
+    "counts": "{critical} critical \u00b7 {high} high \u00b7 {medium} medium",
+    "sheet": {
+      "title": "Device"
+    }
+  },
+  "common": {
+    "skipToContent": "Skip to content"
+  },
+  "drawer": {
+    "backToCve": "Back to CVE",
+    "backToDevice": "Back to device"
+  }
+}

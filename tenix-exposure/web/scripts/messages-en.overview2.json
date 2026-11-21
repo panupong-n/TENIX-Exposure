@@ -1,0 +1,10 @@
+{
+  "overview": {
+    "public": "Public data",
+    "hero": {
+      "title": "Impact on my organization",
+      "closed": "Closed in the last 7 days",
+      "closed30": "Last 30 days: {count}"
+    }
+  }
+}

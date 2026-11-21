@@ -1,0 +1,66 @@
+{
+  "integrations": {
+    "tabs": {
+      "line": "LINE bot"
+    },
+    "line": {
+      "title": "LINE news bot",
+      "description": "People send a news link, text or a picture to the bot in LINE. The bot finds the CVEs in it and answers which devices of which organization are affected.",
+      "configured": "Configured",
+      "notConfigured": "Not configured",
+      "webhook": "Webhook URL",
+      "copy": "Copy",
+      "webhookHelp": "If LINE already sends this bot's events to another system, have that system forward each request unchanged (same body, same X-Line-Signature header) to this URL. Otherwise paste it into the LINE Developers console (Messaging API, Webhook URL) and turn on Use webhook. It must be reachable over HTTPS.",
+      "secret": "Channel secret",
+      "token": "Channel access token",
+      "keep": "Saved. Leave empty to keep it.",
+      "secretHelp": "From the LINE Developers console. Stored encrypted and never shown again.",
+      "chats": "Chats that may send news",
+      "chatsHelp": "One chat ID per line: the groups or one-to-one chats whose messages the bot reads. The bot stays silent in every other chat. In these chats it reacts only to links, CVE ids and pictures. To find a chat's ID, add the bot to it and type /chatid.",
+      "save": "Save",
+      "saved": "Saved.",
+      "test": "Test connection",
+      "testOk": "LINE accepted the access token.",
+      "testFail": {
+        "invalid_token": "LINE rejected the access token.",
+        "unreachable": "Could not reach LINE.",
+        "error": "LINE returned an unexpected error."
+      },
+      "errors": {
+        "missing_secret": "Enter both the channel secret and the channel access token.",
+        "invalid_chat": "A chat ID may only contain letters, digits, - and _.",
+        "unknown": "Something went wrong. Try again.",
+        "invalid_forward": "The address to pass messages on to must be a full https address without a user name or password, and not this portal's own address."
+      },
+      "recent": "Recent messages",
+      "recentNote": "The last 20 messages the bot analysed.",
+      "empty": "No message has reached the bot yet.",
+      "columns": {
+        "time": "Time",
+        "kind": "Type",
+        "cves": "CVEs found",
+        "result": "Result",
+        "reply": "Answer"
+      },
+      "kinds": {
+        "text": "Text or link",
+        "image": "Picture"
+      },
+      "results": {
+        "found": "CVE found",
+        "none_found": "No CVE",
+        "not_evaluated": "Could not check"
+      },
+      "replySent": "Sent",
+      "replyFailed": "Not delivered",
+      "replyPending": "Working",
+      "answerChat": "Chat that receives the answers",
+      "answerChatHelp": "The group the bot sends its answers to. The answers name organizations and devices, so use an internal SOC group, never a customer's, and not a group another system already uses. Leave empty to answer in the chat the news came from. The bot must be a member of this group.",
+      "forwardUrl": "Pass LINE messages on to another system",
+      "forwardUrlHelp": "Use this when the LINE webhook points at this portal but another system (for example the SOC dashboard) must still receive every message. Each request with a valid signature is sent on unchanged, so that system checks it as if LINE called it. Leave empty to switch off. Must be an https address.",
+      "forwardOk": "Last pass-on {time}: delivered",
+      "forwardNoConn": "Last pass-on {time}: could not connect to the other system",
+      "forwardFail": "Last pass-on {time}: the other system answered with code {status}"
+    }
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "watch": {
+    "label": "Watch",
+    "watch": "Add {name} to the watchlist",
+    "unwatch": "Remove {name} from the watchlist",
+    "removed": "Removed {name} from the watchlist",
+    "undo": "Undo"
+  },
+  "ovw": {
+    "title": "Overview",
+    "titleAll": "Overview of all organizations",
+    "description": "How exposed you are, whether it is getting better, and what to fix first.",
+    "view": "View",
+    "view_org": "This organization",
+    "view_all": "All organizations",
+    "exec": "Executive summary",
+    "csv": "Export CSV",
+    "footer": "Data from CrowdStrike Falcon",
+    "noData": {
+      "not_synced": "No data yet",
+      "none": "There are no numbers to show",
+      "afterFirst": "The numbers appear after the first read from Falcon.",
+      "steps": "Create an API client in the customer's Falcon, add the CID, test the connection and save it in Settings > Organizations.",
+      "ask": "Ask your TENIX SOC to set up the Falcon connection."
+    },
+    "a": {
+      "title": "Fix now (P1)",
+      "note": "Exploited for real, or Critical that ExPRT also rates Critical",
+      "level": "Risk level",
+      "levels": {
+        "low": "Low",
+        "medium": "Medium",
+        "high": "High",
+        "critical": "Critical"
+      },
+      "escalated": "one step up",
+      "how": "How is it worked out?",
+      "howTitle": "Risk level = share of hosts that have a P1",
+      "rule": {
+        "low": "under 5%",
+        "medium": "5-19%",
+        "high": "20-59%",
+        "critical": "60% and over"
+      },
+      "inputs": "Now: {hosts} hosts with a P1 of {total} = {share}.",
+      "escalationRule": "One level higher when a P1 KEV past its CISA due date sits on an internet-facing host.",
+      "standard": "This is the 10CYBER standard, not a CrowdStrike value. Filter tier = P1 on the list to reproduce it.",
+      "vs7": "in 7 days",
+      "onHosts": "findings on {hosts} hosts ({pct} of {total}) · {cves} CVEs",
+      "exact": "exact",
+      "atLeast": "at least (not all read yet)",
+      "sayNone": "No P1 findings were found. Keep patching on the regular cycle.",
+      "sayDown": "{hosts} hosts ({share}) have vulnerabilities that are exploited or very likely to be. Down {change} from last week. Start with the fixes listed next to this.",
+      "sayUp": "{hosts} hosts ({share}) have vulnerabilities that are exploited or very likely to be. Up {change} from last week. Start with the fixes listed next to this.",
+      "sayFlat": "{hosts} hosts ({share}) have vulnerabilities that are exploited or very likely to be. Start with the top fixes in the list.",
+      "facts": {
+        "kev": "KEV (CISA known exploited)",
+        "exploited": "Exploited (status 60-90)",
+        "exprt": "ExPRT Critical",
+        "internet": "P1",
+        "hosts": "internet-facing hosts"
+      },
+      "factsNote": "KEV, Exploited and ExPRT count findings (one CVE on one device = one finding) and are exact counts from Falcon."
+    },
+    "b": {
+      "title": "P1 open per day",
+      "range": "Period",
+      "days": "{n} d",
+      "since": "Trend collected since {date}",
+      "noteNone": "The trend starts with the first daily snapshot",
+      "onePoint": "P1 today: {value}. The trend shows after at least 2 days of data.",
+      "needTwo": "The trend shows after at least 2 days of data.",
+      "chartLabel": "P1 findings over time, from {from} to {to}",
+      "noNew": "No new data: the line stops at the last good day.",
+      "thisWeek": "This week:",
+      "new": "new",
+      "closed": "closed",
+      "net": "net"
+    },
+    "c": {
+      "title": "What to fix first",
+      "note": "Top {n} fixes remove {share} of P1 · of {total} fixes with P1",
+      "noteShort": "{total} fixes, most impact first",
+      "noteEmpty": "No open fixes",
+      "csv": "Export CSV for IT",
+      "emptyTitle": "Nothing to fix first",
+      "emptyBody": "No fixes with findings in scope.",
+      "noP1": "No P1 findings: showing the fixes with the most P2.",
+      "col": {
+        "fix": "Fix",
+        "cves": "CVEs closed",
+        "p1": "P1",
+        "hosts": "Hosts",
+        "severity": "Highest"
+      },
+      "short": "{hosts} hosts · {cves} CVEs",
+      "internet": "internet {n}",
+      "order": "Sorted by P1 removed, then KEV, then hosts.",
+      "all": "See all {n} fixes"
+    },
+    "d": {
+      "title": "Exposure by tier",
+      "note": "{total} in Falcon in total. The solid part is held in detail.",
+      "name": {
+        "P1": "fix now",
+        "P2": "fix in cycle",
+        "P3": "plan"
+      },
+      "heldOf": "held {held} of {total} ({pct})",
+      "legendHeld": "held in detail",
+      "legendCount": "counted by Falcon only",
+      "total": "Held {held} of {total} ({pct})",
+      "heldAll": "held in full",
+      "countOnly": "counted by Falcon only"
+    },
+    "e": {
+      "title": "By severity",
+      "noteFalcon": "Exact counts from Falcon (open + reopened)",
+      "noteHeld": "Counted from the findings we hold",
+      "heldAll": "held in full",
+      "heldOf": "held {held} of {total}",
+      "countOnly": "counted only"
+    },
+    "f": {
+      "title": "Riskiest devices",
+      "note": "Most P1, then Critical",
+      "emptyTitle": "No device has a P1",
+      "emptyBody": "Nothing needs fixing on any device right now.",
+      "col": {
+        "host": "Device"
+      },
+      "internet": "internet-facing",
+      "all": "All {n} devices with a P1",
+      "allNo": "Devices with a P1"
+    },
+    "g": {
+      "title": "Most vulnerable software",
+      "note": "Most P1 CVEs, then KEV",
+      "noteDevices": "Installed on the most devices",
+      "emptyTitle": "No software read yet",
+      "emptyBody": "The software list appears after the Discover read.",
+      "col": {
+        "product": "Product",
+        "versions": "Versions",
+        "devices": "Devices",
+        "p1": "P1 CVEs"
+      },
+      "total": "{n} products on {devices} devices",
+      "all": "All software"
+    },
+    "h": {
+      "title": "External attack surface (EASM)",
+      "note": "{n} internet-facing assets",
+      "stat": {
+        "ips": "IP addresses",
+        "domains": "Domains",
+        "pending": "Waiting for review",
+        "new": "New in 7 days"
+      },
+      "risks": "{certs} expired certificates · {ports} assets with risky open ports",
+      "ports": "ports {ports}",
+      "noPorts": "no open ports read",
+      "pendingOne": "waiting for review",
+      "all": "All external assets"
+    },
+    "i": {
+      "title": "CVE news that affects you",
+      "note": "Last 7 days, matched against your devices and software",
+      "emptyTitle": "No CVE news affects you",
+      "emptyBody": "Nothing in the last 7 days.",
+      "state": {
+        "exact": "affects {n} devices",
+        "possible": "may affect",
+        "wait": "waiting for Falcon",
+        "not_affected": "not affected"
+      },
+      "all": "All CVE news ({n})"
+    },
+    "j": {
+      "title": "Data coverage and sync",
+      "note": "When each source was last read",
+      "hostsN": "{n} devices",
+      "line": {
+        "findings": "Vulnerabilities (Spotlight)",
+        "hosts": "Devices",
+        "software": "Software (Discover)",
+        "easm": "External surface (EASM)"
+      },
+      "state": {
+        "complete": "complete",
+        "partial": "incomplete",
+        "failed": "failed, old data",
+        "no_connection": "no connection, old data",
+        "not_synced": "not read yet",
+        "no_cids": "not linked"
+      },
+      "coverage": "Detail kept for {held} of {total} findings ({pct}). P1 is kept in full; the other counts come exact from Falcon.",
+      "lastRun": "Last run {time}",
+      "retention": "Data retention settings",
+      "connection": "Open the connection"
+    },
+    "k": {
+      "title": "Watchlist",
+      "count": "{hosts} devices · {auto} automatic items",
+      "addPlaceholder": "+ Add a device: type its name",
+      "noMatch": "No device found",
+      "limit": "{n} of {max}",
+      "mine": "Devices I watch",
+      "noneTitle": "No devices are watched yet. Add one above, or start with these:",
+      "watch": "watch",
+      "missing": "not found",
+      "noDetail": "no detail",
+      "remove": "Remove {name} from the watchlist",
+      "auto": "Automatic items",
+      "autoNone": "No urgent items in the last 7 days",
+      "type": {
+        "kev_added": "New KEV",
+        "critical_new": "New Critical",
+        "cve_news": "CVE news",
+        "first_impact": "First impact"
+      },
+      "criticalNew": "{findings} findings on {devices} devices",
+      "devices": "{n} devices",
+      "hint": "A star on any list adds a device here.",
+      "notify": "Notification settings",
+      "note": "Note",
+      "addNote": "+ add a note"
+    },
+    "p": {
+      "state": {
+        "complete": "Data complete",
+        "priority": "Priority part complete",
+        "partial": "Incomplete",
+        "failed": "Cannot connect",
+        "no_connection": "No connection",
+        "not_synced": "Not read yet",
+        "no_cids": "No CID linked"
+      },
+      "tile": {
+        "all": "organizations",
+        "complete": "data normal",
+        "priority": "priority part only",
+        "partial": "first read / incomplete",
+        "broken": "cannot connect",
+        "kev": "new KEV in 7 days",
+        "overdue": "P1 past CISA due date"
+      },
+      "attention": "Look at first",
+      "attentionNote": "Most urgent first: connection broken, new KEV, past due date, incomplete",
+      "attentionNone": "Nothing needs attention",
+      "reason": {
+        "broken_connection": "connection broken",
+        "kev_new": "new KEV: {n} items",
+        "p1_overdue": "P1 past CISA due: {n}",
+        "partial": "data incomplete",
+        "stale": "no sync for over 24 h",
+        "staleHours": "old data {h} h"
+      },
+      "openConnection": "Open the connection",
+      "openOverview": "Open overview",
+      "shared": "CVEs hitting several organizations",
+      "sharedNote": "SOC only",
+      "sharedNone": "No CVE is shared yet",
+      "orgs": "{n} orgs",
+      "hosts": "{n} devices",
+      "table": "All organizations",
+      "tableNote": "Sorted by need for attention, not by P1 count (a big organization would always win)",
+      "csv": "Export CSV",
+      "search": "Search organization",
+      "sortBy": "Sort by",
+      "sort": {
+        "attention": "Urgency",
+        "p1": "P1",
+        "share": "Hosts with P1 %",
+        "delta": "Change in 7 days",
+        "asOf": "Oldest data",
+        "name": "Name"
+      },
+      "clearFilter": "Clear filter",
+      "noOrgs": "No organizations yet",
+      "noOrgsLink": "Add one in Settings > Organizations",
+      "noMatch": "No organization matches",
+      "col": {
+        "org": "Organization",
+        "state": "Data state",
+        "trend": "7 days",
+        "hostsP1": "Hosts with P1",
+        "kevNew": "New KEV",
+        "overdue": "Past due"
+      },
+      "asOfOld": "old data {ago}",
+      "fix": "Fix",
+      "open": "Open",
+      "total": "Total P1",
+      "totalStale": "Total P1 (without {n} organizations with old data)",
+      "sync": "Syncs in the last 24 hours",
+      "syncNote": "One bar per run: green complete, yellow incomplete, red failed",
+      "syncLabel": "{n} runs in 24 hours",
+      "noRuns": "no run yet"
+    }
+  },
+  "header": {
+    "allOrganizations": "All organizations"
+  }
+}

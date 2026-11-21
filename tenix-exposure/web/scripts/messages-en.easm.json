@@ -1,0 +1,61 @@
+{
+  "easm": {
+    "tab": "External surface",
+    "title": "External attack surface (EASM)",
+    "description": "Internet-facing IP addresses and domains Falcon EASM found for your organization, and what is wrong on them.",
+    "asOf": "Data as of {time}",
+    "updated": "Last updated {time}",
+    "notUpdated": "Not updated yet",
+    "noData": "No data",
+    "unknown": "Unknown",
+    "kpi": {
+      "ips": "IP addresses",
+      "rootDomains": "Root domains",
+      "subdomains": "Subdomains",
+      "findings": "Findings on external assets",
+      "findingsNote": "on {assets} assets"
+    },
+    "tiles": {
+      "exprt": "Vulnerabilities by ExPRT rating",
+      "type": "Vulnerabilities by type",
+      "perimeter": "IP addresses by perimeter",
+      "reviewIps": "IP addresses by review status",
+      "reviewRoots": "Root domains by review status",
+      "online": "IP addresses online / offline",
+      "found": "Discovered by",
+      "foundNote": "How Falcon found the external assets.",
+      "cloud": "Cloud providers",
+      "cloudNote": "Top cloud providers hosting the IP addresses."
+    },
+    "center": {
+      "findings": "findings",
+      "ips": "IPs",
+      "domains": "domains"
+    },
+    "type": {
+      "vulnerability": "Vulnerability",
+      "misconfiguration": "Misconfiguration",
+      "other": "Other"
+    },
+    "perimeter": {
+      "official": "Official",
+      "unofficial": "Unofficial"
+    },
+    "review": {
+      "reviewed": "Reviewed",
+      "notReviewed": "Not reviewed"
+    },
+    "online": {
+      "online": "Online",
+      "offline": "Offline"
+    },
+    "found": {
+      "surface": "Surface scan",
+      "user": "Added by a user"
+    },
+    "empty": {
+      "title": "No external assets",
+      "body": "External assets are read from Falcon EASM. None were found for this organization. If you expect some, ask your TENIX SOC to check that the Falcon API client has the scope \"Falcon Exposure Management external assets: read\"."
+    }
+  }
+}

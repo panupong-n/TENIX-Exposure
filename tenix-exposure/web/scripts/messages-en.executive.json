@@ -1,0 +1,52 @@
+{
+  "executive": {
+    "tiles": {
+      "kev": "Known exploited (KEV)",
+      "kevNote": "On {count} devices",
+      "kevNone": "None known",
+      "internet": "On the internet",
+      "internetNote": "Critical or High, on {count} devices"
+    },
+    "source": {
+      "title": "Where the risk is",
+      "note": "Findings by severity, on endpoints and on internet-facing assets.",
+      "endpoint": "Endpoints",
+      "external": "Internet-facing",
+      "empty": "No findings."
+    },
+    "aging": {
+      "title": "How long it has been open",
+      "note": "Critical and High findings, by age.",
+      "d30": "Under 30 days",
+      "d90": "30 to 90 days",
+      "d180": "90 to 180 days",
+      "older": "Over 180 days",
+      "unknown": "{count} Critical or High findings have no first-seen date and are not counted above.",
+      "empty": "No Critical or High findings."
+    },
+    "kev": {
+      "title": "Exploited in the wild",
+      "note": "CVEs on the CISA known exploited list that affect this organization.",
+      "hosts": "{count, plural, one {# device} other {# devices}}",
+      "empty": "None of the open findings are on the CISA known exploited list."
+    },
+    "external": {
+      "title": "Internet-facing surface",
+      "note": "{count, plural, one {# external asset has} other {# external assets have}} findings. Worst first.",
+      "ports": "Ports {ports}",
+      "findings": "{count, plural, one {# finding} other {# findings}}",
+      "empty": "No internet-facing assets with findings."
+    },
+    "headlineBase": "{critical} Critical and {high} High findings are open on {devices} devices.",
+    "headlineKev": "{kev, plural, one {# vulnerability is} other {# vulnerabilities are}} known to be exploited in attacks (CISA KEV).",
+    "headlineKevNone": "None are known to be exploited in attacks (CISA KEV).",
+    "headlineInternet": "{internet, plural, one {# Critical or High finding is} other {# Critical or High findings are}} on internet-facing assets.",
+    "headlineInternetNone": "None are on internet-facing assets.",
+    "headlineNone": "No Critical or High findings are open."
+  },
+  "audit": {
+    "reads": {
+      "executive": "Viewed executive overview"
+    }
+  }
+}

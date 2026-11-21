@@ -1,0 +1,24 @@
+{
+  "name": "tenix-exposure-server",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node src/index.ts",
+    "dev": "node --watch src/index.ts",
+    "test": "node --test \"test/*.test.ts\"",
+    "mock-falcon": "node test/mock-falcon.ts",
+    "falcon-setup": "node scripts/falcon-setup.ts",
+    "typecheck": "../web/node_modules/.bin/tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "nodemailer": "^10.6.0",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^8.0.2",
+    "@types/pg": "^8.23.1"
+  }
+}

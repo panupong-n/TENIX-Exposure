@@ -1,0 +1,29 @@
+{
+  "tenantsGrid": {
+    "open": "Open overview",
+    "findings": "Findings",
+    "critical": "Critical",
+    "devices": "Devices",
+    "kev": "KEV",
+    "lastSync": "Last sync"
+  },
+  "tenants": {
+    "copyCid": "Copy CID {cid}"
+  },
+  "team": {
+    "summary": {
+      "label": "Team summary",
+      "users": "{count, plural, one {# user} other {# users}}",
+      "mfa": "{count, plural, one {# with MFA} other {# with MFA}}",
+      "disabled": "{count, plural, one {# disabled} other {# disabled}}",
+      "pending": "{count, plural, one {# pending invite} other {# pending invites}}"
+    }
+  },
+  "integrations": {
+    "grid": {
+      "findings": "Findings",
+      "duration": "Duration",
+      "seconds": "{n} s"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "integrations": {
+    "title": "การเชื่อมต่อ", "description": "เชื่อมต่อ CrowdStrike Falcon และซิงก์ข้อมูล โดยเชื่อม CID กับองค์กรที่หน้าองค์กร",
+    "tabs": { "falcon": "การเชื่อมต่อ Falcon", "organizations": "องค์กรและ CID", "email": "การแจ้งเตือนทางอีเมล" },
+    "falcon": {
+      "title": "CrowdStrike Falcon", "description": "10CYBER Exposure อ่านข้อมูลช่องโหว่จาก Falcon ด้วย API client แบบอ่านอย่างเดียว",
+      "cloud": "Falcon cloud", "baseUrl": "API base URL", "clientId": "Client ID", "clientSecret": "Client secret",
+      "secretSaved": "บันทึกแล้ว เว้นว่างไว้เพื่อใช้ secret เดิม",
+      "secretHelp": "สร้าง API client ใน Falcon โดยให้สิทธิ์อ่านอย่างเดียวสำหรับ Vulnerabilities (Spotlight) และ Hosts ระบบเก็บ secret แบบเข้ารหัสและจะไม่แสดงอีก",
+      "clouds": { "us1": "US-1", "us2": "US-2", "eu1": "EU-1", "gov": "US-GOV-1" },
+      "save": "บันทึกการเชื่อมต่อ", "saving": "กำลังบันทึก…", "saved": "บันทึกการเชื่อมต่อแล้ว", "test": "ทดสอบการเชื่อมต่อ", "testing": "กำลังทดสอบ…", "testOk": "เชื่อมต่อ Falcon สำเร็จ",
+      "testFail": {
+        "invalid_credentials": "Falcon ปฏิเสธ Client ID หรือ secret กรุณาตรวจสอบแล้วลองอีกครั้ง",
+        "missing_scope": "API client ขาดสิทธิ์อ่านที่จำเป็น เพิ่มสิทธิ์ใน Falcon แล้วลองอีกครั้ง",
+        "unreachable": "ติดต่อ Falcon ไม่ได้ ตรวจสอบ URL ของ cloud และเครือข่าย",
+        "error": "Falcon ส่งข้อผิดพลาดที่ไม่คาดคิด กรุณาลองใหม่ภายหลัง"
+      },
+      "invalid_base_url": "ใช้ API URL ทางการของ CrowdStrike เช่น https://api.us-2.crowdstrike.com", "cloudCustom": "URL กำหนดเอง",
+      "connectionTitle": "การเชื่อมต่อ", "connectionDescription": "Falcon API client แบบอ่านอย่างเดียว", "connected": "ตั้งค่าแล้ว", "notConnected": "ยังไม่ได้ตั้งค่า",
+      "customUrl": "ใช้ API URL กำหนดเอง", "manageTenants": "จัดการ CID ที่หน้าองค์กร", "progress": { "software": "กำลังอ่านรายการซอฟต์แวร์…" }
+    },
+    "sync": {
+      "title": "ซิงก์ข้อมูล", "description": "ระบบอ่านผลการตรวจพบจาก Falcon ทุกชั่วโมง สั่งซิงก์เพื่อรีเฟรชทันทีได้", "syncAll": "ซิงก์ทั้งหมด", "running": "กำลังซิงก์…",
+      "started": "เริ่มซิงก์แล้ว อาจใช้เวลาสองสามนาที", "notConfigured": "กรุณาบันทึกการเชื่อมต่อ Falcon ก่อน", "noCids": "กรุณาเชื่อม CID อย่างน้อยหนึ่งรายการกับองค์กรก่อน",
+      "columns": { "organization": "องค์กร", "cid": "CID", "state": "สถานะ", "dataAsOf": "ข้อมูลครบถ้วน ณ", "lastRun": "รันล่าสุด", "detail": "รายละเอียด" },
+      "states": { "complete": "ครบถ้วน", "partial": "ไม่ครบ", "failed": "ล้มเหลว" },
+      "empty": "ยังไม่เคยซิงก์ เชื่อม CID กับองค์กรที่หน้าองค์กร แล้วสั่งซิงก์",
+      "progress": {
+        "findings": "กำลังอ่านผลการตรวจพบ: {read} จาก {total} · หน้า {pages}", "devices": "กำลังค้นหาชื่ออุปกรณ์: {read} จาก {total}",
+        "remediations": "กำลังค้นหาวิธีแก้ไข: {read} จาก {total}", "saving": "กำลังบันทึกผลการตรวจพบ {read} รายการ…"
+      }
+    },
+    "organizations": {
+      "title": "องค์กรและ CID", "description": "แต่ละองค์กรเห็นเฉพาะ Falcon CID ที่เชื่อมกับองค์กรนั้น และ CID หนึ่งสังกัดได้เพียงหนึ่งองค์กร", "add": "เพิ่มองค์กร", "name": "ชื่อองค์กร",
+      "create": "สร้างองค์กร", "cids": "Falcon CID", "cidsHelp": "หนึ่ง CID ต่อหนึ่งบรรทัด CID มี 32 ตัวอักษรฐานสิบหก", "saveCids": "บันทึก CID", "cidsSaved": "บันทึก CID แล้ว",
+      "count": "{count} CID", "syncOne": "ซิงก์ตอนนี้", "empty": "ยังไม่มีองค์กร เพิ่มองค์กรแรก",
+      "errors": { "cid_taken": "มี CID อย่างน้อยหนึ่งรายการที่เชื่อมกับองค์กรอื่นแล้ว", "invalid_cid": "CID แต่ละรายการต้องมี 32 ตัวอักษรฐานสิบหก", "exists": "มีองค์กรชื่อนี้อยู่แล้ว" }
+    },
+    "email": {
+      "actions": "การดำเนินการ",
+      "senders": {
+        "title": "ผู้ส่ง", "description": "กล่องจดหมายที่ 10CYBER Exposure ใช้ส่งอีเมลแจ้งเตือน ระบบใช้รายการแรกที่เพิ่ม", "add": "เพิ่มผู้ส่ง", "empty": "ยังไม่มีผู้ส่ง เพิ่มหนึ่งรายการเพื่อส่งอีเมลแจ้งเตือน",
+        "name": "ชื่อ", "server": "เซิร์ฟเวอร์", "from": "ผู้ส่ง", "default": "ค่าเริ่มต้น", "test": "ส่งอีเมลทดสอบ", "makeDefault": "ตั้งเป็นค่าเริ่มต้น"
+      },
+      "sender": {
+        "addTitle": "เพิ่มผู้ส่ง", "editTitle": "แก้ไขผู้ส่ง", "description": "ค่า SMTP ของกล่องจดหมายที่ใช้ส่งการแจ้งเตือน ระบบเก็บรหัสผ่านแบบเข้ารหัสและจะไม่แสดงอีก",
+        "name": "ชื่อ", "host": "เซิร์ฟเวอร์ SMTP", "port": "พอร์ต", "securityLabel": "ความปลอดภัยของการเชื่อมต่อ",
+        "security": { "starttls": "STARTTLS (พอร์ต 587)", "tls": "SSL/TLS (พอร์ต 465)", "none": "ไม่มี (พอร์ต 25)" },
+        "username": "ชื่อผู้ใช้", "password": "รหัสผ่าน", "keepPassword": "เว้นว่างไว้เพื่อใช้รหัสผ่านเดิม", "fromEmail": "อีเมลผู้ส่ง", "fromName": "ชื่อผู้ส่ง",
+        "invalid": "ตรวจสอบรายละเอียดผู้ส่ง: เซิร์ฟเวอร์ พอร์ต และอีเมลผู้ส่ง"
+      },
+      "test": { "title": "ส่งอีเมลทดสอบจาก {name}", "description": "ส่งข้อความสั้น ๆ หนึ่งฉบับเพื่อตรวจว่าการตั้งค่าเหล่านี้ใช้งานได้", "to": "ส่งถึง", "send": "ส่งอีเมลทดสอบ", "sent": "ส่งอีเมลทดสอบแล้ว กรุณาตรวจกล่องจดหมาย", "failed": "ส่งอีเมลไม่สำเร็จ" },
+      "recipients": {
+        "title": "ผู้รับ", "description": "เลือกว่าใครได้รับการแจ้งเตือนใด ติ๊กช่องเพื่อสมัครรับ", "email": "อีเมล", "emailPlaceholder": "name@company.com", "organization": "องค์กร",
+        "allOrgs": "ทุกองค์กร", "add": "เพิ่มผู้รับ", "empty": "ยังไม่มีผู้รับ", "active": "ใช้งาน", "exists": "มีผู้รับนี้ในองค์กรดังกล่าวอยู่แล้ว",
+        "scopeHelp": "ผู้รับที่ผูกกับองค์กรจะได้รับเฉพาะการแจ้งเตือนขององค์กรนั้น \"ทุกองค์กร\" สำหรับเจ้าหน้าที่ SOC"
+      },
+      "events": { "sync_failed": "ปัญหาการซิงก์", "critical_new": "ผลการตรวจพบ Critical ใหม่" },
+      "log": { "title": "อีเมลล่าสุด", "sent": "ส่งแล้ว", "failed": "ล้มเหลว" }
+    },
+    "grid": { "findings": "ผลการตรวจพบ", "duration": "ระยะเวลา", "seconds": "{n} วินาที" }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "foundation": {
+    "tier": {
+      "help": "What are P1 / P2 / P3?",
+      "suppressed": "Suppressed findings are not counted in any tier. Escalations (internet-facing, critical asset, CISA overdue) never change the tier; they appear as extra chips.",
+      "P1": {
+        "name": "Fix now",
+        "definition": "Fix now: a vulnerability already exploited in the wild (in CISA KEV or Falcon exploit status 60-90), or a Critical that Falcon ExPRT also rates Critical."
+      },
+      "P2": {
+        "name": "Fix in cycle",
+        "definition": "Fix in the regular cycle: not P1, but Critical, or ExPRT High/Critical, or exploit code is available (exploit status 30)."
+      },
+      "P3": {
+        "name": "Plan",
+        "definition": "Plan the fix: everything else."
+      }
+    },
+    "reasons": {
+      "kev": "KEV",
+      "exprt": "ExPRT",
+      "exploited": "Exploited",
+      "internet": "Internet-facing",
+      "critical": "Critical asset",
+      "overdue": "CISA overdue"
+    },
+    "coverage": {
+      "full": "Held in full",
+      "countOnly": "Counted only",
+      "part": "Held {percent}% ({held})"
+    },
+    "stale": "Old data"
+  },
+  "states": {
+    "priority": {
+      "line": "Detail kept for {held} of {total} findings ({percent}) · fix-first items (P1) {priorityPercent} complete",
+      "why": "Why"
+    },
+    "lastRun": "last run {time}"
+  },
+  "news": {
+    "title": "CVE news",
+    "description": "Which CVEs in the news affect you, and what state they are in.",
+    "soon": "Under development",
+    "soonBody": "This page is being built. News about CVEs and whether they affect your devices will appear here."
+  },
+  "sidebar": {
+    "items": {
+      "external": "External surface",
+      "news": "CVE news"
+    }
+  },
+  "devices": {
+    "view": {
+      "label": "Device view",
+      "table": "Table",
+      "graph": "Graph"
+    }
+  }
+}

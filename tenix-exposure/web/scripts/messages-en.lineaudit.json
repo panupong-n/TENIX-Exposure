@@ -1,0 +1,8 @@
+{
+  "audit": {
+    "actions": {
+      "integration_line_update": "LINE bot setup saved",
+      "integration_line_test": "LINE bot connection tested"
+    }
+  }
+}

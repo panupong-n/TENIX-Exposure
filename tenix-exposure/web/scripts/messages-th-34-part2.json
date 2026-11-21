@@ -1,0 +1,25 @@
+{
+  "cve": {
+    "cvss": "คะแนนจาก Falcon",
+    "cvssHelp": "คะแนนพื้นฐาน CVSS ที่ CrowdStrike Falcon รายงานสำหรับ CVE นี้บนเครื่องของคุณ ส่วนคะแนน CVSS สาธารณะจาก CVE Program แสดงอยู่ด้านบน",
+    "findingsOnDevice": "{count} รายการ",
+    "moreProducts": "+อีก {count}",
+    "pub": {
+      "cvss": "CVSS สาธารณะ (CVE Program)"
+    }
+  },
+  "lists2": {
+    "common": {
+      "filters": "ตัวกรอง",
+      "filtersCount": "ตัวกรอง ({count})"
+    }
+  },
+  "auth": {
+    "accept": {
+      "invalidTitle": "ลิงก์ใช้ไม่ได้"
+    }
+  },
+  "settings": {
+    "description": "จัดการองค์กร (แต่ละองค์กรมี CrowdStrike และ LINE ของตัวเอง) ผู้ใช้ LINE บอทของ SOC ฟีด CVE อีเมล และบันทึกการใช้งาน"
+  }
+}

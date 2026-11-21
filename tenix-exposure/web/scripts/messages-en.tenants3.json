@@ -1,0 +1,124 @@
+{
+  "tenants": {
+    "states": {
+      "no_cids": "No CrowdStrike yet",
+      "no_connection": "No login of its own"
+    }
+  },
+  "states": {
+    "failed": {
+      "title": "Could not read data from Falcon",
+      "body": "The last read failed. Ask your TENIX SOC to check the Falcon connection.",
+      "bodyOld": "The last read from Falcon failed. The numbers shown are OLD data from the last complete update: {time}. Ask your TENIX SOC to check the Falcon connection.",
+      "bodyNone": "The last read from Falcon failed and no complete data was ever stored, so there are no numbers to show. Ask your TENIX SOC to check the Falcon connection."
+    },
+    "partial": {
+      "body": "Only part of the findings were read, so the numbers may be lower than the real figures. Last complete update: {time}."
+    },
+    "not_synced": {
+      "title": "No data yet",
+      "body": "Data has not been read from Falcon yet. It appears after the first read.",
+      "bodySoc": "Data has not been read from Falcon yet. It appears after the first read."
+    },
+    "no_connection": {
+      "title": "No Falcon connection",
+      "body": "This organization has no working Falcon connection yet, so no data is read. Ask your TENIX SOC.",
+      "bodySoc": "This organization has no CrowdStrike login of its own, so the system does not read its data. Any numbers shown are old data."
+    },
+    "no_cids": {
+      "body": "This organization has no Falcon connection yet, so no data is loaded. Ask your TENIX SOC administrator.",
+      "bodySoc": "No CrowdStrike connection yet, no data loaded. Add the organization's own API client, CID and cloud in its CrowdStrike section."
+    },
+    "coverage": "Detail kept for {held} of {total} findings in Falcon.",
+    "priorityPending": "The fix-first findings are not all read yet ({held} of {total}).",
+    "exactCounts": "The overview totals come from Falcon's exact counts, not from the rows held here.",
+    "openTenant": "Open this organization's CrowdStrike settings",
+    "reason": {
+      "invalid_credentials": "Reason: wrong Client ID or Client Secret.",
+      "cid_not_authorized": "Reason: this API client cannot read this CID (it belongs to another CrowdStrike tenant).",
+      "missing_scope": "Reason: the API client lacks a Spotlight, Discover or Exposure Management read scope.",
+      "unreachable": "Reason: Falcon could not be reached.",
+      "error": "Reason: Falcon returned an unexpected error."
+    }
+  },
+  "overview": {
+    "footer": {
+      "checked": "Last complete update: {time}"
+    }
+  },
+  "tenants2": {
+    "chips": {
+      "csUnconnected": "{count, plural, one {# CID} other {# CIDs}} without login"
+    },
+    "errors": {
+      "exists": "An organization with this name already exists.",
+      "name_exists": "An organization with this name already exists.",
+      "cid_has_connection": "This CID already has a connection.",
+      "chat_taken": "A room can belong to only one organization, in every role."
+    },
+    "test": {
+      "invalid_credentials": "Wrong Client ID or Client Secret (or the wrong cloud). Check both and try again.",
+      "cid_not_authorized": "Login works, but this API client cannot read this CID: the CID belongs to another CrowdStrike tenant. Use the API client created in that tenant's own Falcon.",
+      "missing_scope": "Login works, but the API client lacks a scope. Give it read access to Spotlight Vulnerabilities (Spotlight: Read), Discover (Assets: Read) and Exposure Management (External Assets: Read).",
+      "unreachable": "Could not reach CrowdStrike. Check the cloud address and the network.",
+      "error": "CrowdStrike returned an unexpected error. Try again later."
+    },
+    "status": {
+      "failedOld": "The last read failed. The numbers shown are OLD data from the last complete update: {time}.",
+      "failedNone": "The last read failed and nothing complete was ever stored.",
+      "partial": "Only part of the data was read; numbers may be lower than real. Last complete update: {time}.",
+      "complete": "Complete. Last complete update: {time}.",
+      "not_synced": "Not read yet.",
+      "no_connection": "No login of its own: the system does not read this. Any numbers are old data.",
+      "no_cids": "No CrowdStrike connection yet, no data loaded."
+    },
+    "banner": {
+      "no_cids": "No CrowdStrike connection yet, no data loaded. Fill in the CrowdStrike section: Client ID, Client Secret, cloud and CID.",
+      "no_connection": "This organization's CIDs have no login of their own, so no data is read and what is shown is old. Add each one's own login in the CrowdStrike section.",
+      "action": "Go to CrowdStrike"
+    },
+    "falcon": {
+      "help": "Each connection is one Falcon API client (Client ID and Secret, cloud) reading one CID. Fill them in for this organization; they are checked against Falcon when you save.",
+      "checkOnSave": "Saving checks the login and the CID with Falcon first; nothing is saved if Falcon refuses it. \"Test connection\" does the same check without saving.",
+      "addedLater": "Saved. It will be read in the next round (another sync is running now).",
+      "unconnectedTitle": "No login of its own yet",
+      "unconnectedHelp": "The system does not read these CIDs and what is shown for them is old data. Add the API client of each CID's own Falcon.",
+      "oldData": "Old data: {count} findings from {time}.",
+      "noData": "Nothing stored.",
+      "addLogin": "Add login",
+      "convert": "Try the old shared login",
+      "converting": "Trying…",
+      "convertHelp": "Checks each CID with the old shared login and keeps it only where Falcon allows it.",
+      "convertOk": "Now has its own connection.",
+      "convertFail": "The old login cannot read this CID.",
+      "convertedSome": "{count, plural, one {# CID} other {# CIDs}} now have their own connection."
+    },
+    "wizard": {
+      "falcon": {
+        "help": "Step 2 of 3. This organization's Falcon API client (Client ID, Secret, cloud) and the CID to read. Saving checks them with Falcon."
+      },
+      "line": {
+        "help": "Step 3 of 3. News sources and notification groups are two separate lists, each saved on its own."
+      }
+    },
+    "line": {
+      "title": "LINE",
+      "help": "News sources and notification groups are two separate lists, each saved on its own.",
+      "sources": {
+        "title": "News sources (several rooms)",
+        "help": "LINE rooms that send news to the bot (checked against this organization's devices only).",
+        "save": "Save news sources",
+        "both": "A room here is also a notification group: the bot would answer there twice."
+      },
+      "destinations": {
+        "title": "Notification groups (several groups)",
+        "help": "LINE groups where the bot sends CVE results for this organization.",
+        "save": "Save notification groups",
+        "both": "A group here is also a news source: the bot would answer there twice."
+      },
+      "pending": "A room ID is typed but not added yet: Save adds it.",
+      "finish": "Finish",
+      "finishBlocked": "Save or clear the changes above first."
+    }
+  }
+}
